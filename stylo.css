@@ -155,7 +155,7 @@ article div{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: .333rem;
     margin-top:.333rem;
     margin-bottom: .333rem;
     margin-left: 0 auto;
@@ -257,7 +257,7 @@ section{
     height: auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
+    scroll-snap-type:y proximity;
     margin: 0;
     padding: 0;
   }
@@ -270,7 +270,7 @@ section{
     min-width: 420px;
     max-width: 1280px;
     margin:0;
-    padding: 0;
+    padding: .333rem;
     /* Para que la tarjeta no crezca mas de 768px */
   }
   
@@ -280,6 +280,7 @@ section{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: .01rem;
-    border-radius: 1.2rem;
+    padding-left: .999rem;
+    padding-right: .999rem;
+    border-radius: 2.4rem;
   }

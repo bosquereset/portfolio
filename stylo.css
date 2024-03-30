@@ -33,15 +33,15 @@ nav img{
 }
 
 a{
-    font-size: 1.2rem;  
+    font-size: 1.11rem;  
     display: flex;
     width: 100%;
     height: auto;
     color:#f3b7ff;
     text-decoration: none;
-    padding: .999rem;
-    margin-top: .999rem;
-    background-color: rgb(78, 1, 78);
+    padding: .666rem;
+    margin-top: .333rem;
+    background-color: rgb(50, 3, 50);
     place-content: center;
     align-items: center;
     justify-content: center;
@@ -90,7 +90,7 @@ header{
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgba(47, 27, 53, 0.99);
+    background-color: rgba(21, 10, 25, 0.99);
     margin: 0 auto;
 }
 header img{
@@ -160,7 +160,7 @@ article div{
     margin-bottom: .333rem;
     margin-left: 0 auto;
     margin-right: 0 auto;
-    background-color:rgba(36,0,36,.85);
+    background-color:rgba(40, 3, 40, 0.85);
     place-content: center;
     border-radius: 1.20rem;
 }
@@ -172,11 +172,12 @@ article div h2{
     height: auto;
     padding-top: 1.24rem;
     padding-bottom: 1.24rem;
+    color:rgb(219, 70, 253);
 }
 
 article div h3{
-    font-size:1.68rem;
-    color:rgb(180, 70, 253);
+    font-size:1.618rem;
+    color:rgb(219, 70, 253);
     font-weight: 800;
     width: 100%;
     height: auto;
@@ -186,8 +187,8 @@ article div h3{
 
 article div p{
     font-size: 1.333rem;
-    padding-top: .999rem;
-    padding-bottom: .999rem;
+    padding-top: .333rem;
+    padding-bottom: .333rem;
     font-weight: 400;
     width: 100%;
     height: auto;

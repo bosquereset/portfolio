@@ -1,0 +1,285 @@
+
+
+html,body{
+    width: 100%;
+    height: auto;
+    background-color:rgb(26, 18, 12);
+    color:rgb(255, 253, 217);
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-size: 2rem; 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    padding:.333rem;
+    top:0;
+    margin: 0;
+    background-color: rgba(29, 1, 30, 0.99);
+}
+
+nav img{
+    display: flex;
+    flex-direction: row;
+    padding: .333rem;
+}
+
+a{
+    font-size: 1.4rem;  
+    display: flex;
+    width: 100%;
+    height: auto;
+    color:#fae2ff;
+    text-decoration: none;
+    padding: .999rem;
+    margin-top: .999rem;
+    background-color: rgb(44, 0, 44);
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    font-weight: 600;
+    transition: .5s;
+}
+a:hover{
+    color:#fae2ff;
+    text-decoration: none;
+    padding: .999rem;
+    background-color: rgb(45, 0, 45);
+    font-weight: 600;
+    transition: .5s;
+}
+
+hr{
+    border-color: rgb(255, 230, 255,1);
+    padding: .5rem;
+}
+
+ul{
+    list-style-type: none;
+    margin:2rem;
+}
+
+li{
+    font-size: 1.333rem;
+    padding-top: .111rem;
+    padding-bottom: .111rem;
+    padding-left: 0;
+    padding-right: 0;
+    color:rgb(238, 202, 255);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    padding-left: 0;
+    padding-right: 0;
+    place-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(47, 27, 53, 0.99);
+    margin: 0 auto;
+}
+header img{
+    display:flex;
+    flex-direction: column;
+    width: 333px;
+    height:auto;
+    margin: 0 auto;
+    padding: .999rem;
+    align-items: center;
+    place-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1.246rem;
+}
+
+header h1{
+    font-size: 3rem;
+    padding: .1rem;
+    font-weight: 600;
+}
+
+header h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: .111rem;
+    font-weight: 700;
+}
+
+header p{
+    font-size: 1.25rem;
+    padding:.111rem;
+    font-weight: 400;
+    color:rgb(225, 141, 255);
+
+}
+
+section{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+padding-left: 0;
+padding-right: 0;
+margin: 0 auto;
+}
+
+article{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: auto;
+padding-left: 0;
+padding-right: 0;
+padding-top: 2rem;
+padding-bottom: 2rem;
+margin: 0 auto;
+}
+
+article div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    margin-top:.333rem;
+    margin-bottom: .333rem;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background-color:rgba(36,0,36,.85);
+    place-content: center;
+    border-radius: 1.20rem;
+}
+
+article div h2{
+    font-size: 1.888rem;
+    font-weight: 700;
+    width: 100%;
+    height: auto;
+    padding-top: 1.24rem;
+    padding-bottom: 1.24rem;
+}
+
+article div h3{
+    font-size:1.68rem;
+    color:rgb(180, 70, 253);
+    font-weight: 800;
+    width: 100%;
+    height: auto;
+    padding-top: .111rem;
+    padding-bottom: .111rem;
+}
+
+article div p{
+    font-size: 1.333rem;
+    padding-top: .999rem;
+    padding-bottom: .999rem;
+    font-weight: 400;
+    width: 100%;
+    height: auto;
+    color:rgb(238, 202, 255);
+}
+
+article div ul li{
+    font-size: 1.333rem;
+    font-weight: 400;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+
+article div img{
+    width: 100%;
+    height: auto;
+    border-radius: .999rem;
+    margin:0 auto;
+    padding:.333rem;
+}
+
+.objetivo{
+    font-size: 1.546rem;
+    font-weight: 400;
+    background-color: rgba(40,0,40,1);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 33vh;
+    color:rgb(238, 202, 255);
+    background-color: rgba(35,0,40,.99);
+    margin:0;
+    padding: 0;
+    align-items: center;
+    place-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* sliders! */
+
+section{
+    margin:0;
+}
+
+.main-slider-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-top:.222rem ;
+    padding-bottom: .222rem;
+    text-align: left;
+  }
+  
+
+  .product-container--slider {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-container--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 100%;
+    height: auto;
+    min-width: 420px;
+    max-width: 1280px;
+    margin:0;
+    padding: 0;
+    /* Para que la tarjeta no crezca mas de 768px */
+  }
+  
+  .product-container--card img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: .01rem;
+    border-radius: 1.2rem;
+  }

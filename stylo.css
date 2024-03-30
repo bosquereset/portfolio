@@ -65,11 +65,11 @@ hr{
 
 ul{
     list-style-type: none;
-    margin:2rem;
+    margin:1.6rem;
 }
 
 li{
-    font-size: 1.333rem;
+    font-size: .888rem;
     padding-top: .111rem;
     padding-bottom: .111rem;
     padding-left: 0;
@@ -145,8 +145,8 @@ width: 100%;
 height: auto;
 padding-left: 0;
 padding-right: 0;
-padding-top: 2rem;
-padding-bottom: 2rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
 margin: 0 auto;
 }
 
@@ -155,7 +155,7 @@ article div{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: .333rem;
+    padding: .999rem;
     margin-top:.333rem;
     margin-bottom: .333rem;
     margin-left: 0 auto;

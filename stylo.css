@@ -267,10 +267,9 @@ section{
     scroll-snap-align: center;
     width: 100%;
     height: auto;
-    min-width: 420px;
+    min-width: 400px;
     max-width: 1280px;
     margin:0;
-    padding: .333rem;
     /* Para que la tarjeta no crezca mas de 768px */
   }
   
@@ -280,7 +279,5 @@ section{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding-left: .999rem;
-    padding-right: .999rem;
-    border-radius: 2rem;
+    border-radius: 1.8rem;
   }

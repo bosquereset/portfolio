@@ -33,7 +33,8 @@ nav img{
 }
 
 a{
-    font-size: 1.11rem;  
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;  
     display: flex;
     width: 100%;
     height: auto;
@@ -50,6 +51,8 @@ a{
     transition: .5s;
 }
 a:hover{
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem; 
     color:#fae2ff;
     text-decoration: none;
     padding: .999rem;
@@ -109,7 +112,7 @@ header img{
 
 header h1{
     font-family: "Inter", sans-serif;
-    font-size: 3rem;
+    font-size: 2.4rem;
     padding: .1rem;
     font-weight: 600;
 }
@@ -124,7 +127,7 @@ header h2{
 
 header p{
     font-family: "Inter", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     padding:.111rem;
     font-weight: 400;
     color:rgb(225, 141, 255);
@@ -170,7 +173,7 @@ article div{
 
 article div h2{
     font-family: "Inter", sans-serif;
-    font-size: 1.888rem;
+    font-size: 1.6rem;
     font-weight: 700;
     width: 100%;
     height: auto;
@@ -192,7 +195,7 @@ article div h3{
 
 article div p{
     font-family: "Inter", sans-serif;
-    font-size: 1.333rem;
+    font-size: 1.2rem;
     padding-top: .333rem;
     padding-bottom: .333rem;
     font-weight: 400;
@@ -203,7 +206,7 @@ article div p{
 
 article div ul li{
     font-family: "Inter", sans-serif;
-    font-size: 1.333rem;
+    font-size: 1.2rem;
     font-weight: 400;
     padding-top: .1rem;
     padding-bottom: .1rem;
@@ -218,7 +221,7 @@ article div img{
 }
 
 .objetivo{
-    font-size: 1.546rem;
+    font-size: 1.2em;
     font-weight: 400;
     background-color: rgba(40,0,40,1);
 }

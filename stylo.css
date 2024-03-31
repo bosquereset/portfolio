@@ -108,12 +108,14 @@ header img{
 }
 
 header h1{
+    font-family: "Inter", sans-serif;
     font-size: 3rem;
     padding: .1rem;
     font-weight: 600;
 }
 
 header h2{
+    font-family: "Inter", sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
     padding: .111rem;
@@ -121,6 +123,7 @@ header h2{
 }
 
 header p{
+    font-family: "Inter", sans-serif;
     font-size: 1.25rem;
     padding:.111rem;
     font-weight: 400;
@@ -166,6 +169,7 @@ article div{
 }
 
 article div h2{
+    font-family: "Inter", sans-serif;
     font-size: 1.888rem;
     font-weight: 700;
     width: 100%;
@@ -176,6 +180,7 @@ article div h2{
 }
 
 article div h3{
+    font-family: "Inter", sans-serif;
     font-size:1.618rem;
     color:rgb(219, 70, 253);
     font-weight: 800;
@@ -186,6 +191,7 @@ article div h3{
 }
 
 article div p{
+    font-family: "Inter", sans-serif;
     font-size: 1.333rem;
     padding-top: .333rem;
     padding-bottom: .333rem;
@@ -196,6 +202,7 @@ article div p{
 }
 
 article div ul li{
+    font-family: "Inter", sans-serif;
     font-size: 1.333rem;
     font-weight: 400;
     padding-top: .1rem;

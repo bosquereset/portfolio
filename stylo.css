@@ -85,8 +85,8 @@ header{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding-top: 1.8rem;
-    padding-bottom: 1.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-left: 0;
     padding-right: 0;
     place-content: center;
@@ -170,8 +170,8 @@ padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 margin: 0 auto;
 background-color:rgb(11, 0, 11);
-padding-top: 3.6rem;
-padding-bottom: 3.6rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
 }
 
 article div{
@@ -181,8 +181,8 @@ article div{
     height: auto;
     padding-top: 3.6rem;
     padding-bottom: 3.6rem;
-    padding-left: .333rem;
-    padding-right: .333rem;
+    padding-left: .111rem;
+    padding-right: .111rem;
     margin-top:.333rem;
     margin-bottom: .333rem;
     margin-left: 0 auto;
@@ -219,8 +219,8 @@ article div h3{
 article div p{
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
-    padding-top: .333rem;
-    padding-bottom: .333rem;
+    padding-top: .111rem;
+    padding-bottom: .111rem;
     font-weight: 400;
     width: 100%;
     height: auto;

@@ -15,7 +15,7 @@ html,body{
 }
 
 nav{
-    font-size: 2rem; 
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -34,7 +34,7 @@ nav img{
 
 a{
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;  
+    font-size: 1rem;
     display: flex;
     width: 100%;
     height: auto;
@@ -52,7 +52,7 @@ a{
 }
 a:hover{
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem; 
+    font-size: 1rem;
     color:#fdf1ff;
     text-decoration: none;
     padding: .999rem;
@@ -72,7 +72,7 @@ ul{
 }
 
 li{
-    font-size: .888rem;
+    font-size: 1rem;
     padding-top: .111rem;
     padding-bottom: .111rem;
     padding-left: 0;
@@ -112,14 +112,14 @@ header img{
 
 header h1{
     font-family: "Inter", sans-serif;
-    font-size: 2.4rem;
+    font-size: 2rem;
     padding: .1rem;
     font-weight: 600;
 }
 
 header h2{
     font-family: "Inter", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.618rem;
     font-weight: 400;
     padding: .111rem;
     font-weight: 700;
@@ -127,7 +127,7 @@ header h2{
 
 header p{
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding:.111rem;
     font-weight: 400;
     color:rgb(225, 141, 255);
@@ -198,7 +198,7 @@ article div h3{
 
 article div p{
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-top: .333rem;
     padding-bottom: .333rem;
     font-weight: 400;
@@ -209,7 +209,7 @@ article div p{
 
 article div ul li{
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     padding-top: .1rem;
     padding-bottom: .1rem;
@@ -224,7 +224,7 @@ article div img{
 }
 
 .objetivo{
-    font-size: 1.2em;
+    font-size: 1rem;
     font-weight: 400;
     background-color: rgba(40,0,40,1);
     padding: 1.618rem;

@@ -28,7 +28,7 @@ nav{
 nav img{
     display: flex;
     flex-direction: row;
-    padding: .333rem;
+    padding: .666rem;
 }
 
 a{

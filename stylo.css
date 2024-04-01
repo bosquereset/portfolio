@@ -170,8 +170,8 @@ padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 margin: 0 auto;
 background-color:rgb(11, 0, 11);
-padding-top: 2rem;
-padding-bottom: 2rem;
+padding-top: .333rem;
+padding-bottom: .333rem;
 }
 
 article div{
@@ -183,8 +183,8 @@ article div{
     padding-bottom: 3.6rem;
     padding-left: .111rem;
     padding-right: .111rem;
-    margin-top:.333rem;
-    margin-bottom: .333rem;
+    margin-top:.111rem;
+    margin-bottom: .111rem;
     margin-left: 0 auto;
     margin-right: 0 auto;
     background-color:rgb(11, 0, 11);
@@ -240,7 +240,7 @@ article div img{
     height: auto;
     border-radius: .999rem;
     margin:0 auto;
-    padding:.333rem;
+    padding:.111rem;
 }
 
 .objetivo{
@@ -280,8 +280,8 @@ section{
     width: 100%;
     height: auto;
     margin: 0;
-    padding-top:.222rem ;
-    padding-bottom: .222rem;
+    padding-top:.111rem ;
+    padding-bottom: .111rem;
     text-align: left;
   }
   

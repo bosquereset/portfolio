@@ -3,7 +3,7 @@
 html,body{
     width: 100%;
     height: auto;
-    background-color:rgb(44, 0, 44);
+    background-color:rgb(46, 45, 46);
     color:rgb(250, 240, 255);
     scroll-behavior: smooth;
 }
@@ -22,7 +22,7 @@ nav{
     padding:.333rem;
     top:0;
     margin: 0;
-    background-color:rgb(33, 0, 33);
+    background-color:rgb(46, 45, 46);
 }
 
 nav img{
@@ -36,16 +36,16 @@ a{
     font-size: 1rem;
     display: flex;
     width: 100%;
-    height: auto;
+    height: 42px;
     color:rgb(250, 240, 255);
     text-decoration: none;
     padding: .666rem;
     margin-top: .333rem;
-    background-color:rgb(33,11,33   );
+    background-color:rgba(22,11,22,.95);
     place-content: center;
     align-items: center;
     justify-content: center;
-    border-radius: 2rem;
+    border-radius: .333rem;
     font-weight: 600;
     transition: .5s;
 }
@@ -55,13 +55,13 @@ a:hover{
     color:rgb(250, 240, 255);
     text-decoration: none;
     padding: .999rem;
-    background-color:rgb(33, 0, 33);
+    background-color:rgba(33, 0, 33,.15);
     font-weight: 600;
     transition: .5s;
 }
 
 hr{
-    border-color: rgb(255, 230, 255,1);
+    border-color: rgb(255, 230, 255,.1);
     padding: .5rem;
 }
 
@@ -93,7 +93,7 @@ header{
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color:rgb(22, 0, 22);;
+    background-color:rgb(46, 45, 46);
     margin: 0 auto;
 }
 header img{
@@ -151,12 +151,12 @@ width: 100%;
 height: auto;
 display: flex;
 flex-direction: column;
-padding-left: 0;
-padding-right: 0;
-padding-top: 3.6rem;
-padding-bottom: 3.6rem;
+padding-left: .333rem;
+padding-right: .333rem;
+padding-top: 4rem;
+padding-bottom: 4rem;
 margin: 0 auto;
-background-color:rgb(11, 0, 11);
+background-color:rgb(46, 45, 46);
 }
 
 article{
@@ -169,7 +169,7 @@ padding-right: 0;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 margin: 0 auto;
-background-color:rgb(11, 0, 11);
+background-color:rgb(46, 45, 46);
 padding-top: .333rem;
 padding-bottom: .333rem;
 }
@@ -187,7 +187,7 @@ article div{
     margin-bottom: .111rem;
     margin-left: 0 auto;
     margin-right: 0 auto;
-    background-color:rgb(11, 0, 11);
+    background-color:rgb(46, 45, 46);
     place-content: center;
     border-radius: 1.20rem;
 }
@@ -244,10 +244,11 @@ article div img{
 }
 
 .objetivo{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     background-color:rgb(11, 0, 11);
-    padding: 1.618rem;
+    padding: 1.8rem;
+    border-radius: .333rem;
 }
 
 footer{
@@ -256,7 +257,7 @@ footer{
     width: 100%;
     height: 33vh;
     color:rgb(238, 202, 255);
-    background-color:rgb(11, 0, 11);
+    background-color:rgb(46, 45, 46);
     margin:0;
     padding: 0;
     align-items: center;

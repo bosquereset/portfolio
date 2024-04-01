@@ -3,7 +3,7 @@
 html,body{
     width: 100%;
     height: auto;
-    background-color:#111;
+    background-color:#000;
     color:rgb(250, 240, 255);
     scroll-behavior: smooth;
 }
@@ -50,7 +50,7 @@ a{
     text-decoration: none;
     padding: .666rem;
     margin-top: .333rem;
-    background-color:rgba(22,11,22,.95);
+    background-color:#111;
     place-content: center;
     align-items: center;
     justify-content: center;

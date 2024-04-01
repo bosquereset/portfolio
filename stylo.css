@@ -18,17 +18,27 @@ nav{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 70px;
-    padding:.333rem;
+    height: auto;
+    padding:.111rem;
     top:0;
     margin: 0;
     background-color:rgb(16, 2, 25);
 }
 
 nav img{
+    width: 20%;
+    height: auto;
     display: flex;
     flex-direction: row;
-    padding: .666rem;
+    padding: .6rem;
+}
+
+.button-back{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10rem;
 }
 
 a{
@@ -150,8 +160,6 @@ width: 100%;
 height: auto;
 display: flex;
 flex-direction: column;
-padding-left: .333rem;
-padding-right: .333rem;
 padding-top: 4rem;
 padding-bottom: 4rem;
 margin: 0 auto;
@@ -167,8 +175,6 @@ padding-right: 0;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 margin: 0 auto;
-padding-top: .333rem;
-padding-bottom: .333rem;
 }
 
 article div{
@@ -176,12 +182,8 @@ article div{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding-top: 3.6rem;
-    padding-bottom: 3.6rem;
-    padding-left: .111rem;
-    padding-right: .111rem;
-    margin-top:.111rem;
-    margin-bottom: .111rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin-left: 0 auto;
     margin-right: 0 auto;
     place-content: center;
@@ -208,15 +210,13 @@ article div h3{
     font-weight: 800;
     width: 100%;
     height: auto;
-    padding-top: .111rem;
-    padding-bottom: .111rem;
 }
 
 article div p{
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
-    padding-top: .111rem;
-    padding-bottom: .111rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
     font-weight: 400;
     width: 100%;
     height: auto;
@@ -227,8 +227,8 @@ article div ul li{
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    padding-top: .1rem;
-    padding-bottom: .1rem;
+    padding-top: .01rem;
+    padding-bottom: .01rem;
 }
 
 article div img{
@@ -264,11 +264,6 @@ footer{
 
 /* sliders! */
 
-section{
-    margin:0;
-    padding: 0 auto;
-}
-
 .main-slider-container {
     display: flex;
     flex-direction: row;
@@ -290,13 +285,12 @@ section{
     overscroll-behavior-x: contain;
     scroll-snap-type:y proximity;
     margin: 0;
-    padding: .5rem;
   }
   
   .product-container--card{
     position: relative;
     scroll-snap-align: center;
-    width: 100%;
+    width: 90%;
     height: auto;
     min-width: 400px;
     max-width: 1280px;
@@ -307,9 +301,9 @@ section{
   .product-container--card img{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 0 auto;
-    padding: .5rem;
+    padding:0;
     border-radius: 1.8rem;
   }

@@ -3,7 +3,7 @@
 html,body{
     width: 100%;
     height: auto;
-    background-color:rgb(26, 18, 12);
+    background-color:rgb(27, 9, 18);
     color:rgb(255, 253, 217);
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
@@ -23,7 +23,7 @@ nav{
     padding:.333rem;
     top:0;
     margin: 0;
-    background-color: rgba(29, 1, 30, 0.99);
+    background-color: rgba(27, 9, 30, 0.99);
 }
 
 nav img{
@@ -38,7 +38,7 @@ a{
     display: flex;
     width: 100%;
     height: auto;
-    color:#f3b7ff;
+    color:#f9d8ff;
     text-decoration: none;
     padding: .666rem;
     margin-top: .333rem;
@@ -53,10 +53,10 @@ a{
 a:hover{
     font-family: "Inter", sans-serif;
     font-size: 1.2rem; 
-    color:#fae2ff;
+    color:#fdf1ff;
     text-decoration: none;
     padding: .999rem;
-    background-color: rgb(45, 0, 45);
+    background-color: rgb(30, 0, 30);
     font-weight: 600;
     transition: .5s;
 }
@@ -161,7 +161,10 @@ article div{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: .999rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: .333rem;
+    padding-right: .333rem;
     margin-top:.333rem;
     margin-bottom: .333rem;
     margin-left: 0 auto;

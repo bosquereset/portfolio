@@ -93,6 +93,8 @@ li{
 header{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: auto;
     padding-top: .1rem;
@@ -156,12 +158,13 @@ width: 100%;
 height: auto;
 margin: 0 auto;
 padding: 0;
-align-items: center;
 }
 
 article{
 display: flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
 width: 100%;
 height: auto;
 padding-left: 0;
@@ -176,11 +179,15 @@ article div{
     flex-direction: column;
     width: 80%;
     height: auto;
-    padding-top: .1rem;
-    padding-bottom: .1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin:0 auto;
     border-radius: 1.20rem;
     border: .1rem solid hsla(270, 65%, 37%, 0.247);
+    align-items: center;
+    justify-content: center;
 }
 
 article div h2{
@@ -272,6 +279,8 @@ footer{
     height: auto;
     margin: 0;
     padding: 0;
+    align-items: center;
+    justify-content: center;
   }
   
 
@@ -305,6 +314,6 @@ footer{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding:0;
+    padding:0 1rem 1rem 0;
     border-radius: 1.2rem;
   }

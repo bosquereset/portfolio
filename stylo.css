@@ -6,8 +6,8 @@ html,body{
     background-color:#000;
     color:rgb(250, 240, 255);
     scroll-behavior: smooth;
-    text-align: center;
 }
+
 *{
     margin:0;
     padding:0;
@@ -102,10 +102,11 @@ header{
     margin: 0 auto;
     text-align: center;
 }
+
 header img{
     display:flex;
     flex-direction: column;
-    width: 333px;
+    width: 444px;
     height:auto;
     margin: 0 auto;
     padding: .444rem;
@@ -154,10 +155,8 @@ flex-direction: column;
 width: 100%;
 height: auto;
 margin: 0 auto;
-place-content: center;
-justify-content: center;
+padding: 0;
 align-items: center;
-text-align: center;
 }
 
 article{
@@ -165,10 +164,11 @@ display: flex;
 flex-direction: column;
 width: 100%;
 height: auto;
+padding-left: 0;
+padding-right: 0;
 padding-top: 2rem;
 padding-bottom: 2rem;
 margin: 0 auto;
-text-align: center;
 }
 
 article div{
@@ -181,7 +181,6 @@ article div{
     margin:0 auto;
     border-radius: 1.20rem;
     border: .1rem solid hsla(270, 65%, 37%, 0.247);
-    text-align: center;
 }
 
 article div h2{
@@ -239,7 +238,6 @@ article div img{
     height: auto;
     border-radius: .999rem;
     margin:0 auto;
-    padding:.111rem;
 }
 
 .objetivo{
@@ -274,7 +272,6 @@ footer{
     height: auto;
     margin: 0;
     padding: 0;
-    text-align: center;
   }
   
 
@@ -288,7 +285,6 @@ footer{
     scroll-snap-type:y proximity;
     margin: 0;
     padding: 0;
-    text-align: center;
   }
   
   .product-container--card{
@@ -300,7 +296,6 @@ footer{
     max-width: 1280px;
     margin:0;
     padding: 0;
-    text-align: center;
     /* Para que la tarjeta no crezca mas de 768px */
   }
   
@@ -311,6 +306,5 @@ footer{
     height: auto;
     margin: 0 auto;
     padding:0;
-    border-radius: 1.8rem;
-    text-align: center;
+    border-radius: 1.2rem;
   }

@@ -100,8 +100,8 @@ header{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
     padding-left: 0;
     padding-right: 0;
     place-content: center;
@@ -154,7 +154,7 @@ header h3{
 
 header p{
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding:.333rem;
     font-weight: 400;
     color:rgb(250, 240, 255);
@@ -165,8 +165,10 @@ width: 100%;
 height: auto;
 display: flex;
 flex-direction: column;
-padding-top: 4rem;
-padding-bottom: 4rem;
+padding-top: 3rem;
+padding-bottom: 3rem;
+padding-right: 0;
+padding-left: 0;
 margin: 0 auto;
 }
 
@@ -175,28 +177,30 @@ display: flex;
 flex-direction: column;
 width: 100%;
 height: auto;
-padding-left: .333rem;
-padding-right: .333rem;
-padding-top: 2.4rem;
-padding-bottom: 2.4rem;
+padding-right: 0;
+padding-left: 0;
+padding-top: 2rem;
+padding-bottom: 2rem;
 margin: 0 auto;
+
 }
-
-
-
 article div{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    padding-right: 0;
+    padding-left: 0;
     margin-left: 0 auto;
     margin-right: 0 auto;
     place-content: center;
     border-radius: 1.20rem;
     border: .1rem solid hsla(270, 65%, 37%, 0.247);
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 article div h2{
@@ -205,8 +209,8 @@ article div h2{
     font-weight: 700;
     width: 100%;
     height: auto;
-    padding-left: 1.24rem;
-    padding-right: 1.24rem;
+    padding-left: .333em;
+    padding-right: .333rem;
     padding-top: 1.24rem;
     padding-bottom: 1.24rem;
     color:rgb(170, 0, 255);
@@ -235,7 +239,6 @@ article div p{
     flex-direction: column;
     place-content: center;
     justify-content: center;
-    text-align: center;
 }
 
 article div ul li{
@@ -285,9 +288,7 @@ footer{
     width: 100%;
     height: auto;
     margin: 0;
-    padding-top:.111rem ;
-    padding-bottom: .111rem;
-    text-align: left;
+    padding: 0;
   }
   
 
@@ -300,23 +301,25 @@ footer{
     overscroll-behavior-x: contain;
     scroll-snap-type:y proximity;
     margin: 0;
+    padding: 0;
   }
   
   .product-container--card{
     position: relative;
     scroll-snap-align: center;
-    width: 90%;
+    width: 100%;
     height: auto;
     min-width: 400px;
     max-width: 1280px;
     margin:0;
+    padding: 0;
     /* Para que la tarjeta no crezca mas de 768px */
   }
   
   .product-container--card img{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     padding:0;

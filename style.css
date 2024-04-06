@@ -9,12 +9,12 @@
 html,body{
     font-family: "Roboto", sans-serif;
     color:aliceblue;
-    font-size: 62,5%;
     width: 100%;
     height: auto;
     margin: 0;
-    background-color: rgb(20, 0, 20);
+    background-color: rgb(10, 0, 10);
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 img{
@@ -22,6 +22,8 @@ img{
     height:auto;
     min-width: 320px;
     margin: 0 auto;
+    padding: 1.2rem;
+    border-radius: 2rem;
 }
 
 ul{
@@ -57,7 +59,7 @@ a{
     text-decoration: none;
     padding: .666rem;
     margin-top: .333rem;
-    background-color:#111;
+    background-color:#222;
     align-items: center;
     justify-content: center;
     border-radius: .333rem;
@@ -76,18 +78,48 @@ a:hover{
 }
 
 
-.portfolio--header .arbol--section .data--section .exp--section .livecoding--section .artworks--section
+.portfolio--header .arbol--section .data--section .exp--section .videoart--section .livecoding--section .artworks--section
 {
     display: flex;
     flex-direction: column;
-    padding: .333rem;
+    padding-top: 4rem;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
 
+/* navbar */
 
+nav{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    justify-content:right;
+    align-items: right;
+    color: #fff;
+    background-color: rgb(9, 9, 9);
+    position: fixed;
+    z-index: 100;
+}
 
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+nav ul li{
+    width: 32px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li a{
+background-color: transparent;
+}
+
+    
 
 /* cabecera */
 
@@ -97,7 +129,7 @@ header{
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding: 0;
+    padding-top: 4rem;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -105,7 +137,7 @@ header{
 
 header img{
     border-radius: 1.2rem;
-    padding: .333rem;
+    padding: .999rem;
 }
 
 header h1{
@@ -129,7 +161,7 @@ header h2{
 }
 
 header h3{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 400;
     padding-top: .333rem;
     padding-bottom: .333rem;
@@ -164,8 +196,8 @@ article{
     justify-content: center;
     width: 100%;
     height: auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     margin: 0 auto;
 }
 article div{
@@ -175,8 +207,8 @@ article div{
     height: auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    padding-left: 0;
-    padding-right:0;
+    padding-left: 1rem;
+    padding-right:1rem;
     margin:0 auto;
     border-radius: 1.20rem;
     border: .1rem solid hsla(270, 65%, 37%, 0.247);
@@ -211,10 +243,10 @@ article div h3{
 
 article div p{
     font-family: "Roboto", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     width: 100%;
     height: auto;
     color:rgb(250, 240, 255);
@@ -229,8 +261,8 @@ article div ul li{
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    padding-top: .01rem;
-    padding-bottom: .01rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -254,7 +286,7 @@ article div ul li{
     height: auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
-    scroll-snap-type:y proximity;
+  /*  scroll-snap-type:y proximity;*/
     margin: 0 auto;
     padding: 0;
   }
@@ -277,4 +309,22 @@ article div ul li{
     border-radius: 1.2rem;
     margin: 0;
     padding: 0 .333rem;
+  }
+
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  footer p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
   }

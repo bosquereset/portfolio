@@ -10,9 +10,10 @@
     --link: rgb(230, 221, 206);
     --highlight: #993399;
     --border: #9933993a;
-    --h1:3.1415rem;
-    --h2:1.9416rem;
-    --p:1.2rem;
+    --h1:3.8122rem;
+    --h2:2,3561rem;
+    --h3:1.4562rem;
+    --p:.9rem;
     }
 
 *{
@@ -129,8 +130,8 @@ header{
 }
 
 header img{
-    border-radius: 2.4rem;
-    padding: 1.2rem;
+    width: 100%;
+    height: auto;
 }
 
 header h1{
@@ -195,9 +196,15 @@ article div{
     margin-top:2.4rem;
     margin-bottom: 2.4rem;
     border-radius: 1.2rem;
-    border: .01rem solid var(--border);
+    border: .001rem solid var(--border);
     align-items: center;
     justify-content: center;
+}
+
+article div img{
+    width: 100%;
+    height: auto;
+    border-radius: 1.2rem;
 }
 
 .objetivo p{

@@ -2,18 +2,17 @@
 
 
 :root{
-    --bg:rgb(22, 22, 22);
+    --bg:rgb(11, 11, 11);
     --component: rgba(18, 16, 14, 0.9);
     --title:#993399;
     --subtitle: rgb(255, 253, 232);
-    --text:rgba(200,200,200,1);
+    --text:rgb(255, 255, 255);
     --link: rgb(230, 221, 206);
-    --highlight: rgba(180,30,255,.15);
+    --highlight: #993399;
     --h1:3.1415rem;
     --h2:1.9416rem;
     --p:1.2rem;
     }
-
 
 *{
     margin:0;
@@ -116,7 +115,7 @@ nav{
     background-color: rgb(25, 25, 25);
     position: fixed;
     z-index: 100;
-    border-bottom: .49rem solid var(--highlight);
+    border-bottom: .25rem solid var(--highlight);
 }
 
 nav ul{
@@ -146,7 +145,8 @@ header{
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding-top: 4rem;
+    padding-top: 6.4rem;
+    padding-bottom: 4rem;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -180,9 +180,10 @@ header h2{
 
 header p{
     font-size: var(--p);
-    padding:.666rem;
-    font-weight: 400;
+    padding:.999rem;
+    font-weight: 500;
     color: var(--text);
+    text-justify: auto;
 }
 
 
@@ -223,6 +224,11 @@ article div{
     justify-content: center;
 }
 
+.objetivo p{
+    width: 100%;
+    height: auto;
+}
+
 article div h2{
     font-family: "Roboto", sans-serif;
     font-size: 1.9416rem;
@@ -240,8 +246,7 @@ article div h2{
 article div p{
     font-family: "Roboto", sans-serif;
     font-size: var(--p);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1.2rem;
     font-weight: 500;
     width: 100%;
     height: auto;
@@ -250,7 +255,7 @@ article div p{
     flex-direction: column;
     place-content: center;
     justify-content: center;
-    text-align: center;
+    text-justify: auto;
 }
 
 article div ul li{

@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+:root{
+    --bg:rgb(22, 22, 22);
+    --component: rgba(18, 16, 14, 0.9);
+    --title:#993399;
+    --subtitle: rgb(255, 253, 232);
+    --text:rgba(200,200,200,1);
+    --link: rgb(230, 221, 206);
+    --highlight: rgba(180,30,255,.15);
+    --h1:3.1415rem;
+    --h2:1.9416rem;
+    --p:1.2rem;
+    }
+
+
 *{
     margin:0;
     padding:0;
@@ -12,7 +27,7 @@ html,body{
     width: 100%;
     height: auto;
     margin: 0;
-    background-color: rgb(10, 0, 10);
+    background-color: var(--bg);
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -55,7 +70,7 @@ a{
     display: flex;
     width: 100%;
     height: 42px;
-    color:rgba(200,200,200,1);
+    color:var(--link);
     text-decoration: none;
     padding: .666rem;
     margin-top: .333rem;
@@ -69,10 +84,10 @@ a{
 a:hover{
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
-    color:rgb(250, 240, 255);
+    color:var(--link);
     text-decoration: none;
     padding: .999rem;
-    background-color:rgba(33, 0, 33,.15);
+    background-color:#222;
     font-weight: 600;
     transition: .5s;
 }
@@ -86,6 +101,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    background-color: var(--component);
 }
 
 /* navbar */
@@ -97,9 +113,10 @@ nav{
     justify-content:right;
     align-items: right;
     color: #fff;
-    background-color: rgb(9, 9, 9);
+    background-color: rgb(25, 25, 25);
     position: fixed;
     z-index: 100;
+    border-bottom: .49rem solid var(--highlight);
 }
 
 nav ul{
@@ -136,14 +153,14 @@ header{
 }
 
 header img{
-    border-radius: 1.2rem;
-    padding: .999rem;
+    border-radius: 2.4rem;
+    padding: 1.2rem;
 }
 
 header h1{
-    font-size: 3.1415rem;
+    font-size: var(--h1);
     font-weight: 600;
-    color:rgb(170, 0, 255);
+    color:var(--title);
     margin: 0 auto;
     padding-top: .333rem;
     padding-bottom: .333rem;
@@ -151,30 +168,21 @@ header h1{
 }
 
 header h2{
-    font-size: 1.9416rem;
+    font-size: var(--h2);
     font-weight: 400;
     font-weight: 700;
-    color:rgb(170, 0, 255);
+    color: var(--subtitle);
     margin: 0 auto;
     padding-top: .333rem;
     padding-bottom: .333rem;
 }
 
-header h3{
-    font-size: 1.5rem;
-    font-weight: 400;
-    padding-top: .333rem;
-    padding-bottom: .333rem;
-    margin: 0 auto;
-    font-weight: 700;
-    color:rgb(250, 240, 255);
-}
 
 header p{
-    font-size: 1.2rem;
+    font-size: var(--p);
     padding:.666rem;
     font-weight: 400;
-    color:rgb(250, 240, 255);
+    color: var(--text);
 }
 
 
@@ -205,12 +213,11 @@ article div{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 1rem;
-    padding-right:1rem;
-    margin:0 auto;
-    border-radius: 1.20rem;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+    margin-top:2.4rem;
+    margin-bottom: 2.4rem;
+    border-radius: 1.2rem;
     border: .1rem solid hsla(270, 65%, 37%, 0.247);
     align-items: center;
     justify-content: center;
@@ -226,19 +233,19 @@ article div h2{
     padding-right: .222rem;
     padding-top: 1.24rem;
     padding-bottom: 1.24rem;
-    color:rgb(170, 0, 255);
+    color: var(--subtitle);
     text-align: center;
 }
 
 article div p{
     font-family: "Roboto", sans-serif;
-    font-size: 1.2rem;
+    font-size: var(--p);
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: 500;
     width: 100%;
     height: auto;
-    color:rgb(250, 240, 255);
+    color:var(--text);
     display: flex;
     flex-direction: column;
     place-content: center;
@@ -247,15 +254,15 @@ article div p{
 }
 
 article div ul li{
+    width: 100%;
+    height: auto;
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
 }
-
-
 
 /* sliders! */
 
@@ -265,7 +272,6 @@ article div ul li{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 0;
   }
   
   .product-container--slider {
@@ -292,6 +298,10 @@ article div ul li{
     /* Para que la tarjeta no crezca mas de 768px */
   }
   
+  .product-container--card a{
+    background-color: transparent;
+  }
+
   .product-container--card img{
     width: 100%;
     height: auto;

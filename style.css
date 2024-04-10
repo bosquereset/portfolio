@@ -87,16 +87,37 @@ a:hover{
 }
 
 
-.portfolio--header .arbol--section .data--section .exp--section .videoart--section .livecoding--section .artworks--section
+.portfolio--header .services--section .arbol--section .data--section .exp--section .videoart--section .livecoding--section .artworks--section
 {
     display: flex;
     flex-direction: column;
-    padding-top: 4rem;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     background-color: var(--component);
 }
+
+/* SERVICES */
+
+.services--cards{
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.services--card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
 
 /* navbar */
 
@@ -122,11 +143,12 @@ header{
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding-top: 5rem;
+    padding-top: 4rem;
     padding-bottom: 4rem;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 header img{
@@ -316,9 +338,16 @@ article div ul li{
     height: auto;
   }
 
-  footer p{
+footer div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+  footer div p{
+    display: flex;
+    flex-direction: row;
     font-size: 1.2rem;
     font-weight: 400;
     padding: 1.2rem;
@@ -326,3 +355,8 @@ article div ul li{
     align-items: center;
     color: #99999930;
   }
+
+  footer div img{
+    padding:.666rem;
+  }
+

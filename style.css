@@ -354,7 +354,7 @@ footer div{
     padding: 1.2rem;
     justify-content: center;
     align-items: center;
-    color: #99999930;
+    color: var(--link);
   }
 
   footer div img{

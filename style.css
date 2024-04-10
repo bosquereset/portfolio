@@ -41,6 +41,7 @@ ul{
 }
 
 li{
+    list-style-type: none;
     font-size: var(--p);
     padding-top: .111rem;
     padding-bottom: .111rem;
@@ -168,7 +169,7 @@ header h1{
 
 }
 
-header h2{
+header ul li h2{
     font-size: var(--h2);
     font-weight: 400;
     color: var(--primary-text);

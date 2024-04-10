@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wdth,wght@100..125,100..700&display=swap');
 
 :root{
-    --bg:#111111;
-    --component: #222222;
-    --title:#993399;
-    --subtitle: #e5caff;
+    --bg:#0c0a09;
+    --component: #1c1917;
+    --title:#c026d3;
+    --subtitle: #d946ef;
+    --primary-text:#f4caff;
     --text:rgb(255, 255, 255);
     --link: rgb(230, 221, 206);
     --highlight: #993399;
@@ -40,12 +41,12 @@ ul{
 }
 
 li{
-    font-size: 1rem;
+    font-size: var(--p);
     padding-top: .111rem;
     padding-bottom: .111rem;
     padding-left: 0;
     padding-right: 0;
-    color:rgb(250, 240, 255);
+    color:var(--primary-text);
     margin: 0 auto;
 }
 
@@ -60,7 +61,7 @@ li{
 
 a{
     font-family: "Roboto", sans-serif;
-    font-size: 1.2rem;
+    font-size: var(--p);
     display: flex;
     width: 100%;
     height: 42px;
@@ -68,7 +69,7 @@ a{
     text-decoration: none;
     padding: .666rem;
     margin-top: .333rem;
-    background-color:#222;
+    background-color:var(--component);
     align-items: center;
     justify-content: center;
     border-radius: .333rem;
@@ -81,7 +82,7 @@ a:hover{
     color:var(--link);
     text-decoration: none;
     padding: .999rem;
-    background-color:#222;
+    background-color:var(--component);
     font-weight: 600;
     transition: .5s;
 }
@@ -157,8 +158,9 @@ header img{
 }
 
 header h1{
+    font-family: "Kalnia", serif;
     font-size: var(--h1);
-    font-weight: 600;
+    font-weight: 500;
     color:var(--title);
     margin: 0 auto;
     padding-top: 1.666rem;
@@ -169,18 +171,17 @@ header h1{
 header h2{
     font-size: var(--h2);
     font-weight: 400;
-    font-weight: 600;
-    color: var(--subtitle);
+    color: var(--primary-text);
     margin: 0 auto;
     padding-top: .333rem;
     padding-bottom: .333rem;
 }
 
 header h3{
+    font-family: "Kalnia", serif;
     font-size: var(--h3);
     font-weight: 400;
-    font-weight: 500;
-    color: var(--subtitle);
+    color: var(--primary-text);
     margin: 0 auto;
     padding-top: .666rem;
     padding-bottom: .999rem;
@@ -245,9 +246,9 @@ article div img{
 }
 
 article div h2{
-    font-family: "Roboto", sans-serif;
+    font-family: "Kalnia", serif;
     font-size: 1.9416rem;
-    font-weight: 700;
+    font-weight: 500;
     width: 100%;
     height: auto;
     padding-left: .222em;

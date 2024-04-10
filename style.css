@@ -169,7 +169,7 @@ header picture img{
 header h1{
     font-family: "Kalnia", serif;
     font-size: var(--h1);
-    font-weight: 500;
+    font-weight: 400;
     color:var(--title);
     margin: 0 auto;
     padding-top: 1.666rem;
@@ -269,7 +269,7 @@ article div a{
 article div h2{
     font-family: "Kalnia", serif;
     font-size: 1.9416rem;
-    font-weight: 500;
+    font-weight: 400;
     width: 100%;
     height: auto;
     padding-left: .222em;

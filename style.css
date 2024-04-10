@@ -48,7 +48,6 @@ ul{
 
 li{
     list-style-type: none;
-    font-size: var(--p);
     padding-top: .111rem;
     padding-bottom: .111rem;
     padding-left: 0;
@@ -166,10 +165,10 @@ header picture img{
     height: auto;
 }
 
-header h1{
+header div ul li h1{
     font-family: "Kalnia", serif;
     font-size: var(--h1);
-    font-weight: 400;
+    font-weight: 500;
     color:var(--title);
     margin: 0 auto;
     padding-top: 1.666rem;
@@ -177,16 +176,16 @@ header h1{
 
 }
 
-header ul li h2{
+header div ul li h2{
     font-size: var(--h2);
     font-weight: 400;
     color: var(--primary-text);
     margin: 0 auto;
     padding-top: .333rem;
-    padding-bottom: .333rem;
+    padding-bottom: .666rem;
 }
 
-header h3{
+header div ul li h3{
     font-family: "Kalnia", serif;
     font-size: var(--h3);
     font-weight: 400;

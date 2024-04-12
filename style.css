@@ -411,3 +411,26 @@ footer div{
   }
 
 
+  @media (min-width: 1024px){
+
+    .product-container--slider {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+        overscroll-behavior-x: contain;
+      /*  scroll-snap-type:y proximity;*/
+        margin: 0 auto;
+        padding: 0;
+      }
+      .product-container--card img{
+        width: 100%;
+        max-width:480px;
+        max-height: 480px;
+        height: auto;
+        border-radius: 1.2rem;
+        margin: 0;
+        padding: .999rem 0;
+      }
+  }

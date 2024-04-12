@@ -56,6 +56,32 @@ li{
     margin: 0 auto;
 }
 
+button{
+    background-color: transparent;
+    border: none;
+}
+
+button a{
+    display: flex;
+    flex-direction: column;
+    font-family: "Kalnia", serif;
+    color: var(--subtitle);
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: .9rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button a:hover{
+    display: flex;
+    flex-direction: column;
+    font-family: "Kalnia", serif;
+    color: var(--subtitle);
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: .9rem;
+}
 
 .button-back{
     width: 100%;
@@ -292,6 +318,7 @@ article div p{
     place-content: center;
     justify-content: center;
     text-justify: auto;
+    text-align: center;
 }
 
 article div ul li{
@@ -382,4 +409,5 @@ footer div{
   footer div img{
     padding:.666rem;
   }
+
 

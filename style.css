@@ -203,8 +203,8 @@ header div ul li h1{
 }
 
 header div ul li h2{
-    font-size: var(--h2);
-    font-weight: 400;
+    font-size: 2,3561rem;
+    font-weight: 600;
     color: var(--primary-text);
     margin: 0 auto;
     padding-top: .333rem;
@@ -293,7 +293,7 @@ article div a{
 
 article div h2{
     font-family: "Kalnia", serif;
-    font-size: 1.9416rem;
+    font-size: 2,3561rem;
     font-weight: 400;
     width: 100%;
     height: auto;

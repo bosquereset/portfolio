@@ -10,7 +10,7 @@
     --text:rgb(255, 255, 255);
     --link: rgb(230, 221, 206);
     --highlight: #993399;
-    --border: #9933993a;
+    --border: #99339920;
     --h1:3.8122rem;
     --h2:2,3561rem;
     --h3:1.4562rem;
@@ -71,6 +71,7 @@ button a{
     padding: .9rem;
     justify-content: center;
     align-items: center;
+    border: .1rem solid var(--border);
 }
 
 button a:hover{
@@ -81,6 +82,7 @@ button a:hover{
     font-size: 1.8rem;
     font-weight: 400;
     padding: .9rem;
+    border: .1rem solid var(--border);
 }
 
 .button-back{
@@ -107,6 +109,7 @@ a{
     justify-content: center;
     border-radius: .333rem;
     transition: .5s;
+    border: .1rem solid var(--border);
 }
 a:hover{
     font-family: "Roboto", sans-serif;
@@ -117,6 +120,7 @@ a:hover{
     background-color:var(--component);
     font-weight: 600;
     transition: .5s;
+    border: .1rem solid var(--border);
 }
 
 

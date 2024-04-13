@@ -7,7 +7,7 @@
     --title:#c026d3;
     --subtitle: #d946ef;
     --primary-text:#f4caff;
-    --text:rgb(255, 255, 255);
+    --text:#f4caff;
     --link: rgb(230, 221, 206);
     --highlight: #993399;
     --border: #99339920;
@@ -231,7 +231,7 @@ header div ul li h3{
     font-family: "Roboto", sans-serif;
     font-size: var(--h3);
     font-weight: 400;
-    color: var(--primary-text);
+    color: var(--text);
     margin: 0 auto;
     padding-top: .666rem;
     padding-left: .999rem;

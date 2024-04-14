@@ -302,7 +302,7 @@ article div a{
     margin-top: .666rem;
     margin-bottom: .666rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1rem;   
 }
 
 .objetivo p{
@@ -384,7 +384,7 @@ article div ul li{
     overscroll-behavior-x: contain;
   /*  scroll-snap-type:y proximity;*/
     margin: 0 auto;
-    padding: 0;
+    padding: 1rem;
   }
   
   .product-container--card{

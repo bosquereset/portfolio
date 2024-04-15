@@ -310,7 +310,7 @@ article div a{
     height: auto;
 }
 
-article div h2{
+article h2{
     font-family: "Kalnia", serif;
     font-size: var(--h2);
     font-weight: 500;
@@ -349,6 +349,7 @@ article div p{
     justify-content: center;
     text-justify: auto;
     text-align: center;
+    padding: 1.2rem;
 }
 
 article div ul li{

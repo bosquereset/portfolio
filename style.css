@@ -324,9 +324,9 @@ article h2{
     text-align: center;
 }
 article div h3{
-    font-family: "Roboto", sans-serif;
+    font-family: "Kalnia", serif;
     font-size: var(--h3);
-    font-weight: 500;
+    font-weight: 400;
     width: 100%;
     height: auto;
     padding-left: .999em;
@@ -334,6 +334,7 @@ article div h3{
     color: var(--text);
     text-align: left;
     text-justify: auto;
+    text-align: center;
 }
 
 article div p{
@@ -348,8 +349,7 @@ article div p{
     place-content: center;
     justify-content: center;
     text-justify: auto;
-    text-align: center;
-    padding: 1.2rem;
+    padding: 2rem;
 }
 
 article div ul li{
@@ -367,7 +367,6 @@ article div ul li h2{
     font-family: "Kalnia", serif;
     font-size: var(--h2);
     font-weight: 500;
-    text-align: center;
 }
 
 article div ul li p{
@@ -376,7 +375,6 @@ article div ul li p{
     font-family: "Roboto", sans-serif;
     font-size: var(--p);
     font-weight: 500;
-    text-align: center;
 }
 
 

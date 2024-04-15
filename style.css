@@ -516,18 +516,28 @@ footer div{
         border-radius: var(--h3);
     }
     .services--section{
-        display: row;
-        grid-template-columns: minmax(3fr,320px);
+        display: flex;
+        flex-direction: row;
         width: 100%;
         height: auto;
+    }
+    .services--cards{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+        place-content: center;
     }
 
     .services--card{
         width: 100%;
-        max-width: 480px;
+        max-width: 320px;
         height: auto;
-        padding: 1.5rem;
+        padding: 1rem;
         background-color: var(--component);
+        margin: 1rem;
     }
     
   }

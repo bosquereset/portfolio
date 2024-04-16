@@ -64,25 +64,25 @@ button{
 button a{
     display: flex;
     flex-direction: column;
-    font-family: "Kalnia", serif;
     color: var(--subtitle);
-    font-size: 1.8rem;
-    font-weight: 400;
-    padding: .9rem;
+    font-size: var(--p);
+    font-weight: 500;
+    padding: .333rem;
     justify-content: center;
     align-items: center;
-    border: .1rem solid var(--border);
+    border: .01rem solid var(--border);
+    margin: .333rem;
 }
 
 button a:hover{
     display: flex;
     flex-direction: column;
-    font-family: "Kalnia", serif;
     color: var(--subtitle);
-    font-size: 1.8rem;
+    font-size: var(--p);
     font-weight: 400;
-    padding: .9rem;
-    border: .1rem solid var(--border);
+    margin: .333rem;
+    padding: .333rem;
+    border: .01rem solid var(--border);
 }
 
 .button-back{
@@ -159,17 +159,20 @@ a:hover{
 /* navbar */
 
 nav{
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: auto;
     padding: 1rem;
-    justify-content:right;
-    align-items: right;
+    justify-content:center;
+    align-items: center;
     color: #fff;
     background-color: var(--component);
     position: fixed;
     z-index: 100;
-    border-bottom: .25rem solid var(--highlight);
+    border-bottom: .15rem solid var(--highlight);
 }
+
 
 
 /* cabecera */

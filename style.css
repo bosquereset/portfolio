@@ -520,17 +520,18 @@ footer div{
     }
     .services--section{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         height: auto;
+        padding-top: 2rem;
     }
     .services--cards{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         height: auto;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         place-content: center;
     }
 

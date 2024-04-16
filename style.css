@@ -533,6 +533,7 @@ footer div{
         justify-content: center;
         align-items: center;
         place-content: center;
+        text-align: center;
     }
 
     .services--card{

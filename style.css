@@ -469,8 +469,8 @@ footer div{
         width: 50%;
         min-width: 320px;
         height: auto;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 5.2rem;
+        padding-bottom: 1rem;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
@@ -513,6 +513,7 @@ footer div{
         max-height: 480px;
         height: auto;
         border-radius: var(--h3);
+    
     }
     .services--section{
         display: flex;

@@ -156,6 +156,11 @@ a:hover{
 
 /* navbar */
 
+nav button{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
 nav{
     display: flex;
     flex-direction: row;

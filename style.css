@@ -343,7 +343,6 @@ article div h3{
     color: var(--text);
     text-align: left;
     text-justify: auto;
-    text-align: center;
 }
 
 article div p{
@@ -359,6 +358,7 @@ article div p{
     justify-content: center;
     text-justify: auto;
     padding: .999rem;
+    text-align: left;
 }
 
 article div ul li{

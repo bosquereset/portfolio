@@ -55,6 +55,12 @@ li{
     margin: 0 auto;
 }
 
+ul li p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 button{
     background-color: transparent;
     border: none;
@@ -313,10 +319,14 @@ article div a{
 }
 
 .objetivo p{
+    display: flex;
+    flex-direction:column;
     width: 100%;
     height: auto;
     text-align: left;
     line-height: 1.2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 article h2{
@@ -489,7 +499,7 @@ footer div{
     section{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));
-        width: 50%;
+        width: 40%;
         height: auto;
         min-width: 320px;
         margin: 0 auto;
@@ -508,6 +518,20 @@ footer div{
        margin: 1rem;
        align-items: center;
        text-align: center;
+    }
+
+    article div{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: auto;
+        padding-top: 6.4rem;
+        padding-bottom: 1.2rem;
+        margin-top:2.4rem;
+        margin-bottom: 2.4rem;
+        border-radius: 1.2rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .product-container--slider {

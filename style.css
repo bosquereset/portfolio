@@ -482,6 +482,8 @@ footer div{
 
   @media (min-width: 1024px){
 
+
+
     header{
         display: flex;
         flex-direction: column;

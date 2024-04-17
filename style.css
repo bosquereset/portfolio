@@ -487,12 +487,27 @@ footer div{
         background-color: var(--bg);
     }
     section{
-        display: flex;
-        flex-direction: column;
-        width: 40%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));
+        width: 50%;
         height: auto;
         min-width: 320px;
         margin: 0 auto;
+        padding: 0;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    article{
+       width: 100%;
+       height: auto;
+       display: flex;
+       flex-direction: column; 
+       padding: 1rem;
+       margin: 1rem;
+       align-items: center;
+       text-align: center;
     }
 
     .product-container--slider {
@@ -502,12 +517,12 @@ footer div{
         height: auto;
         overflow-x: hidden;
         overscroll-behavior-x: contain;
-      /*  scroll-snap-type:y proximity;*/
+        scroll-snap-type:y proximity;
         margin: 0 auto;
-        padding: 0;
+        padding: .111rem;
       }
       .product-container--card img{
-        width: 100%;
+        width: 66%;
         max-width:480px;
         max-height: 480px;
         height: auto;
@@ -517,7 +532,7 @@ footer div{
       }
 
       header picture img{
-        width: 60%;
+        width: 100%;
         max-width:480px;
         max-height: 480px;
         height: auto;
@@ -533,7 +548,7 @@ footer div{
     }
     .services--cards{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         height: auto;
         justify-content: center;
@@ -541,7 +556,6 @@ footer div{
         place-content: center;
         text-align: center;
     }
-
     .services--card{
         width: 100%;
         max-width: 320px;
@@ -550,5 +564,47 @@ footer div{
         background-color: var(--component);
         margin: 1rem;
     }
+
+    .portfolio--header .services--section 
+    .arbol--section .data--section 
+    .exp--section .videoart--section 
+    .livecoding--section .artworks--section
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.4rem;
+    padding-bottom: 1rem;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    margin: 0 auto;
+    background-color: var(--component);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    place-content: center;
+}
+
+.exp--card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--component);
+    padding: .333rem;
+    text-align: center;
+}
+
+.exp--card div{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--component);
+    padding: .333rem;
+    text-align: center;
+    border-radius: 1.8rem;
+}
     
   }

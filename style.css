@@ -599,7 +599,7 @@ footer div{
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 2.4rem;
     padding-bottom: 1rem;
     padding-left: .1rem;
@@ -632,5 +632,26 @@ footer div{
     text-align: center;
     border-radius: 1.8rem;
 }
+
+
+.product-container--slider{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.product-container--card{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    border:0 solid var(--border); 
+    border-radius: 2rem;
+}
+
+
     
   }

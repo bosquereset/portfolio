@@ -8,8 +8,8 @@
     --primary-text:#f4caff;
     --text:#f4caff;
     --link: rgb(230, 221, 206);
-    --highlight: #993399;
-    --border: #99339920;
+    --highlight: #9933993a;
+    --border: #7e33994a;
     --h1:3.8122rem;
     --h2:2.3561rem;
     --h3:1.4562rem;
@@ -178,7 +178,7 @@ nav{
     background-color: var(--component);
     position: fixed;
     z-index: 100;
-    border-bottom: .15rem solid var(--highlight);
+    border-bottom: .111rem solid var(--highlight);
 }
 
 
@@ -286,7 +286,7 @@ article{
     height: auto;
     padding-bottom: 0;
     margin: 0 auto;
-    border: .001rem solid var(--border);
+    border: .111rem solid var(--border);
 }
 article div{
     display: flex;

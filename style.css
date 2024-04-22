@@ -133,7 +133,7 @@ body.dark a{
   }
   
   .checkbox-label {
-    background-color: #111;
+    background-color: #2e2e2e;
     width: 50px;
     height: 26px;
     border-radius: 50px;
@@ -145,12 +145,11 @@ body.dark a{
     align-items: center;
   }
   
-  .fa-moon {color: #f1c40f;}
+  .fa-moon {color: #ffffff;}
   
-  .fa-sun {color: #f39c12;}
+  .fa-sun {color: #ffffff;}
   
   .checkbox-label .ball {
-    background-color: #fff;
     width: 22px;
     height: 22px;
     position: absolute;
@@ -264,7 +263,6 @@ a:hover{
 /* SERVICES */
 
 .services--cards{
-    padding: 1rem;
     align-items: center;
     justify-content: center;
 }
@@ -274,11 +272,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
 }
-
-
-
 
 
 /* navbar */

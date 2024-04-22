@@ -145,9 +145,9 @@ body.dark a{
     align-items: center;
   }
   
-  .fa-moon {color: #ffffff;}
+  .fa-moon {color: var(--border);}
   
-  .fa-sun {color: #ffffff;}
+  .fa-sun {color: var(--border)}
   
   .checkbox-label .ball {
     width: 22px;

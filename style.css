@@ -43,88 +43,72 @@ html,body{
 body.dark{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark nav{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark section{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark header{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark article{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark div{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark footer{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark h1{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 body.dark h2{
     background-color: var(--bg);
     color:var(--title);
-    transition: background 0.1s linear;
 }
 body.dark h3{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark p{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
-  
 }
 body.dark button{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 body.dark ul{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark li{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 body.dark a{
     background-color: var(--bg);
     color:var(--primary-text);
-    transition: background 0.1s linear;
 }
 
 .checkbox {

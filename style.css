@@ -144,6 +144,18 @@ body.dark a{
     justify-content: space-between;
     align-items: center;
   }
+  .checkbox-label:after{
+    background-color: var(--light-bg);
+    width: 60px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   
   .fa-moon {color: var(--border);}
   
@@ -162,6 +174,8 @@ body.dark a{
   
   .checkbox:checked + .checkbox-label .ball {
     transform: translateX(24px);
+    color: var(--text);
+    background-color: var(--component);
   }
     
 

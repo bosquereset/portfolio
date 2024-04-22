@@ -2,9 +2,11 @@
 
 :root{
     --bg:#0c0a09;
-    --light-bg:#d5d5d5;
+    --light-bg:#f3f4f6;
     --component: #1c1917;
     --title:#c026d3;
+    --title-light:#3b0764;
+    --subtitle-light:#6b21a8;
     --subtitle: #d946ef;
     --primary-text:#f4caff;
     --light-text:#222;
@@ -38,7 +40,7 @@ html,body{
 
 /* DARKMODE LIGHTMODE */
 
-body.dark ,body{
+body.dark{
     background-color: var(--bg);
     color:var(--primary-text);
     transition: background 0.1s linear;
@@ -87,7 +89,7 @@ body.dark h1{
 }
 body.dark h2{
     background-color: var(--bg);
-    color:var(--primary-text);
+    color:var(--title);
     transition: background 0.1s linear;
 }
 body.dark h3{
@@ -358,7 +360,7 @@ header div ul li h2{
     padding-top: .333rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    color: var(--light-text);
+    color: var(--subtitle-light);
 }
 
 header div ul li h3{
@@ -371,13 +373,13 @@ header div ul li h3{
     padding-right: .999rem;
     text-align: left;
     text-justify: auto;
-    color: var(--light-text);
+    color: var(--subtitle-light);
 }
 
 
 header p{
     font-size: var(--p);
-    color: var(--light-text);
+    color: var(--subtitle-light);
     padding:.999rem;
     font-weight: 500;
     text-justify: auto;
@@ -446,7 +448,7 @@ article div a{
     line-height: 1.2rem;
     justify-content: center;
     align-items: center;
-    color: var(--light-text);
+    color: var(--title-light);
 }
 
 article h2{
@@ -460,7 +462,7 @@ article h2{
     padding-top: 1.24rem;
     padding-bottom: 1.24rem;
     text-align: center;
-    color: var(--light-text);
+    color: var(--subtitle-light);
 }
 article div h3{
     font-family: "Kalnia", serif;
@@ -499,7 +501,7 @@ article div ul li{
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
-    color: var(--light-text);
+    color: var(--subtitle-light);
 }
 
 article div ul li h2{
@@ -508,7 +510,7 @@ article div ul li h2{
     font-family: "Kalnia", serif;
     font-size: var(--h2);
     font-weight: 500;
-    color: var(--light-text);
+    color: var(--subtitle-light);
 }
 
 article div ul li p{
@@ -605,9 +607,139 @@ footer div{
 
   @media (min-width: 1024px){
 
-    body{
+
+    html,body{
+        transition: background 0.1s linear;
         background-color: var(--light-bg);
+        color:var(--secondary-text);
     }
+
+    /* DARKMODE LIGHTMODE */
+
+body.dark body{
+    background-color: var(--light-bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark nav{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark section{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark header{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark article{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark div{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark footer{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark h1{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+body.dark h2{
+    background-color: var(--bg);
+    color:var(--title);
+    transition: background 0.1s linear;
+}
+body.dark h3{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark p{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+  
+}
+body.dark button{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+body.dark ul{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark li{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+body.dark a{
+    background-color: var(--bg);
+    color:var(--primary-text);
+    transition: background 0.1s linear;
+}
+
+.checkbox {
+        opacity: 0;
+        position: absolute;
+ }
+
+.checkbox-label{
+        background-color: var(--bg);
+        width: 50px;
+        height: 30px;
+        border-radius: 90px;
+        position: relative;
+        padding: .20rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: .111rem solid var(--highlight);
+      }
+      
+      .fa-moon {color: #f1c40f;}
+      
+      .fa-sun {color: #f39c12;}
+      
+      .checkbox-label .ball {
+        background-color: var(--light-bg);
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        border-radius: 50%;
+        transition: transform 0.2s linear;
+      }
+      
+      .checkbox:checked + .checkbox-label .ball {
+        transform: translateX(24px);
+      }
 
     header{
         display: flex;

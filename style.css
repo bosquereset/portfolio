@@ -157,9 +157,9 @@ body.dark a{
     align-items: center;
   }
   
-  .fa-moon {color: var(--border);}
+  .fa-moon {color: var(--primary-text);}
   
-  .fa-sun {color: var(--border)}
+  .fa-sun {color: var(--primary-text);}
   
   .checkbox-label .ball {
     width: 22px;
@@ -169,13 +169,14 @@ body.dark a{
     top: 2px;
     border-radius: 50%;
     transition: transform 0.2s linear;
-    background-color: #f3f4f6;
+    background-color: var(--text);
+    color: var(--text);
   }
   
   .checkbox:checked + .checkbox-label .ball {
     transform: translateX(24px);
     color: var(--text);
-    background-color: var(--component);
+    background-color: var(--text);
   }
     
 

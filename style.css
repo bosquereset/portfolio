@@ -133,7 +133,7 @@ body.dark a{
   }
   
   .checkbox-label {
-    background-color: #2e2e2e;
+    background-color: var(--bg);
     width: 50px;
     height: 26px;
     border-radius: 50px;
@@ -157,6 +157,7 @@ body.dark a{
     top: 2px;
     border-radius: 50%;
     transition: transform 0.2s linear;
+    background-color: #f3f4f6;
   }
   
   .checkbox:checked + .checkbox-label .ball {

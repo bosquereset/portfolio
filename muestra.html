@@ -16,8 +16,10 @@
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 </head>
+<!-- oncontextmenu="return false" onkeydown="return false" -->
+<body id="up">
 
-<body id="up" oncontextmenu="return false" onkeydown="return false">
+
 
 <nav>
   <button class="button-back" alt="botón para volver atrás" aria-label="Atras">
@@ -36,6 +38,15 @@
            
     </a>
     </button>
+       <!-- darkmode / lightmode -->
+    <div>
+      <input type="checkbox" class="checkbox" id="checkbox">
+      <label for="checkbox" class="checkbox-label">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <span class="ball"></span>
+      </label>
+    </div>
 </nav>
 
 <section id="links" class="arbol--section">
@@ -45,7 +56,9 @@
                <a href="#livecoding"> código creativo</a>
                <a href="#videoarte"> Videoarte</a>             
         </div> 
+     
 </article>
+
 </section>
 
 <section id="proyectos" class="exp--section">
@@ -199,6 +212,14 @@
   <p>hecho por atsira</p>
 </div>
 </footer>
+
+<script>
+  const checkbox = document.getElementById("checkbox")
+checkbox.addEventListener("change", () => {
+  document.body.classList.toggle("dark")
+})
+</script>
+
 
 </body>
 </html>

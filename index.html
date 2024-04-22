@@ -16,8 +16,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 </head>
-
-<body id="up" oncontextmenu="return false" onkeydown="return false">
+<!--oncontextmenu="return false" onkeydown="return false"-->
+<body id="up">
 
 <nav>
   <button class="button-up">
@@ -43,38 +43,44 @@
       
     </a>
   </button>
+  <div>
+    <input type="checkbox" class="checkbox" id="checkbox">
+    <label for="checkbox" class="checkbox-label">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+      <span class="ball"></span>
+    </label>
+  </div>
 </nav>
 
 <header class="portfolio--header">
-<div>
 <picture>
   <source media="(max-width: 720px)" srcset="./pic.webp" />
   <source media="(min-width: 320px)" srcset="./pic.webp" />
 <img src="./pic.webp" width="720px" height="720px" alt="Fotografía de Ariel Hernán Contini">
 </picture>
+<div>
   <ul>
     <li><h1> Ariel Contini</h1></li>
     <li><h2> Diseñador UI</h2></li>
     </ul>
-
 </div>
 </header>
 
-<section id="links" class="arbol--section">
-<article>
 
-        <div>
-               <a href="#datta"> Acerca de mí</a>
-               <a href="#services"> Servicios</a>
-               <a href="#proyectos"> Proyectos</a>
-               <a href="./muestra.html"> Obra</a> 
-               <a href="#contacto"> Contacto</a>   
-        </div> 
+<section>
+  
+<article id="links">
+<div>
+           <a href="#datta"> Acerca de mí</a>
+           <a href="#services"> Servicios</a>
+           <a href="#proyectos"> Proyectos</a>
+           <a href="./muestra.html"> Obra</a> 
+           <a href="#contacto"> Contacto</a>   
+</div> 
 </article>
-</section>
 
-<section id="datta" class="data--section">
-<article>
+<article  id="datta">
 
     <div class="objetivo">
       <ul>
@@ -156,10 +162,8 @@
 
 
 </article>
-</section>
 
-<section id="services" class="services--section">
-  <article>
+<article id="services">
     <div class="services--cards">
       <div>
       <h2> SERVICIOS</h2>
@@ -202,11 +206,9 @@
 
 
   </div>
-  </article>
-</section>
+</article>
 
-<section id="proyectos" class="exp--section">
-<article class="exp--cards">
+<article id="proyectos" class="exp--cards">
 
 
     <!-- links a proyectos -->
@@ -303,11 +305,7 @@
 
 </article>
 
-
-</section>
-
-<section id="contacto" class="arbol--section">
-  <article>
+<article id="contacto">
           <div>
             <h2>CONTACTO</h2>
 
@@ -315,14 +313,25 @@
                 <a href="#">arielhcontini@gmail.com</a>           
 
           </div>
-  </article>
+</article>
+
 </section>
+
 
 <footer>
 <div>
 <p>desarrollado por atsira</p>
 </div>
 </footer>
+
+
+<script>
+  const checkbox = document.getElementById("checkbox")
+checkbox.addEventListener("change", () => {
+  document.body.classList.toggle("dark")
+})
+</script>
+
 
 </body>
 

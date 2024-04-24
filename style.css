@@ -769,6 +769,7 @@ body.dark a{
         text-align: left;
         align-items: flex-start;
         justify-content: center;
+        border: 1rem solid var(--highlight);
     }
 
     article{
@@ -780,6 +781,7 @@ body.dark a{
        text-align: center;
        padding-top: 2rem;
        padding-bottom: 4rem;
+       border: 1rem solid var(--highlight);
     }
 
     article div{
@@ -792,6 +794,7 @@ body.dark a{
         border-radius: 1.2rem;
         align-items: center;
         justify-content: center;
+        border: 1rem solid var(--highlight);
     }
 
     .product-container--slider {

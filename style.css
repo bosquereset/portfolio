@@ -400,6 +400,9 @@ article{
     height: auto;
     margin: 0 auto;
     background-color: none;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
 }
 article div{
     display: flex;
@@ -764,9 +767,10 @@ body.dark a{
        height: auto;
        display: flex;
        flex-direction: column; 
-       padding: 1rem;
        align-items: center;
        text-align: center;
+       padding-top: 2rem;
+       padding-bottom: 4rem;
     }
 
     article div{

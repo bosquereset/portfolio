@@ -367,7 +367,7 @@ header div ul li h2{
 
 header div ul li h3{
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--title-light);
+    color: var(--light-text);
     font-weight: 400;
     margin: 0 auto;
     padding-top: .666rem;
@@ -765,6 +765,8 @@ body.dark a{
     }
 
 
+
+
     section{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));
@@ -836,6 +838,21 @@ body.dark a{
         padding-bottom: .333rem;
     
     }
+
+    header div ul li h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--bg);
+        font-weight: 400;
+        margin: 0 auto;
+        padding-top: .666rem;
+        padding-left: .999rem;
+        padding-right: .999rem;
+        text-align: center;
+        text-justify: auto;
+        color: var(--title);
+    }
+
+    
     .services--section{
         display: flex;
         flex-direction: column;

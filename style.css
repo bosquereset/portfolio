@@ -175,9 +175,6 @@ img{
     height: auto;
 }
 
-main{
-    background-color: var(--light-bg);
-}
 
 
 ul{
@@ -305,6 +302,9 @@ nav{
     background-color: var(--light-bg);
 }
 
+main{
+    background-color: var(--light-bg);
+}
 
 
 /* cabecera */
@@ -315,7 +315,7 @@ header{
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding-top: 10rem;
+    padding-top: 7rem;
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
@@ -348,7 +348,7 @@ header div ul li h1{
     font-weight: 500;
     color: var(--title-light);
     margin: 0 auto;
-    padding-top: 1.666rem;
+    padding-top: .666rem;
     padding-left: 2.4rem;
     padding-right: 2.4rem;
     line-height: 4rem;
@@ -367,15 +367,15 @@ header div ul li h2{
 
 header div ul li h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: var(--h3);
+    color: var(--title-light);
     font-weight: 400;
     margin: 0 auto;
     padding-top: .666rem;
     padding-left: .999rem;
     padding-right: .999rem;
-    text-align: left;
+    text-align: center;
     text-justify: auto;
-    color: var(--title-light);
+    color: var(--title);
 }
 
 
@@ -505,7 +505,6 @@ article div ul li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
-    text-align: center;
     color: var(--subtitle-light);
 }
 

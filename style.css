@@ -83,9 +83,9 @@ body.dark h2{
     background-color: var(--bg);
     color:var(--title);
 }
-body.dark h3{
+body.dark section article div h3{
     background-color: var(--bg);
-    color:var(--primary-text);
+    color: var(--title);
 }
 
 body.dark p{
@@ -477,17 +477,16 @@ article div h3{
     height: auto;
     padding-left: .999em;
     padding-right: .999rem;
-    color: var(--text);
+    color: var(--subtitle-light);
     text-align: left;
     text-justify: auto;
     text-align: center;
-    color: var(--light-text);
 }
 
 article div p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--p);
-    color: var(--light-text);
+    color: var(--subtitle-light);
     font-weight: 500;
     width: 100%;
     height: auto;

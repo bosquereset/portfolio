@@ -607,7 +607,7 @@ article div ul li p{
     padding-top: 6.4rem;
     padding-bottom: 7.2rem;
     position: relative;
-    background-color: var(--component);
+    background-color: var(--light-bg);
   }
 
 footer div{

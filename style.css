@@ -85,7 +85,7 @@ body.dark h2{
 }
 body.dark section article div h3{
     background-color: var(--bg);
-    color: var(--text);
+    color:var(--subtitle);
 }
 
 body.dark p{
@@ -698,7 +698,7 @@ body.dark h2{
 }
 body.dark h3{
     background-color: var(--bg);
-    color:var(--primary-text);
+    color:var(--subtitle);
     transition: background 0.1s linear;
 }
 
@@ -858,7 +858,7 @@ body.dark a{
     
     }
 
-    header div ul li h2{
+    header div h2{
         font-family: Arial, Helvetica, sans-serif;
         color: var(--bg);
         font-weight: 400;
@@ -870,6 +870,8 @@ body.dark a{
         text-justify: auto;
         color: var(--title);
     }
+
+
 
     .services--section{
         display: flex;

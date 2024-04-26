@@ -187,7 +187,6 @@ li{
     padding-bottom: .111rem;
     padding-left: 0;
     padding-right: 0;
-    color:var(--primary-text);
     margin: 0 auto;
     background-color: transparent;
 }
@@ -196,7 +195,6 @@ ul li p{
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: var(--light-text);
 }
 
 button{
@@ -347,7 +345,7 @@ header div ul li h1{
     font-family: "Kalnia", serif;
     font-size: var(--h1);
     font-weight: 500;
-    color: var(--title-light);
+    color: var(--light-text);
     margin: 0 auto;
     padding-top: .666rem;
     padding-left: 2.4rem;
@@ -368,7 +366,6 @@ header div ul li h2{
 
 header div ul li h3{
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--light-text);
     font-weight: 400;
     margin: 0 auto;
     padding-top: .666rem;
@@ -376,7 +373,7 @@ header div ul li h3{
     padding-right: .999rem;
     text-align: center;
     text-justify: auto;
-    color: var(--title);
+    color: var(--light-text);
 }
 
 
@@ -853,7 +850,6 @@ body.dark a{
         color: var(--title);
     }
 
-    
     .services--section{
         display: flex;
         flex-direction: column;

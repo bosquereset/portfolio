@@ -562,7 +562,7 @@ article div ul li p{
   .product-container--slider {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     height: auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -590,12 +590,12 @@ article div ul li p{
 
   .product-container--card img{
     width: 100%;
-    max-width:480px;
-    max-height: 480px;
+    max-width:1024x;
+    max-height: 576px;
     height: auto;
     border-radius: 1.2rem;
     margin: 0;
-    padding: 0 .333rem;
+    padding: 0 .111rem;
   }
 
 

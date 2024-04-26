@@ -85,7 +85,7 @@ body.dark h2{
 }
 body.dark section article div h3{
     background-color: var(--bg);
-    color: var(--subtitle);
+    color: var(--text);
 }
 
 body.dark p{
@@ -330,6 +330,7 @@ header picture img{
     height: auto;
     padding-right: 0;
     padding-left: 0;
+    opacity: .777;
 }
 
 header div{
@@ -366,14 +367,30 @@ header div h2{
 
 header div h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin: 0 auto;
-    padding-top: .666rem;
+    padding-top: 2rem;
+    padding-bottom: .333rem;
     padding-left: .999rem;
     padding-right: .999rem;
     text-align: center;
     text-justify: auto;
-    color: var(--light-text);
+    color: var(--component);
+    transition: .5s;
+}
+
+header div h3:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: .333rem;
+    padding-left: .999rem;
+    padding-right: .999rem;
+    text-align: center;
+    text-justify: auto;
+    color: var(--text);
+    transition: .5s;
 }
 
 
@@ -381,9 +398,9 @@ header p{
     font-size: var(--p);
     color: var(--title-light);
     padding:.999rem;
-    font-weight: 500;
+    font-weight: 600;
     text-justify: auto;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -432,7 +449,7 @@ article div img{
 }
 
 article div a{
-    width: 100%;
+    width: 90%;
     max-width: 640px;
     height: auto;
     margin-top: .666rem;
@@ -467,17 +484,19 @@ article h2{
     text-align: center;
     color: var(--subtitle-light);
 }
+
+
 article div h3{
     font-family: "Kalnia", serif;
     font-size: var(--h3);
-    font-weight: 400;
+    font-weight: 500;
     width: 100%;
     height: auto;
     padding-left: .999em;
     padding-right: .999rem;
+    padding-top: .333rem;
+    padding-bottom: .999rem;
     color: var(--subtitle-light);
-    text-align: left;
-    text-justify: auto;
     text-align: center;
 }
 
@@ -543,13 +562,13 @@ article div ul li p{
   .product-container--slider {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 80%;
     height: auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
   /*  scroll-snap-type:y proximity;*/
     margin: 0 auto;
-    padding: 1rem;
+    padding: .111rem;
   }
   
   .product-container--card{
@@ -586,7 +605,9 @@ article div ul li p{
     width: 100%;
     height: auto;
     padding-top: 6.4rem;
-    padding-bottom: 6.4rem;
+    padding-bottom: 7.2rem;
+    position: relative;
+    background-color: var(--component);
   }
 
 footer div{

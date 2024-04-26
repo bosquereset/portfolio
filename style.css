@@ -513,7 +513,7 @@ article div p{
     justify-content: center;
     text-justify: auto;
     padding: .999rem;
-    text-align: left;
+    text-align: center;
 }
 
 article div ul li{
@@ -810,7 +810,6 @@ body.dark a{
        padding-bottom: 4rem;
        margin-top: .666rem;
        margin-bottom: .666rem;
-       border: .155rem solid var(--highlight);
        border-radius: 1.2rem;
     }
 
@@ -933,8 +932,8 @@ body.dark a{
     flex-direction: column;
     width: 60%;
     height: auto;
-    border:0 solid var(--border); 
     border-radius: 2rem;
+    padding: 1rem;
 }
 
 

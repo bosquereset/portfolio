@@ -179,6 +179,7 @@ img{
 
 ul{
     list-style-type: none;
+    text-align: left;
 }
 
 li{
@@ -189,12 +190,13 @@ li{
     padding-right: 0;
     margin: 0 auto;
     background-color: transparent;
+    text-align: left;
 }
 
 ul li p{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 }
 
 button{
@@ -775,7 +777,7 @@ body.dark a{
         width: 100%;
         min-width: 320px;
         height: auto;
-        padding-top: 2rem;
+        padding-top: 7.2rem;
         padding-bottom: 6.4rem;
         margin: 0 auto;
         justify-content: center;
@@ -896,6 +898,16 @@ body.dark a{
         padding: 1.2rem;
         margin: 1rem;
     }
+    ul{
+        text-align: left;
+    }
+    li{  text-align: left;
+    }
+
+    ul li p{
+        text-align: left;
+    }
+
 
 
 .exp--card{

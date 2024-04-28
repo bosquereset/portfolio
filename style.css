@@ -327,12 +327,12 @@ header{
 
 header picture img{
     width: 100%;
-    max-width:240px;
-    max-height: 240px;
+    max-width:1024px;
+    max-height: 576px;
     height: auto;
     padding-right: 0;
     padding-left: 0;
-    opacity: .777;
+    opacity: 1;
 }
 
 header div{
@@ -849,13 +849,13 @@ body.dark a{
       }
 
       header picture img{
-        width: 50%;
-        max-width:480px;
-        max-height: 480px;
+        width: 55%;
+        max-width:1024px;
+        max-height: 576px;
         height: auto;
         border-radius: var(--h3);
-        padding-top: 3rem;
-        padding-bottom: .333rem;
+        padding-top: 1rem;
+        padding-bottom: .1rem;
     
     }
 

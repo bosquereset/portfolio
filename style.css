@@ -790,10 +790,6 @@ body.dark a{
         align-items: center;
         text-align: center;
     }
-
-
-
-
     section{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));
@@ -864,7 +860,18 @@ body.dark a{
         padding-bottom: .1rem;
     
     }
-
+    header div h3{
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--bg);
+        font-weight: 400;
+        margin: 0 auto;
+        padding-top: .666rem;
+        padding-left: .999rem;
+        padding-right: .999rem;
+        text-align: center;
+        text-justify: auto;
+        color: var(--title);
+    }
     header div h2{
         font-family: Arial, Helvetica, sans-serif;
         color: var(--bg);

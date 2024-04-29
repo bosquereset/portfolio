@@ -211,8 +211,8 @@ header{
 
 
 header picture img{
-    width: 80%;
-    max-width:788px;
+    width: 100%;
+    max-width:1024px;
     max-height: 576px;
     height: auto;
     padding-right: 0;

@@ -199,16 +199,26 @@ header{
     text-align: center;
 }
 
-header picture img{
+
+/* */
+.artes-graficas{
     width: 100%;
-    max-width:1024px;
+    height: auto;
+    padding-top: 1.666rem;
+    padding-bottom: 3.2rem;
+    margin: 0 auto;
+}
+
+
+header picture img{
+    width: 80%;
+    max-width:788px;
     max-height: 576px;
     height: auto;
     padding-right: 0;
     padding-left: 0;
-    opacity: 1;
+    opacity: .96;
 }
-
 header div{
     display: flex;
     flex-direction: column;

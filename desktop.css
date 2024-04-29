@@ -1,0 +1,190 @@
+  @media (min-width: 1024px){
+html,body{
+transition: background 0.1s linear;
+background-color: var(--light-bg);
+color:var(--secondary-text);
+}
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: 320px;
+        height: auto;
+        padding-top: 7.2rem;
+        padding-bottom: 6.4rem;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    section{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));
+        width: 40%;
+        height: auto;
+        min-width: 320px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    article{
+       width: 90%;
+       height: auto;
+       display: flex;
+       flex-direction: column; 
+       align-items: center;
+       text-align: center;
+       padding-top: 2rem;
+       padding-bottom: 4rem;
+       margin-top: .666rem;
+       margin-bottom: .666rem;
+       border-radius: 1.2rem;
+    }
+
+    article div{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: auto;
+        padding-top: 2.8rem;
+        padding-bottom: 2.8rem;
+        border-radius: 1.2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-container--slider {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+        overscroll-behavior-x: contain;
+        scroll-snap-type:y proximity;
+        margin: 0 auto;
+        padding: .111rem;
+      }
+      .product-container--card img{
+        width: 66%;
+        max-width:480px;
+        max-height: 480px;
+        height: auto;
+        border-radius: 1.2rem;
+        margin: 0;
+        padding: .999rem 0;
+      }
+
+      header picture img{
+        width: 55%;
+        max-width:1024px;
+        max-height: 576px;
+        height: auto;
+        border-radius: var(--h3);
+        padding-top: 1rem;
+        padding-bottom: .1rem;
+    
+    }
+    header div h3{
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--bg);
+        font-weight: 400;
+        margin: 0 auto;
+        padding-top: .666rem;
+        padding-left: .999rem;
+        padding-right: .999rem;
+        text-align: center;
+        text-justify: auto;
+        color: var(--title);
+    }
+    header div h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--bg);
+        font-weight: 400;
+        margin: 0 auto;
+        padding-top: .666rem;
+        padding-left: .999rem;
+        padding-right: .999rem;
+        text-align: center;
+        text-justify: auto;
+        color: var(--title);
+    }
+
+
+
+    .services--section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 1.2rem;
+    }
+    .services--cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+        text-align: center;
+    }
+    .services--card{
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        padding: 1.2rem;
+        margin: 1rem;
+    }
+    ul{
+        text-align: left;
+    }
+    li{  text-align: left;
+    }
+
+    ul li p{
+        text-align: left;
+    }
+
+.exp--card{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    padding: .333rem;
+    text-align: center;
+}
+
+.exp--card div{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: .333rem;
+    text-align: center;
+    border-radius: 1.8rem;
+}
+
+.product-container--slider{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.product-container--card{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+  }

@@ -11,7 +11,9 @@
 <meta property="image" content="./pic.webp">
 <meta property="url" content="https://arielcontini.github.io/portfolio/" />
 <title>./ariel-contini/portfolio</title>
-<link rel="stylesheet" href="./style.css" media="all">
+<link rel="stylesheet" href="./mobile.css" media="all">
+<link rel="stylesheet" href="./desktop.css" media="all">
+<link rel="stylesheet" href="./dark.css" media="all">
 <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
@@ -22,13 +24,31 @@
 <body id="up" class="animate__animated animate__fadeIn">
 
 <nav>
-  <button class="button-up">
-  <a href="./index.html" aria-label="volver arriba"> 
-    <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+  <button>
+    <a href="./index.html" aria-label="atras"> 
+      <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" 
+      fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#fff" className="w-6 h-6">
+      <path strokeLinecap="round" strokeLinejoin="round" 
+      d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
       </svg>
-</a>
-  </button>
+  </a>
+    </button>
+    
+  <button class="button-up">
+    <a href="#up" aria-label="arriba"> 
+      <svg width="1.2rem" height="1.2rem" viewBox="0 0 24 24" 
+      fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="SVGRepo_bgCarrier" 
+        stroke-width="0"></g><g id="SVGRepo_tracerCarrier" 
+        stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier"> <path d="M12 4V20M12 4L18 10M12 4L6 10" 
+          stroke="#fff" stroke-width="1.5" stroke-linecap="round" 
+        stroke-linejoin="round"></path> </g></svg>
+    
+  </a>
+    </button>
+    
+
 
   <button>
     <input type="checkbox" class="checkbox" id="checkbox">

@@ -187,4 +187,10 @@ color:var(--secondary-text);
     padding: 1rem;
 }
 
+.product-container--card img{
+    border-radius: 1.2rem;
+  }
+
+
+
   }

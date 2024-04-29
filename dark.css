@@ -44,7 +44,7 @@ body.dark footer{
 
 body.dark h1{
     background-color: var(--bg);
-    color:var(--primary-text);
+    color: var(--title);
 }
 body.dark h2{
     background-color: var(--bg);

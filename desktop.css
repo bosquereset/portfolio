@@ -105,17 +105,18 @@ color:var(--secondary-text);
     header div h3{
         font-family: "Open Sans", sans-serif;
         color: var(--bg);
-        font-weight: 600;
+        font-weight: 500;
         margin: 0 auto;
         padding-top: .999rem;
         padding-left: .999rem;
         padding-right: .999rem;
         text-align: center;
         text-justify: auto;
+        font-size: var(--h3);
     }
 
     header div h2{
-        font-family: "Open Sans", sans-serif;
+        font-family: "Kalnia", serif;
         color: var(--bg);
         font-weight: 600;
         margin: 0 auto;
@@ -124,6 +125,7 @@ color:var(--secondary-text);
         padding-right: .999rem;
         text-align: center;
         text-justify: auto;
+        font-size: var(--h2);
     }
 
 

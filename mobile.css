@@ -242,8 +242,9 @@ header div h1{
 }
 
 header div h2{
-    font-size: var(--h3);
-    font-weight: 400;
+    font-family: "Kalnia", serif;
+    font-size: var(--h2);
+    font-weight: 600;
     margin: 0 auto;
     padding-top: .333rem;
     padding-left: 2rem;

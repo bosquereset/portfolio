@@ -183,6 +183,11 @@ color:var(--secondary-text);
     border-radius: 1.8rem;
 }
 
+.txt-description{
+    text-align: left;
+}
+
+
 .product-container--slider{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));

@@ -40,8 +40,17 @@ html,body{
     color:var(--secondary-text);
 }
 
+/* videos */ 
+video{
+    width: 100%;
+    height: auto;
+    border-radius: 1.2rem;
+}
 
 
+.txt-description{
+    text-align: left;
+}
 
 /* cheems coding */
 .cheemscoding{

@@ -74,6 +74,7 @@ body.dark article{
 body.dark div{
     background-color: var(--bg);
     color:var(--primary-text);
+    border: .111rem solid var(--border);
 }
 
 body.dark footer{
@@ -284,6 +285,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: .111rem solid var(--border);
 }
 
 
@@ -434,6 +436,7 @@ article{
     background-color: none;
     padding-top: .999rem;
     padding-bottom: .333rem;
+    
 
 }
 article div{
@@ -446,6 +449,7 @@ article div{
     justify-content: center;
     padding-top: 3.6rem;
     padding-bottom: 1.8rem;
+    border: .111rem solid var(--border);
 }
 
 article div img{
@@ -466,6 +470,13 @@ article div a{
     padding-bottom: 1rem; 
     color: var(--light-text);  
 }
+
+.cv--item{
+    border: .111rem solid var(--border);
+    padding: 1.2rem;
+    margin:.333rem;
+}
+
 
 .objetivo p{
     display: flex;

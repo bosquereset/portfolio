@@ -21,13 +21,13 @@ color:var(--secondary-text);
     section{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));
-        width: 40%;
+        width: 100%;
         height: auto;
         min-width: 320px;
         margin: 0 auto;
         padding: 0;
         text-align: left;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
     }
 
@@ -36,12 +36,8 @@ color:var(--secondary-text);
        height: auto;
        display: flex;
        flex-direction: column; 
-       align-items: center;
+        align-items: center;
        text-align: center;
-       padding-top: 1rem;
-       padding-bottom: 4rem;
-       margin-top: .666rem;
-       margin-bottom: .666rem;
        border-radius: 1.2rem;
     }
 
@@ -50,16 +46,30 @@ color:var(--secondary-text);
         flex-direction: column;
         width: 40%;
         height: auto;
-        padding-top: 2.8rem;
-        padding-bottom: 2.8rem;
-        border-radius: 1.2rem;
         align-items: center;
         justify-content: center;
-        
+        margin-bottom:2.4rem;  
+        margin-top: 0 auto;
+    }
+
+    article div ul{
+        display: flex;
+        flex-direction: column;
+        border-right: .111rem solid var(--border);
+        border-bottom: .111rem solid var(--border);
+        padding: 1.2rem;
+        border-bottom-right-radius: 1.2rem;
+    }
+
+    article div img{
+        display: flex;
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+        justify-content: flex-start; 
     }
 
     .cv--item{
-        border: .111rem solid var(--border);
         padding: 1.2rem;
         margin:.999rem;
 }
@@ -160,7 +170,6 @@ color:var(--secondary-text);
         height: auto;
         padding: 1.2rem;
         margin: 1rem;
-        border: .111rem solid var(--border);
     }
     ul{
         text-align: left;

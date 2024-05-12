@@ -40,6 +40,7 @@ html,body{
     color:var(--secondary-text);
 }
 
+
 /* videos */ 
 video{
     width: 100%;
@@ -341,7 +342,6 @@ article div img{
     max-width:480px;
     max-height: 480px;
     height: auto;
-    border-radius: 1.2rem;
 }
 
 article div a{

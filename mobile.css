@@ -446,6 +446,24 @@ article div ul li p{
 
 
 
+.contact--section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.contact--card{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact--card p{
+    font-size: var(--p);
+    width: 100%;
+    height: auto;
+    text-align: center; 
+}
+
 
 /* sliders! */
 

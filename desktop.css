@@ -72,6 +72,7 @@ color:var(--secondary-text);
     .cv--item{
         padding: 1.2rem;
         margin:.999rem;
+        text-align: left;
 }
 
     .product-container--slider {
@@ -227,6 +228,18 @@ color:var(--secondary-text);
     border-radius: 1.2rem;
   }
 
+
+  .objetivo p{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    line-height: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--title-light);
+}
 
 
   }

@@ -409,7 +409,7 @@ article div p{
     justify-content: center;
     text-justify: auto;
     padding: .999rem;
-    text-align: center;
+    text-align: left;
 }
 
 article div ul li{

@@ -480,6 +480,12 @@ article ul li p{
     background-color: transparent;
   }
 
+.profile-pic{
+    width: 66%;
+    height: auto;
+}
+
+
   .product-container--card img{
     width: 100%;
     max-width:1920x;

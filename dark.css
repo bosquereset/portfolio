@@ -28,9 +28,14 @@ body.dark header div h3{
 
 
 body.dark article{
-    background-color: transparent;
+    background: 
+    linear-gradient(to bottom, 
+    rgba(50, 0, 50,.333), 
+    #0a0a0a5b), 
+    url(./noise.svg);
     color:var(--primary-text);
     border: .111rem solid var(--border);
+
 }
 
 body.dark div{
@@ -82,6 +87,18 @@ body.dark a{
 body.dark main{
     background-color: transparent;
 }
+
+body.dark  
+    .product-container--card img{
+    width: 100%;
+    max-width:1920x;
+    max-height: 576px;
+    height: auto;
+    border-radius: 1.2rem;
+    margin: 0;
+    padding: 2.4rem .111rem;
+    background-color: transparent;
+  }
 
 .checkbox {
     opacity: 0;

@@ -8,16 +8,17 @@ color:var(--secondary-text);
     header{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 60%;
         min-width: 320px;
         height: auto;
-        padding-top: 3.6rem;
+        padding-top: 4.8rem;
         padding-bottom: 6.4rem;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+    
     section{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(1024px,1fr));
@@ -42,6 +43,7 @@ color:var(--secondary-text);
         margin: 0 auto;
         padding: 4.8rem;
         text-align: left;
+        background-color: transparent;
     }
 
 
@@ -102,7 +104,7 @@ color:var(--secondary-text);
     
     }
 
-    header div h1{
+    header h1{
         font-family: "Kalnia", serif;
         color: var(--bg);
         font-weight: 600;
@@ -115,7 +117,7 @@ color:var(--secondary-text);
     }
 
 
-    header div h3{
+    header h3{
         font-family: "Open Sans", sans-serif;
         color: var(--bg);
         font-weight: 500;
@@ -128,7 +130,7 @@ color:var(--secondary-text);
         font-size: var(--h3);
     }
 
-    header div h2{
+    header h2{
         font-family: "Kalnia", serif;
         color: var(--bg);
         font-weight: 600;

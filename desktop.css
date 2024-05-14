@@ -55,10 +55,7 @@ color:var(--secondary-text);
     article div ul{
         display: flex;
         flex-direction: column;
-        border-right: .111rem solid var(--border);
-        border-bottom: .111rem solid var(--border);
         padding: 1.2rem;
-        border-bottom-right-radius: 1.2rem;
     }
 
     article div img{

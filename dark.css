@@ -12,74 +12,74 @@ body.dark nav{
 }
 
 body.dark section{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 
 body.dark header{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 
 body.dark header div h3{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 
 
 body.dark article{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 
 body.dark div{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 
 body.dark footer{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 
 body.dark h1{
-    background-color: var(--bg);
+    background-color: transparent;
     color: var(--title);
 }
 body.dark h2{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--title);
 }
 body.dark section article div h3{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--subtitle);
 }
 
 body.dark p{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 body.dark button{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 body.dark ul{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 
 body.dark li{
-    background-color: var(--bg);
+    background-color: transparent;
     color:var(--primary-text);
 }
 
 body.dark a{
-    background-color: var(--bg);
+    background-color: #260d2a;
     color:var(--primary-text);
 }
 
 body.dark main{
-    background-color: var(--bg);
+    background-color: transparent;
 }
 
 .checkbox {

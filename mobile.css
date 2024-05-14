@@ -152,19 +152,6 @@ a:hover{
 
 
 
-/* SERVICES */
-
-.services--cards{
-    align-items: center;
-    justify-content: center;
-}
-
-.services--card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 
 /* navbar */
@@ -201,7 +188,7 @@ header{
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding-top: 7rem;
+    padding-top: 4rem;
     padding-bottom: 6.4rem;
     padding-left: 0;
     padding-right: 0;
@@ -317,17 +304,6 @@ section{
 article{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    background-color: none;
-    padding-top: .999rem;
-    padding-bottom: .333rem;
-
-}
-article div{
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: auto;
     border-radius: 1.2rem;
@@ -335,16 +311,17 @@ article div{
     justify-content: center;
     padding-top: 3.6rem;
     padding-bottom: 1.8rem;
+
 }
 
-article div img{
+article img{
     width: 100%;
     max-width:480px;
     max-height: 480px;
     height: auto;
 }
 
-article div a{
+article a{
     width: 100%;
     max-width: 640px;
     height: auto;
@@ -382,7 +359,7 @@ article h2{
 }
 
 
-article div h3{
+article h3{
     font-family: "Kalnia", serif;
     font-size: var(--h3);
     font-weight: 500;
@@ -396,7 +373,7 @@ article div h3{
     text-align: center;
 }
 
-article div p{
+article p{
     font-family: "Open Sans", sans-serif;
     font-size: var(--p);
     color: var(--subtitle-light);
@@ -412,7 +389,7 @@ article div p{
     text-align: left;
 }
 
-article div ul li{
+article ul li{
     width: 100%;
     height: auto;
     font-family: "Open Sans", sans-serif;
@@ -422,7 +399,7 @@ article div ul li{
     text-align: center;
 }
 
-article div ul li h2{
+article ul li h2{
     width: 100%;
     height: auto;
     font-family: "Kalnia", serif;
@@ -431,7 +408,7 @@ article div ul li h2{
     color: var(--subtitle-light);
 }
 
-article div ul li p{
+article ul li p{
     width: 100%;
     height: auto;
     font-family: "Open Sans", sans-serif;
@@ -505,12 +482,12 @@ article div ul li p{
 
   .product-container--card img{
     width: 100%;
-    max-width:1024x;
+    max-width:1920x;
     max-height: 576px;
     height: auto;
     border-radius: 1.2rem;
     margin: 0;
-    padding: 0 .111rem;
+    padding: 2.4rem .111rem;
   }
 
 

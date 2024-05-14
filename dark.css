@@ -30,6 +30,7 @@ body.dark header div h3{
 body.dark article{
     background-color: transparent;
     color:var(--primary-text);
+    border: .111rem solid var(--border);
 }
 
 body.dark div{
@@ -50,7 +51,7 @@ body.dark h2{
     background-color: transparent;
     color:var(--title);
 }
-body.dark section article div h3{
+body.dark section article h3{
     background-color: transparent;
     color:var(--subtitle);
 }

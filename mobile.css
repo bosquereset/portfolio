@@ -299,6 +299,8 @@ section{
     height: auto;
     min-width: 320px;
     margin: 0 auto;
+    margin-top: 1.22rem;
+    margin-bottom: 2.4rem;
 }
 
 article{
@@ -319,6 +321,8 @@ article img{
     max-width:480px;
     max-height: 480px;
     height: auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
 }
 
 article a{

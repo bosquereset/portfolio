@@ -64,6 +64,7 @@ color:var(--secondary-text);
         height: auto;
         align-items: flex-start;
         justify-content: flex-start; 
+        border: 1.6rem;
     }
 
     .cv--item{
@@ -215,5 +216,9 @@ color:var(--secondary-text);
     color: var(--title-light);
 }
 
+
+img{
+    border: 1.6rem;
+}
 
   }

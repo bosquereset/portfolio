@@ -1,14 +1,12 @@
   @media (min-width: 1024px){
 html,body{
 transition: background 0.1s linear;
-background-color: var(--light-bg);
-color:var(--secondary-text);
 }
 
     header{
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 100%;
         min-width: 320px;
         height: auto;
         padding-top: 4.8rem;
@@ -43,13 +41,13 @@ color:var(--secondary-text);
         margin: 0 auto;
         padding: 4.8rem;
         text-align: left;
-        background-color: transparent;
+        background-color: #fdf4ff;
     }
 
 
     .divider{
-        margin-top: 1.22rem;
-        margin-bottom: 2.4rem;
+        margin-top: 3.22rem;
+        margin-bottom: 4.8rem;
     }
 
     article ul{
@@ -62,10 +60,17 @@ color:var(--secondary-text);
         display: flex;
         width: 100%;
         height: auto;
-        align-items: flex-start;
-        justify-content: flex-start; 
-        border: 1.6rem;
+        align-items: center;
+        justify-content: center; 
+        border-radius: 2.4rem;
     }
+
+
+.project--img{
+width: 100%;
+height: auto;
+border-radius: 2.4rem;
+}
 
     .cv--item{
         padding: 1.2rem;
@@ -96,18 +101,15 @@ color:var(--secondary-text);
 
       header picture img{
         width: 100%;
-        max-width:1024px;
-        max-height: 576px;
         height: auto;
-        border-radius: var(--h3);
+        border-radius: 2.4rem;
         padding-top: 1rem;
-        padding-bottom: .1rem;
-    
+        padding-bottom: 1rem;
+        border-radius: 2.4rem;
     }
 
     header h1{
         font-family: "Kalnia", serif;
-        color: var(--bg);
         font-weight: 600;
         margin: 0 auto;
         padding-top: 1.2rem;
@@ -120,7 +122,6 @@ color:var(--secondary-text);
 
     header h3{
         font-family: "Open Sans", sans-serif;
-        color: var(--bg);
         font-weight: 500;
         margin: 0 auto;
         padding-top: .999rem;
@@ -133,7 +134,6 @@ color:var(--secondary-text);
 
     header h2{
         font-family: "Kalnia", serif;
-        color: var(--bg);
         font-weight: 600;
         margin: 0 auto;
         padding-top: .666rem;
@@ -156,25 +156,6 @@ color:var(--secondary-text);
     ul li p{
         text-align: left;
     }
-
-.exp--card{
-    width: 100%;
-    height: auto; 
-    display: flex;
-    flex-direction: column;
-    padding: .333rem;
-    text-align: center;
-}
-
-.exp--card div{
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: .333rem;
-    text-align: center;
-    border-radius: 1.8rem;
-}
 
 .txt-description{
     text-align: left;
@@ -213,12 +194,78 @@ color:var(--secondary-text);
     line-height: 1.2rem;
     justify-content: center;
     align-items: center;
-    color: var(--title-light);
 }
 
 
-img{
-    border: 1.6rem;
-}
+
+
+
+/* secciones separadas y con colores */
+
+
+.header--section{
+    background-color: var(--header--section);
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+    color: var(--light-text);
+    border: 1 solid var(--component);
+    }
+    
+    .links--section{
+    width: 100%;
+    height: auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    background-color: var(--section--links);
+    color: var(--light-text);
+    }
+    
+    .about--section{
+    background-color: var(--section--about);
+    color: var(--light-text);
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+    }
+    
+    .services--section{
+    width: 100%;
+    height: auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    color:var(--light-text);
+    background-color: var(--section--services);
+    }
+    
+    .projects--section{
+    width: 100%;
+    height: auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    background-color: var(--section--projects);
+    color: var(--light-text);
+    }
+    
+    .contact--section{
+    width: 100%;
+    height: auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    background-color: var(--section--contact);
+    color: var(--component);
+    }
+    
+    .footer--section{
+    width: 100%;
+    height: auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    background-color: var(--footer--section);
+    color: var(--light-text);
+    }
+
+
+    a{
+        color:var(--highlight);
+    }
 
   }

@@ -24,7 +24,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 </head>
 <!--oncontextmenu="return false" onkeydown="return false"-->
-<body id="up" oncontextmenu="return false" onkeydown="return false">
+<body id="up" oncontextmenu="return false" onkeydown="return false" class="animate__animated animate__fadeIn">
 
 <nav>
   <button class="button-up">
@@ -65,34 +65,37 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   </button>
 </nav>
 
-<header class="portfolio--header">
+<header class="header--section">
 <picture>
-  <source media="(max-width: 720px)" srcset="./ari.webp" />
-  <source media="(min-width: 320px)" srcset="./ari.webp" />
-<img src="./ari.webp" class="profile-pic" width="1024px" height="1024px" alt="Fotografía de Ariel Hernán Contini">
+<img src="./ari.webp" class="profile-pic" width="540px" height="540px" alt="Fotografía de Ariel Hernán Contini">
 </picture>
-<div>
+
    <h1> Ariel Contini</h1>
    <p> Diseñador de interfaces y experiencia de usuario.</p>
-</div>
 
 </header>
 
 <main>
 
-<section id="links">
+<section id="links" class="links--section">
 
 <article>
 
 <a href="#datta"> Acerca de mí</a>
 <a href="#services"> Servicios</a>
 <a href="#proyectos"> Proyectos</a>        
-<a href="./arte-digital.html">  Aficiones</a>      
+<a href="./arte-digital.html">  Tecnopoéticas</a>      
 <a href="#contacto"> Contacto</a>                
 
 </article>
 
-<article id="datta" class="divider">
+</section>
+
+
+
+<section id="datta" class="about--section">
+
+<article class="objetivo">
 
 <h2> ACERCA DE MÍ</h2></li>
 <p>Como diseñador de experiencia de usuario, mi pasión radica en
@@ -177,7 +180,8 @@ motivado por la búsqueda de soluciones innovadoras y eficientes.</p>
 
 </section>
 
-<section class="services-cards" id="services">
+
+<section id="services" class="services--section" >
 
     <article>
       <h2> SERVICIOS</h2>
@@ -222,7 +226,9 @@ motivado por la búsqueda de soluciones innovadoras y eficientes.</p>
 
 </section>
 
-<section id="proyectos" class="exp--cards">
+
+
+<section id="proyectos" class="projects--section">
 
     <!-- links a proyectos -->
 <article id="links" class="divider">
@@ -236,10 +242,10 @@ motivado por la búsqueda de soluciones innovadoras y eficientes.</p>
 
   <!-- LO DE MARÍA -->
   <article id="lodemaria" class="divider">
-    <picture>
+    <picture >
       <source media="(max-width: 799px)" srcset="./lodemaria.webp" />
       <source media="(min-width: 800px)" srcset="./lodemaria.webp" />
-    <img width="480px" height="480px" src="./lodemaria.webp" alt="">
+    <img width="480px" height="480px" src="./lodemaria.webp"  alt="fotografia de la cafetería Lo de María">
   </picture>
     <ul>
         <li><h3> Lo de María</h3> </li>
@@ -326,6 +332,8 @@ target="_blank"> ver proyecto en Figma </a>
 
 </section>
 
+
+
 <section id="contacto" class="contact--section">
   
 <article class="contact--card">
@@ -339,9 +347,10 @@ target="_blank"> ver proyecto en Figma </a>
 
 
 </section>
+
 </main>
 
-<footer>
+<footer class="footer--section">
 <div>
 <p> dev by atsira</p>
 </div>

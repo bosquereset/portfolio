@@ -30,8 +30,101 @@ body.dark header div h3{
 body.dark article{
     color:var(--primary-text);
     border: .111rem solid var(--border);
-
+    background-color: var(--component);
 }
+
+
+/* secciones separadas y con colores */
+
+
+body.dark .header--section{
+background-color: var(--component);
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+color: var(--light-text);
+border: 1 solid var(--component);
+}
+
+body.dark .links--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+background-color: var(--section--links);
+color: var(--light-text);
+}
+
+body.dark .about--section{
+background-color: var(--section--about);
+color: var(--light-text);
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+}
+
+body.dark .services--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+color:var(--light-text);
+background-color: var(--section--services);
+}
+
+body.dark .projects--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+background-color: var(--section--projects);
+color: var(--light-text);
+}
+
+body.dark .contact--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+background-color: var(--section--contact);
+color: var(--component);
+}
+
+body.dark .footer--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+background-color: var(--component);
+color: var(--light-text);
+}
+
+body.dark .section--art{
+    width: 100%;
+    height: auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    background-color: var(--section--art);
+    color: var(--light-text);
+    }
+
+    body.dark .section--livecoding{
+    width: 100%;
+    height: auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    background-color: var(--section--livecoding);
+    color: var(--light-text);
+    }
+
+    body.dark .section--videoart{
+    width: 100%;
+    height: auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    background-color: var(--section--videoart);
+    color: var(--light-text);
+    }
+
+
 
 body.dark div{
     background-color: transparent;
@@ -143,7 +236,8 @@ body.dark
   
   .checkbox:checked + .checkbox-label .ball {
     transform: translateX(24px);
-    color: var(--text);
+    color: var(--subtitle);
     background-color: var(--text);
   }
     
+

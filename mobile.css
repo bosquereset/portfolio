@@ -4,18 +4,28 @@
 
 :root{
     --bg:#0c0a09;
-    --light-bg:#eef4ff;
+    --light-bg:#fdeeff;
     --component: #1c1917;
     --title:#c026d3;
-    --title-light:#3b0764;
-    --subtitle-light:#6b21a8;
+    --title-light:#c026d3;
+    --subtitle-light:#3b0764;
     --subtitle: #d946ef;
     --primary-text:#f4caff;
-    --light-text:#222;
-    --text:#f4caff;
+    --light-text:#3b0764;
+    --text:#3b0764;
     --link: rgb(230, 221, 206);
     --highlight: #9933993a;
     --border: #7e33991a;
+    --header--section:#4a044e;
+    --section--links: #8e23a7;
+    --section--about: #e879f9;
+    --section--services: #d946ef;
+    --section--projects: #c026d3;
+    --section--art: #8e23a7;
+    --section--livecoding: #701a75;
+    --section--videoart: #86198f;
+    --section--contact: #4a044e;
+    --footer--section: #fdf4ff;
     --h1:3.8122rem;
     --h2:2.3561rem;
     --h3:1.4562rem;
@@ -36,8 +46,14 @@ html,body{
     scroll-behavior: smooth;
     overflow-x: hidden;
     transition: background 0.1s linear;
-    background-color: var(--light-bg);
-    color:var(--secondary-text);
+    color: var(--light-text);
+}
+
+
+hr{
+color:var(--border);
+background-color: var(--border);
+border: .001rem solid var(--border);
 }
 
 
@@ -81,6 +97,7 @@ ul li p{
     display: flex;
     flex-direction: column;
     text-align: left;
+    color: var(--light-text);
 }
 
 button{
@@ -93,7 +110,6 @@ button a{
     height: auto;
     display: flex;
     flex-direction: column;
-    color: var(--subtitle);
     font-size: var(--p);
     font-weight: 500;
     padding: .333rem;
@@ -101,6 +117,7 @@ button a{
     align-items: center;
     margin: .333rem;
     color: var(--light-text);
+    border: .111rem solid var(--border);
 }
 
 button a:hover{
@@ -113,6 +130,7 @@ button a:hover{
     font-weight: 400;
     margin: .333rem;
     padding: .333rem;
+    border: .111rem solid var(--border);
 }
 
 .button-back .button-up{
@@ -131,13 +149,13 @@ a{
     height: 64px;
     color: var(--light-text);
     text-decoration: none;
-    padding: .999rem;
+    padding: 1.2rem;
     align-items: center;
     justify-content: center;
     border-radius: .111rem;
     transition: .5s;
     margin: 1.2rem;
-    background-color: var(--primary-text);
+    border: .111rem solid var(--border);
 }
 a:hover{
     font-family: "Open Sans", sans-serif;
@@ -147,6 +165,7 @@ a:hover{
     padding: .999rem;
     font-weight: 600;
     transition: .5s;
+    border: .111rem solid var(--border);
 }
 
 
@@ -210,13 +229,14 @@ header{
 
 
 header picture img{
-    width: 100%;
+    width: 65%;
     max-width:1024px;
     max-height: 576px;
     height: auto;
     padding-right: 0;
     padding-left: 0;
     opacity: .96;
+    border-radius: 2.4rem;
 }
 header{
     display: flex;
@@ -231,7 +251,7 @@ header h1{
     font-family: "Kalnia", serif;
     font-size: var(--h1);
     font-weight: 500;
-    color: var(--title);
+    color: var(--primary-text);
     margin: 0 auto;
     padding-top: .666rem;
     padding-left: 2.4rem;
@@ -248,7 +268,7 @@ header h2{
     padding-top: .333rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    color: var(--title-light);
+    color: var(--primary-text);
 }
 
 header h3{
@@ -261,14 +281,14 @@ header h3{
     padding-right: .999rem;
     text-align: center;
     text-justify: auto;
-    color: var(--component);
+    color: var(--primary-text);
     transition: .5s;
 }
 
 
 header p{
     font-size: var(--p);
-    color: var(--title-light);
+    color: var(--primary-text);
     padding:.999rem;
     font-weight: 600;
     text-justify: auto;
@@ -289,6 +309,84 @@ section{
     margin-bottom: 2.4rem;
 }
 
+
+/* secciones separadas y con colores */
+
+
+.header--section{
+background-color: var(--header--section);
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+color: var(--light-text);
+border: 1 solid var(--component);
+}
+
+.links--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+background-color: var(--section--links);
+color: var(--light-text);
+}
+
+.about--section{
+background-color: var(--section--about);
+color: var(--light-text);
+}
+
+.services--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+color:var(--light-text);
+background-color: var(--section--services);
+}
+
+.projects--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+background-color: var(--section--projects);
+color: var(--light-text);
+}
+
+.section--art{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+background-color: var(--section--art);
+color: var(--light-text);
+}
+
+.section--videoart{
+background-color: var(--section--videoart);
+}
+
+.contact--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+background-color: var(--section--contact);
+color: var(--component);
+}
+
+.footer--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
+background-color: var(--footer--section);
+color: var(--light-text);
+}
+
+
+
+
 article{
     display: flex;
     flex-direction: column;
@@ -299,7 +397,7 @@ article{
     justify-content: center;
     padding-top: 3.6rem;
     padding-bottom: 1.8rem;
-
+    border: .111rem solid var(--border);
 }
 
 article img{
@@ -307,6 +405,7 @@ article img{
     height: auto;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
+    border-radius: 2.4rem;
 }
 
 article a{
@@ -317,7 +416,7 @@ article a{
     margin-bottom: .666rem;
     padding-top: 1rem;
     padding-bottom: 1rem; 
-    color: var(--light-text);  
+    color: var(--light-text); 
 }
 
 .objetivo p{
@@ -329,8 +428,23 @@ article a{
     line-height: 1.2rem;
     justify-content: center;
     align-items: center;
-    color: var(--title-light);
+    color: var(--light-text);
 }
+
+article h1{
+    font-family: "Kalnia", serif;
+    font-size: var(--h1);
+    font-weight: 500;
+    width: 100%;
+    height: auto;
+    padding-left: .222em;
+    padding-right: .222rem;
+    padding-top: 1.24rem;
+    padding-bottom: 1.24rem;
+    text-align: center;
+    color: var(--light-text);
+}
+
 
 article h2{
     font-family: "Kalnia", serif;
@@ -343,7 +457,7 @@ article h2{
     padding-top: 1.24rem;
     padding-bottom: 1.24rem;
     text-align: center;
-    color: var(--subtitle-light);
+    color: var(--light-text);
 }
 
 
@@ -357,14 +471,13 @@ article h3{
     padding-right: .999rem;
     padding-top: .333rem;
     padding-bottom: .999rem;
-    color: var(--subtitle-light);
+    color: var(--light-text);
     text-align: center;
 }
 
 article p{
     font-family: "Open Sans", sans-serif;
     font-size: var(--p);
-    color: var(--subtitle-light);
     font-weight: 500;
     width: 100%;
     height: auto;
@@ -383,7 +496,7 @@ article ul li{
     font-family: "Open Sans", sans-serif;
     font-size: var(--p);
     font-weight: 500;
-    color: var(--subtitle-light);
+    color: var(--light-text);
     text-align: center;
 }
 
@@ -393,7 +506,7 @@ article ul li h2{
     font-family: "Kalnia", serif;
     font-size: var(--h2);
     font-weight: 500;
-    color: var(--subtitle-light);
+    color: var(--light-text);
 }
 
 article ul li p{
@@ -426,6 +539,7 @@ article ul li p{
     width: 100%;
     height: auto;
     text-align: center; 
+    color: var(--light-text);
 }
 
 
@@ -494,6 +608,7 @@ article ul li p{
     padding-bottom: 7.2rem;
     position: relative;
     background-color: var(--light-bg);
+    color: var(--component);
   }
 
 footer div{
@@ -511,7 +626,7 @@ footer div{
     padding: 1.2rem;
     justify-content: center;
     align-items: center;
-    color: var(--light-text);
+    color: var(--component);
   }
 
   footer div img{

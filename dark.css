@@ -28,6 +28,12 @@ body.dark header div h3{
 
 
 body.dark article{
+    background: 
+    linear-gradient(to bottom, 
+    rgba(50, 0, 50,.333), 
+    #0a0a0a5b), 
+    url(./noise.svg);
+    color:var(--primary-text);
     border: .111rem solid var(--border);
 
 }

@@ -162,23 +162,7 @@ nav a{
     border-radius: 1.2rem;
   }
 
-  .objetivo p{
-    display: flex;
-    flex-direction:column;
-    width: 100%;
-    height: auto;
-    text-align: left;
-    line-height: 1.2rem;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
 /* secciones separadas y con colores */
-
-
 
 .nav--navbar{
     background-color: var(--nav--navbar--light);
@@ -202,7 +186,16 @@ nav a{
     .about--section{
     background-color: var(--section--about--light);
     }
-    
+
+    .about--card{
+        width: 50%;
+        height: auto;
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+        text-align:left;
+        padding: 4.8rem;
+        }
+
     .services--section{
     width: 100%;
     height: auto;
@@ -210,13 +203,29 @@ nav a{
     padding-bottom: 2.4rem;
     background-color: var(--section--services--light);
     }
-    
+
+    .services--card{
+        width: 50%;
+        height: auto;
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+        text-align: left;
+    }
+
     .projects--section{
     width: 100%;
     height: auto;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
     background-color: var(--section--projects--light);
+    }
+
+    .projects--card{
+        width: 50%;
+        height: auto;
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+        text-align: left;
     }
     
     .section--art{
@@ -225,6 +234,14 @@ nav a{
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
     background-color: var(--section--art--light);
+    }
+
+    .art--card{
+        width: 50%;
+        height: auto;
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+        text-align: left;
     }
     
     .section--videoart{

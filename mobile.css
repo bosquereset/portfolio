@@ -3,19 +3,37 @@
 
 
 :root{
-    --bg:#0c0a09;
-    --light-bg:#fdeeff;
+    --background--light:#fdf4ff;
+    --background--dark:#4a044e;
     --component: #1c1917ee;
+
+  /* botones */
+    --button--light:#86198f;
+    --button--dark:#fff;
+
+      /* text-color */
     --title:#c026d3;
+    --subtitle: #d946ef;
     --title-light:#c026d3;
     --subtitle-light:#3b0764;
-    --subtitle: #d946ef;
     --primary-text:#f4caff;
     --light-text:#3b0764;
-    --text:#3b0764;
-    --link: rgb(230, 221, 206);
-    --highlight: #9933993a;
-    --border: #7e33991a;
+
+        /* background light */
+        --nav--navbar--light:#fae8ff;
+        --header--section--light:#fae8ff;
+        --section--links--light: #fae8ff;
+        --section--about--light: #fae8ff;
+        --section--services--light: #fae8ff;
+        --section--projects--light: #fae8ff;
+        --section--art--light--light: #fae8ff;
+        --section--livecoding--light: #fae8ff;
+        --section--videoart--light: #fae8ff;
+        --section--contact--light: #fae8ff;
+        --footer--section--light: #fae8ff;
+
+    /* background dark */
+    --nav--navbar:#4a044e;
     --header--section:#4a044e;
     --section--links: #8e23a7;
     --section--about: #e879f9;
@@ -26,6 +44,9 @@
     --section--videoart: #86198f;
     --section--contact: #4a044e;
     --footer--section: #fdf4ff;
+
+
+       /* text sizes */
     --h1:3.8122rem;
     --h2:2.3561rem;
     --h3:1.4562rem;
@@ -46,27 +67,7 @@ html,body{
     scroll-behavior: smooth;
     overflow-x: hidden;
     transition: background 0.1s linear;
-    color: var(--light-text);
-}
-
-
-hr{
-color:var(--border);
-background-color: var(--border);
-border: .001rem solid var(--border);
-}
-
-
-/* videos */ 
-video{
-    width: 100%;
-    height: auto;
-    border-radius: 1.2rem;
-}
-
-
-.txt-description{
-    text-align: left;
+    background-color: var(--background--light);
 }
 
 /* cheems coding */
@@ -97,11 +98,9 @@ ul li p{
     display: flex;
     flex-direction: column;
     text-align: left;
-    color: var(--light-text);
 }
 
 button{
-    background-color: transparent;
     border: none;
 }
 
@@ -116,8 +115,7 @@ button a{
     justify-content: center;
     align-items: center;
     margin: .333rem;
-    color: var(--light-text);
-    border: .111rem solid var(--border);
+    border: .001rem solid var(--component);
 }
 
 button a:hover{
@@ -125,12 +123,11 @@ button a:hover{
     height: auto;
     display: flex;
     flex-direction: column;
-    color: var(--light-text);
     font-size: var(--p);
     font-weight: 400;
     margin: .333rem;
     padding: .333rem;
-    border: .111rem solid var(--border);
+    border: .001rem solid var(--component);
 }
 
 .button-back .button-up{
@@ -147,7 +144,6 @@ a{
     flex-direction: column;
     width: 100%;
     height: 64px;
-    color: var(--light-text);
     text-decoration: none;
     padding: 1.2rem;
     align-items: center;
@@ -160,7 +156,6 @@ a{
 a:hover{
     font-family: "Open Sans", sans-serif;
     font-size: var(--p);
-    color: var(--light-text);
     text-decoration: none;
     padding: .999rem;
     font-weight: 600;
@@ -168,16 +163,12 @@ a:hover{
     border: .111rem solid var(--border);
 }
 
-
-
-
-
-
 /* navbar */
 
 nav button{
     padding-left: 1rem;
     padding-right: 1rem;
+    background-color: transparent;
 }
 
 nav{
@@ -190,12 +181,13 @@ nav{
     align-items: center;
     position: fixed;
     z-index: 100;
-    border-bottom: .111rem solid var(--highlight);
-    background-color: var(--light-bg);
+    border-bottom: .111rem solid var(--title);
 }
 
+
 main{
-    background-color: var(--light-bg);
+display: flex;
+flex-direction: column;
 }
 
 
@@ -207,7 +199,7 @@ header{
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding-top: 4rem;
+    padding-top: 6.4rem;
     padding-bottom: 6.4rem;
     padding-left: 0;
     padding-right: 0;
@@ -227,22 +219,16 @@ header{
     margin: 0 auto;
 }
 
-
 header picture img{
-    width: 65%;
-    max-width:1024px;
-    max-height: 576px;
-    height: auto;
-    padding-right: 0;
-    padding-left: 0;
-    opacity: .96;
-    border-radius: 2.4rem;
-}
-header{
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: auto;
+    max-width:1024px;
+    max-height: 576px;
+    padding-top:4.8rem;
+    padding-bottom: 2.4rem;
+    padding-right: 0;
+    padding-left: 0;
+    opacity: 1;
 }
 
 header h1{
@@ -251,7 +237,6 @@ header h1{
     font-family: "Kalnia", serif;
     font-size: var(--h1);
     font-weight: 500;
-    color: var(--primary-text);
     margin: 0 auto;
     padding-top: .666rem;
     padding-left: 2.4rem;
@@ -268,7 +253,6 @@ header h2{
     padding-top: .333rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    color: var(--primary-text);
 }
 
 header h3{
@@ -281,14 +265,12 @@ header h3{
     padding-right: .999rem;
     text-align: center;
     text-justify: auto;
-    color: var(--primary-text);
     transition: .5s;
 }
 
 
 header p{
     font-size: var(--p);
-    color: var(--primary-text);
     padding:.999rem;
     font-weight: 600;
     text-justify: auto;
@@ -305,19 +287,21 @@ section{
     height: auto;
     min-width: 320px;
     margin: 0 auto;
-    margin-top: 1.22rem;
-    margin-bottom: 2.4rem;
 }
 
 
 /* secciones separadas y con colores */
 
 
+
+.nav--navbar{
+background-color: var(--nav--navbar--light);
+}
+
 .header--section{
-background-color: var(--header--section);
+background-color: var(--header--section--light);
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
-color: var(--light-text);
 border: 1 solid var(--component);
 }
 
@@ -326,13 +310,11 @@ width: 100%;
 height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
-background-color: var(--section--links);
-color: var(--light-text);
+background-color: var(--section--links--light);
 }
 
 .about--section{
-background-color: var(--section--about);
-color: var(--light-text);
+background-color: var(--section--about--light);
 }
 
 .services--section{
@@ -340,8 +322,7 @@ width: 100%;
 height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
-color:var(--light-text);
-background-color: var(--section--services);
+background-color: var(--section--services--light);
 }
 
 .projects--section{
@@ -349,8 +330,7 @@ width: 100%;
 height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
-background-color: var(--section--projects);
-color: var(--light-text);
+background-color: var(--section--projects--light);
 }
 
 .section--art{
@@ -358,12 +338,11 @@ width: 100%;
 height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
-background-color: var(--section--art);
-color: var(--light-text);
+background-color: var(--section--art--light);
 }
 
 .section--videoart{
-background-color: var(--section--videoart);
+background-color: var(--section--videoart--light);
 }
 
 .contact--section{
@@ -371,8 +350,7 @@ width: 100%;
 height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
-background-color: var(--section--contact);
-color: var(--component);
+background-color: var(--section--contact--light);
 }
 
 .footer--section{
@@ -380,11 +358,8 @@ width: 100%;
 height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
-background-color: var(--footer--section);
-color: var(--light-text);
+background-color: var(--footer--section--light);
 }
-
-
 
 
 article{
@@ -392,31 +367,33 @@ article{
     flex-direction: column;
     width: 100%;
     height: auto;
-    border-radius: 1.2rem;
     align-items: center;
     justify-content: center;
     padding-top: 3.6rem;
-    padding-bottom: 1.8rem;
-    border: .111rem solid var(--border);
+    padding-bottom: 4.8rem;
+    border-radius: 1.2rem;
+    border: .001rem solid var(--component);
 }
 
 article img{
     width: 100%;
     height: auto;
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
     border-radius: 2.4rem;
 }
 
 article a{
-    width: 100%;
+    width: 80%;
     max-width: 640px;
     height: auto;
     margin-top: .666rem;
     margin-bottom: .666rem;
     padding-top: 1rem;
     padding-bottom: 1rem; 
-    color: var(--light-text); 
+    background-color: var(--button--light);
+    color:var(--primary-text);
+    border-radius: 1.2rem;
 }
 
 .objetivo p{
@@ -428,7 +405,6 @@ article a{
     line-height: 1.2rem;
     justify-content: center;
     align-items: center;
-    color: var(--light-text);
 }
 
 article h1{
@@ -442,7 +418,6 @@ article h1{
     padding-top: 1.24rem;
     padding-bottom: 1.24rem;
     text-align: center;
-    color: var(--light-text);
 }
 
 
@@ -457,7 +432,6 @@ article h2{
     padding-top: 1.24rem;
     padding-bottom: 1.24rem;
     text-align: center;
-    color: var(--light-text);
 }
 
 
@@ -471,7 +445,6 @@ article h3{
     padding-right: .999rem;
     padding-top: .333rem;
     padding-bottom: .999rem;
-    color: var(--light-text);
     text-align: center;
 }
 
@@ -496,7 +469,6 @@ article ul li{
     font-family: "Open Sans", sans-serif;
     font-size: var(--p);
     font-weight: 500;
-    color: var(--light-text);
     text-align: center;
 }
 
@@ -506,7 +478,6 @@ article ul li h2{
     font-family: "Kalnia", serif;
     font-size: var(--h2);
     font-weight: 500;
-    color: var(--light-text);
 }
 
 article ul li p{
@@ -515,7 +486,6 @@ article ul li p{
     font-family: "Open Sans", sans-serif;
     font-size: var(--p);
     font-weight: 500;
-    color: var(--light-text);
     padding: 1.2rem;
     margin: 0 auto;
     text-align: center;
@@ -539,7 +509,6 @@ article ul li p{
     width: 100%;
     height: auto;
     text-align: center; 
-    color: var(--light-text);
 }
 
 
@@ -607,8 +576,6 @@ article ul li p{
     padding-top: 6.4rem;
     padding-bottom: 7.2rem;
     position: relative;
-    background-color: var(--light-bg);
-    color: var(--component);
   }
 
 footer div{
@@ -626,7 +593,6 @@ footer div{
     padding: 1.2rem;
     justify-content: center;
     align-items: center;
-    color: var(--component);
   }
 
   footer div img{

@@ -3,13 +3,23 @@ html,body{
 transition: background 0.1s linear;
 }
 
+
+nav a{
+    background-color: var(--background-light);
+}
+
+
+ button{
+    background-color: transparent;
+    color:var(--primary-text);
+}
     header{
         display: flex;
         flex-direction: column;
         width: 100%;
         min-width: 320px;
         height: auto;
-        padding-top: 4.8rem;
+        padding-top: 7.2rem;
         padding-bottom: 6.4rem;
         margin: 0 auto;
         justify-content: center;
@@ -41,7 +51,6 @@ transition: background 0.1s linear;
         margin: 0 auto;
         padding: 4.8rem;
         text-align: left;
-        background-color: #fdf4ff;
     }
 
 
@@ -65,19 +74,6 @@ transition: background 0.1s linear;
         border-radius: 2.4rem;
     }
 
-
-.project--img{
-width: 100%;
-height: auto;
-border-radius: 2.4rem;
-}
-
-    .cv--item{
-        padding: 1.2rem;
-        margin:.999rem;
-        text-align: left;
-}
-
     .product-container--slider {
         display: flex;
         flex-direction: column;
@@ -100,12 +96,11 @@ border-radius: 2.4rem;
       }
 
       header picture img{
-        width: 100%;
+        width: 50%;
         height: auto;
-        border-radius: 2.4rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        border-radius: 2.4rem;
+        border-radius: 1.2rem;
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
     }
 
     header h1{
@@ -144,9 +139,6 @@ border-radius: 2.4rem;
         font-size: var(--h2);
     }
 
-
-
-
     ul{
         text-align: left;
     }
@@ -160,7 +152,6 @@ border-radius: 2.4rem;
 .txt-description{
     text-align: left;
 }
-
 
 .product-container--slider{
     display: grid;
@@ -184,7 +175,6 @@ border-radius: 2.4rem;
     border-radius: 1.2rem;
   }
 
-
   .objetivo p{
     display: flex;
     flex-direction:column;
@@ -195,77 +185,4 @@ border-radius: 2.4rem;
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-/* secciones separadas y con colores */
-
-
-.header--section{
-    background-color: var(--header--section);
-    padding-top: 4.8rem;
-    padding-bottom: 4.8rem;
-    color: var(--light-text);
-    border: 1 solid var(--component);
-    }
-    
-    .links--section{
-    width: 100%;
-    height: auto;
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
-    background-color: var(--section--links);
-    color: var(--light-text);
-    }
-    
-    .about--section{
-    background-color: var(--section--about);
-    color: var(--light-text);
-    padding-top: 4.8rem;
-    padding-bottom: 4.8rem;
-    }
-    
-    .services--section{
-    width: 100%;
-    height: auto;
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
-    color:var(--light-text);
-    background-color: var(--section--services);
-    }
-    
-    .projects--section{
-    width: 100%;
-    height: auto;
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
-    background-color: var(--section--projects);
-    color: var(--light-text);
-    }
-    
-    .contact--section{
-    width: 100%;
-    height: auto;
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
-    background-color: var(--section--contact);
-    color: var(--component);
-    }
-    
-    .footer--section{
-    width: 100%;
-    height: auto;
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
-    background-color: var(--footer--section);
-    color: var(--light-text);
-    }
-
-
-    a{
-        color:var(--highlight);
-    }
-
   }

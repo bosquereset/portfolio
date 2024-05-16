@@ -2,13 +2,18 @@
 /* DARKMODE LIGHTMODE */
 
 body.dark{
-    background-color: var(--bg);
+    background-color: var(--background--dark);
     color:var(--primary-text);
 }
 
 body.dark nav{
     background-color: var(--bg);
     color:var(--primary-text);
+}
+
+body.dark nav a{
+    color: #fff;
+    background-color: var(--component);
 }
 
 body.dark section{
@@ -21,7 +26,7 @@ body.dark header{
     color:var(--primary-text);
 }
 
-body.dark header div h3{
+body.dark header h3{
     background-color: transparent;
     color:var(--primary-text);
 }
@@ -36,6 +41,9 @@ body.dark article{
 
 /* secciones separadas y con colores */
 
+body.dark .nav--navbar{
+    background-color: var(--component);  
+}
 
 body.dark .header--section{
 background-color: var(--component);
@@ -157,6 +165,7 @@ body.dark button{
     background-color: transparent;
     color:var(--primary-text);
 }
+
 body.dark ul{
     background-color: transparent;
     color:var(--primary-text);
@@ -168,13 +177,15 @@ body.dark li{
 }
 
 body.dark a{
-    background-color: #260d2a;
-    color:var(--primary-text);
+    background-color: #4a044e;
+    color:var(--button-link);
 }
 
 body.dark main{
     background-color: transparent;
 }
+
+
 
 body.dark  
     .product-container--card img{
@@ -194,7 +205,7 @@ body.dark
   }
   
   .checkbox-label {
-    background-color: var(--bg);
+    background-color: var(--component);
     width: 50px;
     height: 26px;
     border-radius: 50px;
@@ -206,7 +217,7 @@ body.dark
     align-items: center;
   }
   .checkbox-label:after{
-    background-color: var(--light-bg);
+    background-color: var(--background--dark);
     width: 60px;
     height: 30px;
     border-radius: 50px;
@@ -218,9 +229,9 @@ body.dark
     align-items: center;
   }
   
-  .fa-moon {color: var(--primary-text);}
+  .fa-moon {color: var(--title);}
   
-  .fa-sun {color: var(--primary-text);}
+  .fa-sun {color: var(--component);}
   
   .checkbox-label .ball {
     width: 22px;
@@ -230,14 +241,14 @@ body.dark
     top: 2px;
     border-radius: 50%;
     transition: transform 0.2s linear;
-    background-color: var(--text);
+    background-color: var(--title);
     color: var(--text);
   }
   
   .checkbox:checked + .checkbox-label .ball {
     transform: translateX(24px);
     color: var(--subtitle);
-    background-color: var(--text);
+    background-color: var(--title);
   }
     
 

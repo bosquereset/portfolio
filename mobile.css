@@ -210,6 +210,10 @@ header{
 }
 
 
+hr{
+    border: .111rem solid var(--component);
+}
+
 /* */
 .artes-graficas{
     width: 100%;
@@ -322,12 +326,12 @@ background-color: var(--section--about--light);
 }
 
 .about--card{
-width: 50%;
+width: 100%;
 height: auto;
 margin-top: 2.4rem;
 margin-bottom: 2.4rem;
-text-align: left;
-padding: 6.4rem;
+text-align:left;
+padding: 4.8rem;
 }
 
 
@@ -341,7 +345,7 @@ background-color: var(--section--services--light);
 }
 
 .services--card{
-    width: 50%;
+    width: 100%;
     height: auto;
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
@@ -357,12 +361,12 @@ background-color: var(--section--projects--light);
 }
 
 .projects--card{
-    width: 50%;
+    width: 100%;
     height: auto;
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
     text-align: left;
-    padding: 6.4rem;
+    padding: 2.4rem;
 }
 
 .section--art{
@@ -374,7 +378,7 @@ background-color: var(--section--art--light);
 }
 
 .art--card{
-    width: 50%;
+    width: 100%;
     height: auto;
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
@@ -437,17 +441,6 @@ article a{
     border-radius: 1.2rem;
 }
 
-.objetivo p{
-    display: flex;
-    flex-direction:column;
-    width: 100%;
-    height: auto;
-    text-align: left;
-    line-height: 1.2rem;
-    justify-content: center;
-    align-items: center;
-}
-
 article h1{
     font-family: "Kalnia", serif;
     font-size: var(--h1);
@@ -460,7 +453,6 @@ article h1{
     padding-bottom: 1.24rem;
     text-align: center;
 }
-
 
 article h2{
     font-family: "Kalnia", serif;
@@ -500,7 +492,6 @@ article p{
     justify-content: center;
     text-justify: auto;
     padding: .999rem;
-    text-align: left;
 }
 
 article ul li{
@@ -569,7 +560,6 @@ article ul li p{
     overscroll-behavior-x: contain;
   /*  scroll-snap-type:y proximity;*/
     margin: 0 auto;
-    padding: .111rem;
   }
   
   .product-container--card{

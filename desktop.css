@@ -38,7 +38,6 @@ nav a{
         place-content: center;
     }
 
-
     article{
         display: flex;
         flex-direction: column;
@@ -63,9 +62,6 @@ nav a{
         justify-content: center;
     }
 
-
-
-
     article img{
         display: flex;
         width: 100%;
@@ -85,6 +81,7 @@ nav a{
         scroll-snap-type:y proximity;
         margin: 0 auto;
         padding: .111rem;
+        background-color: transparent;
       }
       .product-container--card img{
         width: 100%;
@@ -140,15 +137,7 @@ nav a{
         font-size: var(--h2);
     }
 
-    ul{
-        text-align: left;
-    }
-    li{  text-align: left;
-    }
 
-    ul li p{
-        text-align: left;
-    }
 
 
 .product-container--slider{

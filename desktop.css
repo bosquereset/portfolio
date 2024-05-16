@@ -50,27 +50,6 @@ nav a{
         margin:0 auto;
     }
 
-    article{
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        height: auto;
-        padding-top: 4.8rem;
-        padding-bottom: 4.8rem;
-        border-radius: 1.2rem;
-        align-items: center;
-        justify-content: center;
-    }
-
-    article img{
-        display: flex;
-        width: 100%;
-        height: auto;
-        align-items: center;
-        justify-content: center; 
-        border-radius: 2.4rem;
-    }
-
     .product-container--slider {
         display: flex;
         flex-direction: column;

@@ -184,11 +184,15 @@ nav{
     border-bottom: .111rem solid var(--title);
 }
 
+hr{
+    border: .111rem solid var(--component);
+}
 
 main{
 display: flex;
 flex-direction: column;
 }
+
 
 
 /* cabecera */
@@ -209,29 +213,8 @@ header{
     text-align: center;
 }
 
-
-hr{
-    border: .111rem solid var(--component);
-}
-
-/* */
-.artes-graficas{
-    width: 100%;
-    height: auto;
-    padding-top: 1.666rem;
-    padding-bottom: 3.2rem;
-    margin: 0 auto;
-}
-
 header picture img{
-    width: 100%;
-    height: auto;
-    max-width:1024px;
-    max-height: 576px;
-    padding-top:1.6rem;
-    padding-bottom: 2.4rem;
-    padding-right: 0;
-    padding-left: 0;
+    max-width:360px;
     opacity: 1;
 }
 
@@ -280,6 +263,9 @@ header p{
     text-justify: auto;
     text-align: center;
 }
+
+
+
 
 
 /* secciones y articulos */
@@ -369,6 +355,7 @@ background-color: var(--section--projects--light);
     padding: 2.4rem;
 }
 
+
 .section--art{
 width: 100%;
 height: auto;
@@ -384,9 +371,20 @@ background-color: var(--section--art--light);
     margin-bottom: 2.4rem;
 }
 
+.livecoding--img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 4.8rem;
+}
+
 .section--videoart{
 background-color: var(--section--videoart--light);
 }
+
+/* contact section */
 
 .contact--section{
 width: 100%;
@@ -394,7 +392,22 @@ height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 background-color: var(--section--contact--light);
+text-align: center;
 }
+
+
+.contact--card{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact--card p{
+    font-size: var(--p);
+    width: 100%;
+    height: auto;
+    text-align: center; 
+}
+
 
 .footer--section{
 width: 100%;
@@ -403,6 +416,9 @@ padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 background-color: var(--footer--section--light);
 }
+
+
+
 
 
 article{
@@ -420,13 +436,7 @@ article{
     margin-bottom:2.4rem;
 }
 
-article img{
-    width: 100%;
-    height: auto;
-    padding-top: 3.2rem;
-    padding-bottom: 3.2rem;
-    border-radius: 2.4rem;
-}
+
 
 article a{
     width: 80%;
@@ -520,25 +530,7 @@ article ul li p{
     margin: 0 auto;
 }
 
-/* contact section */
 
-.contact--section{
-    width: 100%;
-    height: auto;
-    text-align: center;
-}
-
-.contact--card{
-    display: flex;
-    flex-direction: column;
-}
-
-.contact--card p{
-    font-size: var(--p);
-    width: 100%;
-    height: auto;
-    text-align: center; 
-}
 
 
 /* sliders! */

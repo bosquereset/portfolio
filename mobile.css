@@ -314,8 +314,23 @@ background-color: var(--section--links--light);
 }
 
 .about--section{
+width: 100%;
+height: auto;
+padding-top: 2.4rem;
+padding-bottom: 2.4rem;
 background-color: var(--section--about--light);
 }
+
+.about--card{
+width: 50%;
+height: auto;
+margin-top: 2.4rem;
+margin-bottom: 2.4rem;
+text-align: left;
+padding: 6.4rem;
+}
+
+
 
 .services--section{
 width: 100%;
@@ -323,6 +338,14 @@ height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 background-color: var(--section--services--light);
+}
+
+.services--card{
+    width: 50%;
+    height: auto;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    text-align: left;
 }
 
 .projects--section{
@@ -333,12 +356,28 @@ padding-bottom: 2.4rem;
 background-color: var(--section--projects--light);
 }
 
+.projects--card{
+    width: 50%;
+    height: auto;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    text-align: left;
+    padding: 6.4rem;
+}
+
 .section--art{
 width: 100%;
 height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 background-color: var(--section--art--light);
+}
+
+.art--card{
+    width: 50%;
+    height: auto;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
 }
 
 .section--videoart{

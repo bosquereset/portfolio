@@ -377,12 +377,23 @@ background-color: var(--section--art--light);
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 4.8rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
 }
 
 .section--videoart{
 background-color: var(--section--videoart--light);
 }
+
+.videoart--img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 4.8rem;
+}
+
 
 /* contact section */
 

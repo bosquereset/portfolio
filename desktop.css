@@ -7,6 +7,8 @@
     }
     
     .header--section{
+    display: flex;
+    flex-direction: column;
     background-color: var(--header--section--light);
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
@@ -22,13 +24,19 @@
     }
     
     .about--section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
     background-color: var(--section--about--light);
+    align-items: center;
+    justify-content: center;
     }
 
     .about--card{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 40%;
         height: auto;
         margin-top: 2.4rem;
         margin-bottom: 2.4rem;
@@ -36,14 +44,19 @@
         align-items: center;
         justify-content: center;
         text-align:center;
+        border-radius: 2.4rem;
         }
 
     .services--section{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
     background-color: var(--section--services--light);
+    align-items: center;
+    justify-content: center;
     }
 
     .services--card{
@@ -52,14 +65,19 @@
         margin-top: 2.4rem;
         margin-bottom: 2.4rem;
         text-align: left;
+        border-radius: 2.4rem;
     }
 
     .projects--section{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
     background-color: var(--section--projects--light);
+    align-items: center;
+    justify-content: center;
     }
 
     .projects--card{
@@ -68,26 +86,48 @@
         margin-top: 2.4rem;
         margin-bottom: 2.4rem;
         text-align: left;
+        border-radius: 2.4rem;
     }
     
     .section--art{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
     background-color: var(--section--art--light);
+    align-items: center;
+    justify-content: center;
     }
 
+    .section--livecoding{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+        background-color: var(--section--art--light);
+        align-items: center;
+        justify-content: center;
+        }
+
     .art--card{
-        width: 50%;
+        width: 100%;
         height: auto;
         margin-top: 2.4rem;
         margin-bottom: 2.4rem;
         text-align: left;
+        border-radius: 2.4rem;
     }
     
     .section--videoart{
+    display:flex;
+    flex-direction: column;
     background-color: var(--section--videoart--light);
+    align-items: center;
+    justify-content: center;
     }
     
     .contact--section{
@@ -96,6 +136,8 @@
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
     background-color: var(--section--contact--light);
+    align-items: center;
+    justify-content: center;
     }
     
     .footer--section{

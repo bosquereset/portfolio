@@ -12,7 +12,8 @@
 <meta property="url" content="https://arielcontini.github.io/portfolio/" />
 <title>./ariel-contini/portfolio</title>
 <link rel="stylesheet" href="./mobile.css" media="all">
-<link rel="stylesheet" href="./desktop.css" media="all">
+<!--
+<link rel="stylesheet" href="./desktop.css" media="all">-->
 <link rel="stylesheet" href="./dark.css" media="all">
 
 <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
@@ -72,17 +73,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 </nav>
 
 <header class="header--section">
-<picture>
-<img src="./ari.webp" class="profile-pic" width="480px" height="480px" alt="Fotografía de Ariel Hernán Contini">
-</picture>
+
+<img src="./ari.webp" width="480px" height="480px" alt="Fotografía de Ariel Hernán Contini">
+
    <h1> Ariel Contini</h1>
    <p> Diseñador de interfaces y experiencia de usuario.</p>
+
 </header>
 
 <main>
 
 <section id="links" class="links--section">
-<article>
+<article class="links--card">
 <a href="#datta"> Acerca de mí</a>
 <a href="#services"> Servicios</a>
 <a href="#proyectos"> Proyectos</a>        
@@ -91,11 +93,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 </article>
 </section>
 
-<hr>
+
 
 <section id="datta" class="about--section">
 
-<article class="about--me">
+<article class="about--me--card">
 <h2> ACERCA DE MÍ</h2></li>
 <p>Como diseñador de experiencia de usuario, mi pasión radica en
 dar vida a productos digitales, desde la concepción hasta 
@@ -107,7 +109,7 @@ y mi trabajo gratificante.</p>
 motivado por la búsqueda de soluciones innovadoras y eficientes.</p>
 </article>
 
-<article>
+<article class="about--card">
     <h3> Softskills</h3>
     <p> Autodidacta</p>
     <p> Empático</p>
@@ -119,7 +121,7 @@ motivado por la búsqueda de soluciones innovadoras y eficientes.</p>
     <p> Atención en el detalle</p>
 </article>
 
-<article>
+<article class="about--card">
       <h3> Hardskills</h3>
       <p> Diseño de Interfaces</p>
       <p> HTML5</p>
@@ -134,20 +136,20 @@ motivado por la búsqueda de soluciones innovadoras y eficientes.</p>
 </article>
 
 
-<article>
+<article class="about--card">
       <h3> Idiomas</h3>
           <p>Español Nativo</p>
           <p>Ingles A2</p>
 </article>
 
-    <article>
+    <article class="about--card">
     <h3> Formación</h3>
         <p>Diseñador UI</p>
         <p>FRONT-END Developer</p>
     <a href="https://platzi.com/p/arielcontini/" target="_blank">perfil de platzi</a>
   </article>
 
-<article>
+<article class="about--card">
 <h3> Educación</h3>
 <p>Técnico Superior en  Diseño de Multimedios - Cursado de 2011 a 2014</p>
 <p>Fecha de Finalización: 7/8/2018</p>
@@ -158,7 +160,7 @@ motivado por la búsqueda de soluciones innovadoras y eficientes.</p>
 
 </section>
 
-<hr>
+
 
 <section id="services" class="services--section" >
 
@@ -203,7 +205,7 @@ motivado por la búsqueda de soluciones innovadoras y eficientes.</p>
 
 </section>
 
-<hr>
+
 
 <section id="proyectos" class="projects--section">
 
@@ -303,7 +305,7 @@ target="_blank"> ver proyecto en Figma </a>
 </article> 
 </section>
 
-<hr>
+
 
 <section id="tecnopoet" class="section--art">
   
@@ -318,10 +320,14 @@ target="_blank"> ver proyecto en Figma </a>
           <a href="#livecoding"> Código Creativo</a>
           <a href="#videoarte"> Videoarte</a>
         </article>
+
 </section>
-<hr>
+
+
+
 <section id="livecoding" class="section--livecoding">
-<article class="art--card">
+
+<article class="livecoding--card">
           <h3> Código creativo</h3>
 
           <picture>
@@ -333,11 +339,16 @@ target="_blank"> ver proyecto en Figma </a>
           <p class="txt-description"> Me llama mucho la atención aplicar la programación al arte visual. 
             Las nuevas formas de creación digital son alimento de buena calidad para mi curiosidad.
           </p>
-          <p>Galería de #hydrapatterns</p>
+         
+</article>
 
+<article class="livecoding--card">
+  <h3> Galería de hydrapatterns</h3>
 <!-- slider -->
           <section class="main-slider-container"> 
+     
             <section class="product-container--slider">
+              
                 <article class="product-container--card">
                   <img width="576px" height="1024px" src="./1.webp" alt="">
                 </article>
@@ -367,7 +378,10 @@ target="_blank"> ver proyecto en Figma </a>
            </article>  
            </section>
            </section>
-    
+
+          </article>   
+
+    <article class="livecoding--card">
            <h3>Taller de Livecoding Virtual</h3>
            <p> Durante la pandemia dediqué parte de mi tiempo En ayudar 
              a las personas que tenian interés en el livecoding visual.
@@ -375,7 +389,9 @@ target="_blank"> ver proyecto en Figma </a>
         <picture>
         <img width="1024px" height="1024px" src="./flyer-lc.webp" class="livecoding--img" alt="flyer creado para taller virtual de hydra">
       </picture>
+    </article>
 
+    <article class="livecoding--card">
         <h3> Fondo nacional de las Artes</h3>
         <p> En el marco del Fondo Nacional de las Artes, creamos un Taller visuales con Hydra para Tribu de Trueno.</p>
         <p> El encuentro fué el 7/1/2021 y nos comunicamos via Jitsi. Fué una experiencia hermosa y gratificante.</p>
@@ -384,6 +400,9 @@ target="_blank"> ver proyecto en Figma </a>
         <img width="1024px" height="1024px" src="./flyer-fna.webp" class="livecoding--img" alt="flyer creado para taller virtual de hydra">      
       </picture>
 
+    </article>
+
+<article class="livecoding--card">
           <h3>Colaboración con biVio</h3>
           <p>La banda musical me solicitó una selección de 
             imágenes creadas con hydrasynth para una producción fotográfica de aghnes estudio, 
@@ -415,13 +434,18 @@ target="_blank"> ver proyecto en Figma </a>
 
     </section>
   </section>
-  <picture>
+</article>
+
+<article class="livecoding--card">
+<picture>
   <img width="160px" height="160px"  src="./live-coding.webp" class="livecoding--img" alt="cheems live coder">
 </picture>  
 </article>
+
+</article>
 </section>
 
-<hr>
+
 
 <section id="videoarte" class="section--videoart">
 
@@ -472,7 +496,7 @@ target="_blank"> ver proyecto en Figma </a>
 </article>
 </section>
 
-<hr>
+
 
 <section id="contacto" class="contact--section">  
 <article class="contact--card">
@@ -484,14 +508,14 @@ target="_blank"> ver proyecto en Figma </a>
 </article>
 </section>
 
-<hr>
+
 
 </main>
 
 <footer class="footer--section">
-<div>
+<article class="footer--card">
 <p> dev by atsira</p>
-</div>
+</article>
 </footer>
 
 <script>

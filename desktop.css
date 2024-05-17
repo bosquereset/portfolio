@@ -1,145 +1,4 @@
   @media (min-width: 1024px){
-html,body{
-transition: background 0.1s linear;
-}
-
-
-nav a{
-    background-color: var(--background-light);
-}
-
-
- button{
-    background-color: transparent;
-    color:var(--primary-text);
-}
-    header{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        min-width: 320px;
-        height: auto;
-        padding-top: 7.2rem;
-        padding-bottom: 6.4rem;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
-    section{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-        min-width: 320px;
-        padding: 0;
-        text-align: left;
-        place-content: center;
-    }
-
-    article{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        height: auto;
-        padding-top: 4.8rem;
-        padding-bottom: 4.8rem;
-        border-radius: 1.2rem;
-        border: .1rem solid var(--component);
-        margin:0 auto;
-    }
-
-    .product-container--slider {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-        overflow-x: hidden;
-        overscroll-behavior-x: contain;
-        scroll-snap-type:y proximity;
-        margin: 0 auto;
-        padding: .111rem;
-        background-color: transparent;
-      }
-      .product-container--card img{
-        width: 100%;
-        max-width:480px;
-        max-height: 480px;
-        height: auto;
-        border-radius: 1.2rem;
-        margin: 0;
-        padding: .999rem 0;
-      }
-
-      header picture img{
-        width: 50%;
-        height: auto;
-        border-radius: 1.2rem;
-        padding-top: 2.4rem;
-        padding-bottom: 2.4rem;
-    }
-
-    header h1{
-        font-family: "Kalnia", serif;
-        font-weight: 600;
-        margin: 0 auto;
-        padding-top: 1.2rem;
-        padding-left: .999rem;
-        padding-right: .999rem;
-        text-align: center;
-        text-justify: auto;
-    }
-
-
-    header h3{
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-        margin: 0 auto;
-        padding-top: .999rem;
-        padding-left: .999rem;
-        padding-right: .999rem;
-        text-align: center;
-        text-justify: auto;
-        font-size: var(--h3);
-    }
-
-    header h2{
-        font-family: "Kalnia", serif;
-        font-weight: 600;
-        margin: 0 auto;
-        padding-top: .666rem;
-        padding-left: .999rem;
-        padding-right: .999rem;
-        text-align: center;
-        text-justify: auto;
-        font-size: var(--h2);
-    }
-
-
-
-
-.product-container--slider{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1024px,2fr));
-    width: 100%;
-    height: auto;
-    min-width: 320px;
-    margin: 0 auto;
-}
-
-.product-container--card{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: auto;
-    border-radius: 2rem;
-    padding: 1rem;
-}
-
-.product-container--card img{
-    border-radius: 1.2rem;
-  }
 
 /* secciones separadas y con colores */
 
@@ -167,12 +26,16 @@ nav a{
     }
 
     .about--card{
+        display: flex;
+        flex-direction: column;
         width: 50%;
         height: auto;
         margin-top: 2.4rem;
         margin-bottom: 2.4rem;
-        text-align:left;
         padding: 4.8rem;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
         }
 
     .services--section{
@@ -242,4 +105,5 @@ nav a{
     padding-bottom: 2.4rem;
     background-color: var(--footer--section--light);
     }
+
   }

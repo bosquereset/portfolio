@@ -70,35 +70,6 @@ html,body{
     background-color: var(--background--light);
 }
 
-/* cheems coding */
-.cheemscoding{
-    width:100%;
-    height: auto;
-    max-width: 576px;
-    min-width: 320px;
-}
-
-ul{
-    list-style-type: none;
-    text-align: left;
-}
-
-li{
-    list-style-type: none;
-    padding-top: .111rem;
-    padding-bottom: .111rem;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0 auto;
-    background-color: transparent;
-    text-align: left;
-}
-
-ul li p{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
 
 button{
     border: none;
@@ -191,8 +162,9 @@ hr{
 main{
 display: flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
 }
-
 
 
 /* cabecera */
@@ -203,8 +175,8 @@ header{
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding-top: 6.4rem;
-    padding-bottom: 6.4rem;
+    padding-top: 8rem;
+    padding-bottom: 7.2rem;
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
@@ -214,6 +186,8 @@ header{
 }
 
 header picture img{
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
     max-width:360px;
     opacity: 1;
 }
@@ -264,10 +238,6 @@ header p{
     text-align: center;
 }
 
-
-
-
-
 /* secciones y articulos */
 
 section{
@@ -279,10 +249,7 @@ section{
     margin: 0 auto;
 }
 
-
 /* secciones separadas y con colores */
-
-
 
 .nav--navbar{
 background-color: var(--nav--navbar--light);
@@ -309,6 +276,8 @@ height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 background-color: var(--section--about--light);
+text-align: center;
+border-radius: 16dp;
 }
 
 .about--card{
@@ -316,11 +285,13 @@ width: 100%;
 height: auto;
 margin-top: 2.4rem;
 margin-bottom: 2.4rem;
-text-align:left;
 padding: 2.4rem;
+border-radius: 16dp;
 }
 
-
+.about--me{
+    text-align: left;
+}
 
 .services--section{
 width: 100%;
@@ -335,7 +306,8 @@ background-color: var(--section--services--light);
     height: auto;
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
-    text-align: left;
+    text-align: center;
+    border-radius: 16dp;
 }
 
 .projects--section{
@@ -353,6 +325,7 @@ background-color: var(--section--projects--light);
     margin-bottom: 2.4rem;
     text-align: left;
     padding: 2.4rem;
+    border-radius: 16dp;
 }
 
 
@@ -369,6 +342,7 @@ background-color: var(--section--art--light);
     height: auto;
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
+    border-radius: 16dp;
 }
 
 .livecoding--img{
@@ -379,6 +353,7 @@ background-color: var(--section--art--light);
     margin: 0 auto;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
+    border-radius: 16dp;
 }
 
 .section--videoart{
@@ -392,6 +367,7 @@ background-color: var(--section--videoart--light);
     height: auto;
     margin: 0 auto;
     padding: 4.8rem;
+    border-radius: 16dp;
 }
 
 
@@ -404,12 +380,14 @@ padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 background-color: var(--section--contact--light);
 text-align: center;
+border-radius: 16dp;
 }
 
 
 .contact--card{
     display: flex;
     flex-direction: column;
+    border-radius: 16dp;
 }
 
 .contact--card p{
@@ -430,8 +408,6 @@ background-color: var(--footer--section--light);
 
 
 
-
-
 article{
     display: flex;
     flex-direction: column;
@@ -441,16 +417,13 @@ article{
     justify-content: center;
     padding-top: 3.6rem;
     padding-bottom: 4.8rem;
-    border-radius: 1.2rem;
+    border-radius: 16dp;
     border: .001rem solid var(--component);
-    margin-top:2.4rem;
-    margin-bottom:2.4rem;
 }
 
 
-
 article a{
-    width: 80%;
+    width: 90%;
     max-width: 640px;
     height: auto;
     margin-top: .666rem;
@@ -511,37 +484,8 @@ article p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-justify: auto;
     padding: .999rem;
 }
-
-article ul li{
-    width: 100%;
-    height: auto;
-    font-family: "Open Sans", sans-serif;
-    font-size: var(--p);
-    font-weight: 500;
-}
-
-article ul li h2{
-    width: 100%;
-    height: auto;
-    font-family: "Kalnia", serif;
-    font-size: var(--h2);
-    font-weight: 500;
-}
-
-article ul li p{
-    width: 100%;
-    height: auto;
-    font-family: "Open Sans", sans-serif;
-    font-size: var(--p);
-    font-weight: 500;
-    padding: 1.2rem;
-    margin: 0 auto;
-}
-
-
 
 
 /* sliders! */

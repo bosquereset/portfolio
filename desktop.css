@@ -58,6 +58,13 @@
             background-color: var(--component-light);
             }
 
+            .about--me--card p{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                height: auto;
+            }
+
             .services--card{
                 width: 50%;
                 height: auto;
@@ -77,6 +84,14 @@
                 justify-content: center;
             }
 
+            .services--card p{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                height: auto;
+                margin: 0 auto;
+            }
+
             .projects--card{
                 display:flex;
                 flex-direction: column;
@@ -90,7 +105,6 @@
                 justify-content: center;
                 background-color: var(--component-light);
             }
-
 
             .section--art{
                 display: flex;
@@ -107,14 +121,10 @@
             .art--card{
                 display: flex;
                 flex-direction: column;
-                width: 60%;
+                width: 100%;
                 height: auto;
-                margin: 1.2rem auto;
-                padding: 1.2rem;
-                border-radius: 1.2rem;
                 align-items: center;
                 justify-content: center;
-                background-color: var(--component-light);
             }
 
 
@@ -135,7 +145,7 @@
             .livecoding--card img{
                 display: flex;
                 flex-direction: column;
-                width: 80%;
+                width: 100%;
                 height: auto;
                 margin: 0 auto;
                 border-radius: 2.4rem;
@@ -156,51 +166,6 @@
 
 
 
-/* sliders! */
-
-.main-slider-container {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-    background-color: transparent;
-  }
-  
-  .product-container--slider{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
-    overscroll-behavior-x: contain;
-    scroll-snap-type:y proximity;
-    margin: 0 auto;
-    background-color: transparent;
-  }
-  
-  .product-container--card{
-    position: relative;
-    scroll-snap-align: center;
-    margin:0 auto;
-    padding: 0;
-    border-radius: 1.2rem;
-    background-color: transparent;
-    /* Para que la tarjeta no crezca mas de 768px */
-  }
-  
-  .product-container--card a{
-    background-color: var(--button--light);
-    color: var(--button--dark);
-  }
-
-  .product-container--card img{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background-color: transparent;
-    border-radius: 1.2rem;
-  }
 
 
   }

@@ -857,6 +857,8 @@ background-color: var(--component-light);
     background-color: transparent;
   }
 
+
+
 .livecoding--slider{
     display: flex;
     flex-direction: row;
@@ -866,6 +868,52 @@ background-color: var(--component-light);
     margin: 0 auto;
     background-color: transparent;
   }
+
+
+/* slider */
+
+.slider--container{
+    width: 95%;
+    height: auto;
+    padding: 1.2rem;
+    border-radius:1.2rem;
+    background-color: var(--component-light);
+    }
+    
+    .lc--slide{
+        position: relative;
+        scroll-snap-align: center;
+        width: 100%;
+        height: auto;
+        min-width: 320px;
+        max-width: 1024px;
+        margin:0 auto;
+        border-radius: 1.2rem;
+        background-color: transparent;
+        /* Para que la tarjeta no crezca mas de 768px */
+      }
+    
+      .lc--slide a{
+        width: 95%;
+        height: auto;
+        background-color: var(--button--light);
+        color: var(--button--dark);
+        padding: 1rem;
+        border-radius: 1.2rem;
+      }
+    
+      .lc--slide img{
+        width: 100%;
+        height: auto;
+        margin: 1.2rem auto;
+        border-radius: 1.2rem;
+        padding: .111rem;
+        background-color: transparent;
+      }
+    
+
+
+
 
   .bivio--slider {
     display: flex;
@@ -877,6 +925,39 @@ background-color: var(--component-light);
     background-color: transparent;
   }
   
+  .bivio--slide{
+    position: relative;
+    scroll-snap-align: center;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    max-width: 1024px;
+    margin:0 auto;
+    border-radius: 1.2rem;
+    background-color: transparent;
+    /* Para que la tarjeta no crezca mas de 768px */
+  }
+
+  .bivio--slide a{
+    width: 95%;
+    height: auto;
+    background-color: var(--button--light);
+    color: var(--button--dark);
+    padding: 1rem;
+    border-radius: 1.2rem;
+  }
+
+  .bivio--slide img{
+    width: 90%;
+    height: auto;
+    margin: 1.2rem auto;
+    border-radius: 1.2rem;
+    padding: .333rem;
+    background-color: transparent;
+  }
+
+
+
   .videoarte--slider{
     width: 95%;
     height: auto;
@@ -892,5 +973,35 @@ background-color: var(--component-light);
   }
   
  
+  .videoarte--slide{
+    position: relative;
+    scroll-snap-align: center;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    max-width: 1024px;
+    margin:0 auto;
+    border-radius: 1.2rem;
+    background-color: transparent;
+    /* Para que la tarjeta no crezca mas de 768px */
+  }
+
+  .videoarte--slide a{
+    width: 95%;
+    height: auto;
+    background-color: var(--button--light);
+    color: var(--button--dark);
+    padding: 1rem;
+    border-radius: 1.2rem;
+  }
+
+  .videoarte--slide img{
+    width: 100%;
+    height: auto;
+    margin: 1.2rem auto;
+    border-radius: 1.2rem;
+    padding: .111rem;
+    background-color: transparent;
+  }
 
 

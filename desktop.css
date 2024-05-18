@@ -143,7 +143,7 @@
             .livecoding--card img{
                 display: flex;
                 flex-direction: column;
-                width: 80%;
+                width: 100%;
                 height: auto;
                 margin: 0 auto;
             }
@@ -171,17 +171,7 @@
     padding: 1.2rem;
     }
 
-.livecoding--slider {
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    overscroll-behavior-x: contain;
-    scroll-snap-type:y proximity;
-    margin: 0 auto;
-    background-color: transparent;
-  }
+
 
   .bivio--slider {
     display: flex;
@@ -278,7 +268,71 @@ border-radius: 2.4rem;
     background-color: transparent;
   }
   
-  .slider--card{
+
+  /* slider */
+
+.slider--container{
+    width: 100%;
+    height: auto;
+    padding: 1.2rem;
+    border-radius:1.2rem;
+    background-color: var(--component-light);
+    }
+
+    .livecoding--slider {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        overscroll-behavior-x: contain;
+        scroll-snap-type:y proximity;
+        margin: 0 auto;
+        background-color: transparent;
+      }
+    
+    .lc--slide{
+        position: relative;
+        scroll-snap-align: center;
+        width: 100%;
+        height: auto;
+        min-width: 320px;
+        max-width: 1024px;
+        margin:0 auto;
+        border-radius: 1.2rem;
+        background-color: transparent;
+        /* Para que la tarjeta no crezca mas de 768px */
+      }
+    
+      .lc--slide a{
+        width: 95%;
+        height: auto;
+        background-color: var(--button--light);
+        color: var(--button--dark);
+        padding: 1rem;
+        border-radius: 1.2rem;
+      }
+    
+      .lc--slide img{
+        width: 100%;
+        height: auto;
+        margin: 1.2rem auto;
+        border-radius: 1.2rem;
+        padding: .111rem;
+        background-color: transparent;
+      }
+    
+  .bivio--slider {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:y proximity;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  
+  .bivio--slide{
     position: relative;
     scroll-snap-align: center;
     width: 100%;
@@ -291,24 +345,74 @@ border-radius: 2.4rem;
     /* Para que la tarjeta no crezca mas de 768px */
   }
 
-  .slider--card a{
-    width: 55%;
+  .bivio--slide a{
+    width: 95%;
     height: auto;
     background-color: var(--button--light);
     color: var(--button--dark);
     padding: 1rem;
-    margin: 0 auto;
     border-radius: 1.2rem;
   }
 
-  .slider--card img{
+  .bivio--slide img{
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 1.2rem auto;
     border-radius: 1.2rem;
     padding: .333rem;
+    background-color: transparent;
   }
 
+
+
+  .videoarte--slider{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:y proximity;
+    margin: 0 auto;
+    background-color: transparent;
+    margin: 1.2rem auto;
+    border-radius: 1.2rem;
+  }
+  
+ 
+  .videoarte--slide{
+    position: relative;
+    scroll-snap-align: center;
+    width: 80%;
+    height: auto;
+    min-width: 320px;
+    max-width: 1024px;
+    margin:0 auto;
+    border-radius: 1.2rem;
+    background-color: transparent;
+    /* Para que la tarjeta no crezca mas de 768px */
+  }
+
+  .videoarte--slide a{
+    width: 50%;
+    height: auto;
+    background-color: var(--button--light);
+    color: var(--button--dark);
+    padding: 1rem;
+    border-radius: 1.2rem;
+    margin: 0 auto;
+  }
+
+  .videoarte--slide img{
+    width: 50%;
+    height: auto;
+    margin: 1.2rem auto;
+    border-radius: 1.2rem;
+    padding: .111rem;
+    background-color: transparent;
+  }
+
+  
 
 
 

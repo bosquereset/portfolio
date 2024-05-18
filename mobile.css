@@ -28,7 +28,7 @@
         --section--services--light: #d946ef;
         --section--projects--light: #e879f9;
         --section--art--light: #d946ef;
-        --section--livecoding--light: #d946ef;
+        --section--livecoding--light: #fae8ff;
         --section--videoart--light: #e879f9;
         --section--contact--light: #d946ef;
         --footer--section--light: #e879f9;
@@ -68,7 +68,7 @@ html,body{
     scroll-behavior: smooth;
     overflow-x: hidden;
     transition: background 0.1s linear;
-    background-color: var(--background--light);
+    background-color: #e879f9;
 }
 
 ul{
@@ -546,7 +546,6 @@ width: 100%;
 height: auto;
 padding-top: 2.4rem;
 padding-bottom: 2.4rem;
-background-color: var(--section--art--light);
 align-items: center;
 justify-content: center;
 }
@@ -624,11 +623,13 @@ justify-content: center;
         flex-direction: column;
         width: 100%;
         height: auto;
+        margin: 1.2rem auto;
         padding-top: 2.4rem;
         padding-bottom: 2.4rem;
         background-color: var(--section--livecoding--light);
         align-items: center;
         justify-content: center;
+        border-radius: 1.2rem;
         }
         
         .livecoding--card{
@@ -689,6 +690,8 @@ justify-content: center;
 }
 
 
+
+
 .section--videoart{
     display: flex;
     flex-direction: column;
@@ -699,6 +702,8 @@ justify-content: center;
     background-color: var(--section--livecoding--light);
     align-items: center;
     justify-content: center;
+    margin: 1.2rem auto;
+    border-radius: 1.2rem;
 }
 
 .videoart--card{
@@ -747,7 +752,6 @@ justify-content: center;
     justify-content: center;
     border-radius: 1.2rem;
 }
-
 
 .videoart--card img{
 display: flex;
@@ -839,24 +843,17 @@ border-radius: 2.4rem;
     padding:.666rem;
   }
 
+/* slider */
 
+.slider--container{
+width: 100%;
+height: auto;
+padding: 1.2rem;
+}
 
-/* sliders! */
-
-.main-slider-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background-color: transparent;
-  }
-  
-  .product-container--slider {
+.livecoding--slider{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type:y proximity;
@@ -864,7 +861,46 @@ border-radius: 2.4rem;
     background-color: transparent;
   }
   
-  .product-container--card{
+  .livecoding--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 95%;
+    height: auto;
+    min-width: 320px;
+    max-width: 768px;
+    margin:0 auto;
+    border-radius: 1.2rem;
+    background-color: transparent;
+    /* Para que la tarjeta no crezca mas de 768px */
+  }
+
+
+  .livecoding--card a{
+    background-color: var(--button--light);
+    color: var(--button--dark);
+    padding:.333rem;
+  }
+
+  .livecoding--card img{
+    width: 100%;
+    max-width:1024px;
+    max-height: 1024px;
+    height: auto;
+    margin: 1.2rem auto;
+    padding:.333rem;
+  }
+
+  .bivio--slider {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:y proximity;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  
+  .bivio--card{
     position: relative;
     scroll-snap-align: center;
     width: 100%;
@@ -876,21 +912,62 @@ border-radius: 2.4rem;
     background-color: transparent;
     /* Para que la tarjeta no crezca mas de 768px */
   }
-  
-  .product-container--card a{
+
+  .bivio--card a{
     background-color: var(--button--light);
     color: var(--button--dark);
   }
 
-  .product-container--card img{
+  .bivio--card img{
     width: 100%;
-    max-width:1920px;
-    max-height: 576px;
+    max-width:1024px;
+    max-height: 1024px;
     height: auto;
     margin: 0 auto;
-    background-color: transparent;
   }
 
 
+  .videoarte--slider{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:y proximity;
+    margin: 0 auto;
+    background-color: transparent;
+    margin: 1.2rem auto;
+    border-radius: 1.2rem;
+  }
   
+  .slider--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    max-width: 1024px;
+    margin:0 auto;
+    border-radius: 1.2rem;
+    background-color: transparent;
+    /* Para que la tarjeta no crezca mas de 768px */
+  }
+
+  .slider--card a{
+    width: 95%;
+    height: auto;
+    background-color: var(--button--light);
+    color: var(--button--dark);
+    padding: 1rem;
+    border-radius: 1.2rem;
+  }
+
+  .slider--card img{
+    width: 100%;
+    height: auto;
+    margin: 1.2rem auto;
+    border-radius: 1.2rem;
+  }
+
 

@@ -284,7 +284,6 @@ padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 background-color: var(--section--about--light);
 text-align: center;
-border-radius: 1.2rem;
 }
 
 .about--card{
@@ -479,7 +478,8 @@ background-color: var(--section--projects--light);
     height: auto;
     margin: 4.8rem auto;
     text-align: left;
-    padding: 2.4rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     border-radius: 1.2rem;
     align-items: center;
     justify-content: center;
@@ -556,7 +556,8 @@ justify-content: center;
     width: 95%;
     height: auto;
     margin: 4.8rem auto;
-    padding: 1.2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     border-radius: 1.2rem;
     align-items: center;
     justify-content: center;
@@ -607,7 +608,7 @@ justify-content: center;
         border-radius: 1.2rem;
     }
 
-    .art--card picture img{
+    .art--card img{
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -615,6 +616,7 @@ justify-content: center;
         align-items: center;
         justify-content: center;
         border-radius: 1.2rem;
+
     }
 
 
@@ -624,8 +626,8 @@ justify-content: center;
         width: 100%;
         height: auto;
         margin: 1.2rem auto;
-        padding-top: 2.4rem;
-        padding-bottom: 2.4rem;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
         background-color: var(--section--livecoding--light);
         align-items: center;
         justify-content: center;
@@ -637,13 +639,13 @@ justify-content: center;
             flex-direction: column;
             width: 95%;
             height: auto;
-            margin: 4.8rem auto;
-            padding-top: 1.2rem;
-            padding-bottom: 2.4rem;
+            margin: 1.2rem auto;
             border-radius: 1.2rem;
             align-items: center;
             justify-content: center;
             background-color: var(--component-light);
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
         }
 
         .livecoding--card h3{
@@ -661,7 +663,8 @@ justify-content: center;
             font-family: "Open Sans", sans-serif;
             font-weight: 400;
             font-size: var(--p);
-            padding: 1.2rem;
+            padding-top: .999rem;
+            padding-bottom: .999rem;
             text-align: left;
         }
 
@@ -670,8 +673,8 @@ justify-content: center;
             flex-direction: column;
             width: 90%;
             height: auto;
-            margin-top: .333rem;
-            margin-bottom: .333rem;
+            padding-top: .999rem;
+            padding-bottom: .999rem;
             align-items: center;
             justify-content: center;
             border-radius: 1.2rem;
@@ -684,21 +687,18 @@ justify-content: center;
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     border-radius: 2.4rem;
 }
-
-
-
 
 .section--videoart{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     background-color: var(--section--livecoding--light);
     align-items: center;
     justify-content: center;
@@ -711,9 +711,9 @@ justify-content: center;
     flex-direction: column;
     width: 95%;
     height: auto;
-    margin: 4.8rem auto;
+    margin: 2.4rem auto;
     padding-top: 1.2rem;
-    padding-bottom: 2.4rem;
+    padding-bottom: 1.2rem;
     border-radius: 1.2rem;
     align-items: center;
     justify-content: center;
@@ -737,7 +737,7 @@ justify-content: center;
     font-weight: 400;
     font-size: var(--p);
     padding-top: .333rem;
-    padding-bottom: 2.4rem;
+    padding-bottom: .333rem;
     text-align: left;
 }
 
@@ -759,8 +759,8 @@ flex-direction: column;
 width: 100%;
 height: auto;
 margin: 0 auto;
-padding-top: 4rem;
-padding-bottom: 4rem;
+padding-top: 1.2rem;
+padding-bottom: 1.2rem;
 border-radius: 2.4rem;
 }
 
@@ -846,102 +846,14 @@ border-radius: 2.4rem;
 /* slider */
 
 .slider--container{
-width: 100%;
+width: 95%;
 height: auto;
 padding: 1.2rem;
+border-radius:1.2rem;
+background-color: var(--component-light);
 }
 
-.livecoding--slider{
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type:y proximity;
-    margin: 0 auto;
-    background-color: transparent;
-  }
-  
-  .livecoding--card{
-    position: relative;
-    scroll-snap-align: center;
-    width: 95%;
-    height: auto;
-    min-width: 320px;
-    max-width: 768px;
-    margin:0 auto;
-    border-radius: 1.2rem;
-    background-color: transparent;
-    /* Para que la tarjeta no crezca mas de 768px */
-  }
-
-
-  .livecoding--card a{
-    background-color: var(--button--light);
-    color: var(--button--dark);
-    padding:.333rem;
-  }
-
-  .livecoding--card img{
-    width: 100%;
-    max-width:1024px;
-    max-height: 1024px;
-    height: auto;
-    margin: 1.2rem auto;
-    padding:.333rem;
-  }
-
-  .bivio--slider {
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type:y proximity;
-    margin: 0 auto;
-    background-color: transparent;
-  }
-  
-  .bivio--card{
-    position: relative;
-    scroll-snap-align: center;
-    width: 100%;
-    height: auto;
-    min-width: 320px;
-    max-width: 768px;
-    margin:0 auto;
-    border-radius: 1.2rem;
-    background-color: transparent;
-    /* Para que la tarjeta no crezca mas de 768px */
-  }
-
-  .bivio--card a{
-    background-color: var(--button--light);
-    color: var(--button--dark);
-  }
-
-  .bivio--card img{
-    width: 100%;
-    max-width:1024px;
-    max-height: 1024px;
-    height: auto;
-    margin: 0 auto;
-  }
-
-
-  .videoarte--slider{
-    width: 95%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type:y proximity;
-    margin: 0 auto;
-    background-color: transparent;
-    margin: 1.2rem auto;
-    border-radius: 1.2rem;
-  }
-  
-  .slider--card{
+.slider--card{
     position: relative;
     scroll-snap-align: center;
     width: 100%;
@@ -968,6 +880,43 @@ padding: 1.2rem;
     height: auto;
     margin: 1.2rem auto;
     border-radius: 1.2rem;
+    padding: .111rem;
   }
+
+.livecoding--slider{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:y proximity;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+
+  .bivio--slider {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:y proximity;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  
+  .videoarte--slider{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:y proximity;
+    margin: 0 auto;
+    background-color: transparent;
+    margin: 1.2rem auto;
+    border-radius: 1.2rem;
+  }
+  
+ 
 
 

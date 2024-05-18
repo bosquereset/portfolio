@@ -39,6 +39,11 @@ body.dark article{
 }
 
 
+
+body.dark .slider--container{
+    background-color: var(--component);
+    }
+
 /* secciones separadas y con colores */
 
 body.dark .nav--navbar{
@@ -87,7 +92,7 @@ body.dark .section--art{
     }
 
     body.dark .section--livecoding{
-    background-color: var(--section--livecoding);
+    background-color: transparent;
     color: var(--light-text);
     }
 

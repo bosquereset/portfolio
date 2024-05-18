@@ -71,6 +71,9 @@ html,body{
     background-color: var(--background--light);
 }
 
+ul{
+    list-style: none;
+}
 
 img{
     display: flex;
@@ -281,7 +284,7 @@ padding-top: 2.4rem;
 padding-bottom: 2.4rem;
 background-color: var(--section--about--light);
 text-align: center;
-border-radius: 16dp;
+border-radius: 1.2rem;
 }
 
 .about--card{
@@ -343,7 +346,7 @@ background-color: var(--component-light);
             font-size: var(--p);
             padding-top: 1.2rem;
             padding-bottom: 1.2rem;
-            text-align: text;
+            text-align: left;
             display: flex;
             flex-direction: column;
             width: 80%;
@@ -871,7 +874,6 @@ border-radius: 2.4rem;
     min-width: 320px;
     max-width: 768px;
     margin:0 auto;
-    padding: 0;
     border-radius: 1.2rem;
     background-color: transparent;
     /* Para que la tarjeta no crezca mas de 768px */
@@ -887,8 +889,7 @@ border-radius: 2.4rem;
     max-width:1920px;
     max-height: 576px;
     height: auto;
-    border-radius: 1.2rem;
-    margin: 0;
+    margin: 0 auto;
     background-color: transparent;
   }
 

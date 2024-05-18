@@ -121,13 +121,11 @@
             .art--card{
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: 50%;
                 height: auto;
                 align-items: center;
                 justify-content: center;
             }
-
-
 
             .livecoding--card{
                 display: flex;
@@ -145,7 +143,7 @@
             .livecoding--card img{
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: 70%;
                 height: auto;
                 margin: 0 auto;
                 border-radius: 2.4rem;
@@ -162,8 +160,59 @@
                 background-color: var(--component-light);
                 align-items: center;
                 justify-content: center;
+                border-radius: 1.2rem;
             }
 
+
+
+
+/* sliders! */
+
+.main-slider-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  
+  .product-container--slider {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:y proximity;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  
+  .product-container--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    max-width: 768px;
+    margin:0 auto;
+    padding: 0;
+    border-radius: 1.2rem;
+    background-color: transparent;
+    /* Para que la tarjeta no crezca mas de 768px */
+  }
+  
+  .product-container--card a{
+    background-color: var(--button--light);
+    color: var(--button--dark);
+  }
+
+  .product-container--card img{
+    width: 100%;
+    height: auto;
+    border-radius: 1.2rem;
+    margin: 0 auto;
+    background-color: transparent;
+  }
 
 
 

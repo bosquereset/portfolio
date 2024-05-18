@@ -657,7 +657,7 @@ justify-content: center;
 .livecoding--card img{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     padding-top: 1.2rem;

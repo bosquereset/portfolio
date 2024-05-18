@@ -650,8 +650,7 @@ justify-content: center;
             font-weight: 500;
             font-size: var(--h3);
             color: var(--title);
-            padding-top: 1.2rem;
-            padding-bottom: 2.4rem;
+            padding: 1.2rem;
             text-align: center;
         }
         
@@ -661,8 +660,7 @@ justify-content: center;
             font-family: "Open Sans", sans-serif;
             font-weight: 400;
             font-size: var(--p);
-            padding-top: .333rem;
-            padding-bottom: 2.4rem;
+            padding: 1.2rem;
             text-align: left;
         }
 

@@ -239,15 +239,15 @@ margin-top:3.6rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: var(--p);
-    padding: 1.2rem;
+    padding: .111rem;
 }
 
 
 .links--section{
 width: 100%;
 height: auto;
-padding-top: 4.8rem;
-padding-bottom: 4.8rem;
+padding-top: 1.2rem;
+padding-bottom: 1.2rem;
 background-color: var(--component-light);
 }
 
@@ -256,9 +256,9 @@ background-color: var(--component-light);
     flex-direction: column;
     width: 95%;
     height: auto;
-    margin: 4.8rem auto;
-    padding-top: 4.8rem;
-    padding-bottom: 4.8rem;
+    margin: 1.2rem auto;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     align-items: center;
     justify-content: center;
     background-color: var(--component-light);
@@ -291,7 +291,7 @@ display: flex;
 flex-direction: column;
 width: 95%;
 height: auto;
-margin: 4.8rem auto;
+margin: 2.4rem auto;
 padding-top: 4.8rem;
 padding-bottom: 4.8rem;
 padding-left: 1.2rem;
@@ -308,7 +308,7 @@ background-color: var(--component-light);
     flex-direction: column;
     width: 95%;
     height: auto;
-    margin: 4.8rem auto;
+    margin: 2.4rem auto;
     padding-top: 4.8rem;
     padding-bottom: 4.8rem;
     padding-left: 1.2rem;
@@ -319,16 +319,6 @@ background-color: var(--component-light);
     background-color: var(--component-light);
     }
 
-    .about--me--card h2{
-        font-family: "Kalnia", serif;
-        font-weight: 500;
-        font-size: var(--h2);
-        color: var(--title);
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
-        text-align: center;
-        }
-        
         .about--me--card h3{
             font-family: "Kalnia", serif;
             font-weight: 500;
@@ -348,7 +338,7 @@ background-color: var(--component-light);
             text-align: left;
             display: flex;
             flex-direction: column;
-            width: 80%;
+            width: 90%;
             height: auto;
         }
         
@@ -409,7 +399,7 @@ background-color: var(--section--services--light);
     flex-direction: column;
     width: 95%;
     height: auto;
-    margin: 4.8rem auto;
+    margin: 2.4rem auto;
     text-align: center;
     border-radius: 1.2rem;
     padding:2.4rem;
@@ -444,6 +434,7 @@ background-color: var(--section--services--light);
         padding-top: 1.2rem;
         padding-bottom: 1.2rem;
         text-align: center;
+        
     }
 
     .services--card img{
@@ -455,11 +446,6 @@ background-color: var(--section--services--light);
         align-items: center;
         justify-content: center;
     }
-    
-
-
-
-
 
 .projects--section{
 display:flex;
@@ -476,10 +462,9 @@ background-color: var(--section--projects--light);
     flex-direction: column;
     width: 95%;
     height: auto;
-    margin: 4.8rem auto;
+    margin: 2.4rem auto;
     text-align: left;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding: 1.2rem;
     border-radius: 1.2rem;
     align-items: center;
     justify-content: center;
@@ -514,7 +499,7 @@ background-color: var(--section--projects--light);
         font-size: var(--p);
         padding-top: 1.2rem;
         padding-bottom: 1.2rem;
-        text-align: center;
+        text-align: left;
     }
 
     .projects--card a{
@@ -555,26 +540,14 @@ justify-content: center;
     flex-direction: column;
     width: 95%;
     height: auto;
-    margin: 4.8rem auto;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    margin: 2.4rem auto;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
     border-radius: 1.2rem;
     align-items: center;
     justify-content: center;
     background-color: var(--component-light);
-}
-
-.art--card h2{
-    font-family: "Kalnia", serif;
-    font-weight: 500;
-    font-size: var(--h2);
-    color: var(--title);
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-    text-align: center;
-    margin:0 auto;
-    }
-    
+}   
     .art--card h3{
         font-family: "Kalnia", serif;
         font-weight: 500;
@@ -616,7 +589,7 @@ justify-content: center;
         align-items: center;
         justify-content: center;
         border-radius: 1.2rem;
-
+        padding: .999rem;
     }
 
 
@@ -639,7 +612,7 @@ justify-content: center;
             flex-direction: column;
             width: 95%;
             height: auto;
-            margin: 1.2rem auto;
+            margin: 2.4rem auto;
             border-radius: 1.2rem;
             align-items: center;
             justify-content: center;
@@ -881,6 +854,7 @@ background-color: var(--component-light);
     margin: 1.2rem auto;
     border-radius: 1.2rem;
     padding: .111rem;
+    background-color: transparent;
   }
 
 .livecoding--slider{

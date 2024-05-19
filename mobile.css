@@ -52,6 +52,7 @@
     --h2:2.3561rem;
     --h3:1.4562rem;
     --p:.9rem;
+    --rounded: 2.4rem;
     }
 
 *{
@@ -82,7 +83,7 @@ img{
     height: auto;
     align-items: center;
     justify-content: center;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
 }
 
 
@@ -231,7 +232,7 @@ margin-top:3.6rem;
     font-family: "Kalnia", serif;
     font-weight: 600;
     font-size: var(--h1);
-    padding: 1.2rem;
+    padding: .111rem;
     color: var(--title);
 }
 
@@ -256,12 +257,13 @@ background-color: var(--component-light);
     flex-direction: column;
     width: 95%;
     height: auto;
-    margin: 1.2rem auto;
+    margin: 3rem auto;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     align-items: center;
     justify-content: center;
     background-color: var(--component-light);
+    border-radius: var(--rounded);
 }
 
 .links--card a{
@@ -296,7 +298,7 @@ padding-top: 4.8rem;
 padding-bottom: 4.8rem;
 padding-left: 1.2rem;
 padding-right: 1.2rem;
-border-radius: 1.2rem;
+border-radius: var(--rounded);
 text-align: left;
 justify-content: center;
 align-items: center;
@@ -313,7 +315,7 @@ background-color: var(--component-light);
     padding-bottom: 4.8rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     justify-content: center;
     align-items: center;
     background-color: var(--component-light);
@@ -401,7 +403,7 @@ background-color: var(--section--services--light);
     height: auto;
     margin: 2.4rem auto;
     text-align: center;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     padding:2.4rem;
     background-color: var(--component-light);
 }
@@ -465,7 +467,7 @@ background-color: var(--section--projects--light);
     margin: 2.4rem auto;
     text-align: left;
     padding: 1.2rem;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     align-items: center;
     justify-content: center;
     background-color: var(--component-light);
@@ -520,7 +522,7 @@ background-color: var(--section--projects--light);
         height: auto;
         align-items: center;
         justify-content: center;
-        border-radius: 1.2rem;
+        border-radius: var(--rounded);
     }
 
 
@@ -543,7 +545,7 @@ justify-content: center;
     margin: 2.4rem auto;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     align-items: center;
     justify-content: center;
     background-color: var(--component-light);
@@ -578,7 +580,7 @@ justify-content: center;
         margin-bottom: .333rem;
         align-items: center;
         justify-content: center;
-        border-radius: 1.2rem;
+        border-radius: var(--rounded);
     }
 
     .art--card img{
@@ -588,7 +590,7 @@ justify-content: center;
         height: auto;
         align-items: center;
         justify-content: center;
-        border-radius: 1.2rem;
+        border-radius: var(--rounded);
         padding: .999rem;
     }
 
@@ -604,7 +606,7 @@ justify-content: center;
         background-color: var(--section--livecoding--light);
         align-items: center;
         justify-content: center;
-        border-radius: 1.2rem;
+        border-radius: var(--rounded);
         }
         
         .livecoding--card{
@@ -613,7 +615,7 @@ justify-content: center;
             width: 95%;
             height: auto;
             margin: 2.4rem auto;
-            border-radius: 1.2rem;
+            border-radius: var(--rounded);
             align-items: center;
             justify-content: center;
             background-color: var(--component-light);
@@ -650,7 +652,7 @@ justify-content: center;
             padding-bottom: .999rem;
             align-items: center;
             justify-content: center;
-            border-radius: 1.2rem;
+            border-radius: var(--rounded);
         }
 
 
@@ -662,7 +664,7 @@ justify-content: center;
     margin: 0 auto;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
-    border-radius: 2.4rem;
+    border-radius: var(--rounded);
 }
 
 .section--videoart{
@@ -676,7 +678,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     margin: 1.2rem auto;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
 }
 
 .videoart--card{
@@ -687,7 +689,7 @@ justify-content: center;
     margin: 2.4rem auto;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     align-items: center;
     justify-content: center;
     background-color: var(--component-light);
@@ -723,7 +725,7 @@ justify-content: center;
     margin-bottom: .333rem;
     align-items: center;
     justify-content: center;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
 }
 
 .videoart--card img{
@@ -734,7 +736,7 @@ height: auto;
 margin: 0 auto;
 padding-top: 1.2rem;
 padding-bottom: 1.2rem;
-border-radius: 2.4rem;
+border-radius: var(--rounded);
 }
 
 
@@ -777,7 +779,7 @@ border-radius: 2.4rem;
     margin: 1.2rem auto;
     align-items: center;
     justify-content: center;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
 }
 
 
@@ -822,7 +824,7 @@ border-radius: 2.4rem;
 width: 95%;
 height: auto;
 padding: 1.2rem;
-border-radius:1.2rem;
+border-radius: var(--rounded);
 background-color: var(--component-light);
 }
 
@@ -834,7 +836,7 @@ background-color: var(--component-light);
     min-width: 320px;
     max-width: 1024px;
     margin:0 auto;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     background-color: transparent;
     /* Para que la tarjeta no crezca mas de 768px */
   }
@@ -845,14 +847,14 @@ background-color: var(--component-light);
     background-color: var(--button--light);
     color: var(--button--dark);
     padding: 1rem;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
   }
 
   .slider--card img{
     width: 100%;
     height: auto;
     margin: 1.2rem auto;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     padding: .111rem;
     background-color: transparent;
   }
@@ -876,7 +878,7 @@ background-color: var(--component-light);
     width: 95%;
     height: auto;
     padding: 1.2rem;
-    border-radius:1.2rem;
+    border-radius: var(--rounded);
     background-color: var(--component-light);
     }
     
@@ -888,7 +890,7 @@ background-color: var(--component-light);
         min-width: 320px;
         max-width: 1024px;
         margin:0 auto;
-        border-radius: 1.2rem;
+        border-radius: var(--rounded);
         background-color: transparent;
         /* Para que la tarjeta no crezca mas de 768px */
       }
@@ -899,14 +901,14 @@ background-color: var(--component-light);
         background-color: var(--button--light);
         color: var(--button--dark);
         padding: 1rem;
-        border-radius: 1.2rem;
+        border-radius: var(--rounded);
       }
     
       .lc--slide img{
         width: 100%;
         height: auto;
         margin: 1.2rem auto;
-        border-radius: 1.2rem;
+        border-radius: var(--rounded);
         padding: .111rem;
         background-color: transparent;
       }
@@ -933,7 +935,7 @@ background-color: var(--component-light);
     min-width: 320px;
     max-width: 1024px;
     margin:0 auto;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     background-color: transparent;
     /* Para que la tarjeta no crezca mas de 768px */
   }
@@ -944,14 +946,14 @@ background-color: var(--component-light);
     background-color: var(--button--light);
     color: var(--button--dark);
     padding: 1rem;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
   }
 
   .bivio--slide img{
     width: 90%;
     height: auto;
     margin: 1.2rem auto;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     padding: .333rem;
     background-color: transparent;
   }
@@ -969,7 +971,7 @@ background-color: var(--component-light);
     margin: 0 auto;
     background-color: transparent;
     margin: 1.2rem auto;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
   }
   
  
@@ -981,7 +983,7 @@ background-color: var(--component-light);
     min-width: 320px;
     max-width: 1024px;
     margin:0 auto;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     background-color: transparent;
     /* Para que la tarjeta no crezca mas de 768px */
   }
@@ -992,14 +994,14 @@ background-color: var(--component-light);
     background-color: var(--button--light);
     color: var(--button--dark);
     padding: 1rem;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
   }
 
   .videoarte--slide img{
     width: 100%;
     height: auto;
     margin: 1.2rem auto;
-    border-radius: 1.2rem;
+    border-radius: var(--rounded);
     padding: .111rem;
     background-color: transparent;
   }

@@ -52,7 +52,7 @@
     --h2:2.3561rem;
     --h3:1.4562rem;
     --p:.9rem;
-    --rounded: 2.4rem;
+    --rounded: 2rem;
     }
 
 *{
@@ -862,6 +862,8 @@ background-color: var(--component-light);
 
 
 .livecoding--slider{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
@@ -869,6 +871,7 @@ background-color: var(--component-light);
     scroll-snap-type:y proximity;
     margin: 0 auto;
     background-color: transparent;
+    border-radius: var(--rounded);
   }
 
 
@@ -877,7 +880,6 @@ background-color: var(--component-light);
 .slider--container{
     width: 95%;
     height: auto;
-    padding: 1.2rem;
     border-radius: var(--rounded);
     background-color: var(--component-light);
     }
@@ -888,7 +890,6 @@ background-color: var(--component-light);
         width: 100%;
         height: auto;
         min-width: 320px;
-        max-width: 1024px;
         margin:0 auto;
         border-radius: var(--rounded);
         background-color: transparent;
@@ -907,10 +908,10 @@ background-color: var(--component-light);
       .lc--slide img{
         width: 100%;
         height: auto;
-        margin: 1.2rem auto;
+        margin: 1.6rem auto;
         border-radius: var(--rounded);
-        padding: .111rem;
         background-color: transparent;
+        padding: 0 .222rem;
       }
     
 
@@ -925,6 +926,7 @@ background-color: var(--component-light);
     scroll-snap-type:y proximity;
     margin: 0 auto;
     background-color: transparent;
+    padding: 0;
   }
   
   .bivio--slide{
@@ -933,7 +935,6 @@ background-color: var(--component-light);
     width: 100%;
     height: auto;
     min-width: 320px;
-    max-width: 1024px;
     margin:0 auto;
     border-radius: var(--rounded);
     background-color: transparent;
@@ -950,12 +951,12 @@ background-color: var(--component-light);
   }
 
   .bivio--slide img{
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 1.2rem auto;
     border-radius: var(--rounded);
-    padding: .333rem;
     background-color: transparent;
+    padding: 0 .222rem;
   }
 
 

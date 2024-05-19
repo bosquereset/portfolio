@@ -116,12 +116,14 @@
                 background-color: var(--section--art--light);
                 align-items: center;
                 justify-content: center;
+                margin: 2.4rem auto;
+                border-radius: 1.2rem;
             }
 
             .art--card{
                 display: flex;
                 flex-direction: column;
-                width: 50%;
+                width: 66%;
                 height: auto;
                 align-items: center;
                 justify-content: center;

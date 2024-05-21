@@ -123,7 +123,7 @@
             .art--card{
                 display: flex;
                 flex-direction: column;
-                width: 66%;
+                width: 50%;
                 height: auto;
                 align-items: center;
                 justify-content: center;
@@ -153,7 +153,7 @@
             .contact--card{
                 display: flex;
                 flex-direction: column;
-                width: 60%;
+                width: 50%;
                 height: auto;
                 margin: 1.2rem auto;
                 padding-top: 4.8rem;
@@ -396,7 +396,7 @@ border-radius: 2.4rem;
   }
 
   .videoarte--slide a{
-    width: 50%;
+    width: 60%;
     height: auto;
     background-color: var(--button--light);
     color: var(--button--dark);
@@ -406,7 +406,7 @@ border-radius: 2.4rem;
   }
 
   .videoarte--slide img{
-    width: 50%;
+    width: 75%;
     height: auto;
     margin: 1.2rem auto;
     border-radius: 1.2rem;

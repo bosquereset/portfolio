@@ -10,7 +10,6 @@
         border-radius: 1.2rem;
     }
 
-
     .links--card{
         display: flex;
         flex-direction: column;
@@ -39,7 +38,7 @@
         justify-content: center;
         align-items: center;
         background-color: var(--component-light);
-        }
+}
 
         .about--me--card{
             display: flex;
@@ -56,7 +55,7 @@
             justify-content: center;
             align-items: center;
             background-color: var(--component-light);
-            }
+}
 
             .about--me--card p{
                 display: flex;
@@ -379,6 +378,12 @@ border-radius: 2.4rem;
     background-color: transparent;
     margin: 1.2rem auto;
     border-radius: 1.2rem;
+  }
+
+  h2{
+    font-family: "Kalnia", serif;
+    font-weight: 500;
+    font-size: 2.4rem;
   }
   
  

@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wdth,wght@100..125,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 :root{
     --background--light:#fdf4ff;
@@ -37,9 +36,9 @@
     --nav--navbar:#4a044e;
     --header--section:#1c1917ee;
     --section--links: #1c1917ee;
-    --section--about: #e879f9;
+    --section--about: #866890;
     --section--services: #d946ef;
-    --section--projects: #c026d3;
+    --section--projects: #b78ec3;
     --section--art: #8e23a7;
     --section--livecoding: #701a75;
     --section--videoart: #86198f;
@@ -52,7 +51,7 @@
     --h2:2.3561rem;
     --h3:1.4562rem;
     --p:.9rem;
-    --rounded: 2rem;
+    --rounded: 2.4rem;
     }
 
 *{
@@ -229,7 +228,9 @@ margin-top:3.6rem;
 
 
 .header--section h1{
-    font-family: "Kalnia", serif;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-weight: 600;
     font-size: var(--h1);
     padding: .111rem;
@@ -237,8 +238,9 @@ margin-top:3.6rem;
 }
 
 .header--section p{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: var(--p);
     padding: .111rem;
 }
@@ -322,8 +324,9 @@ background-color: var(--component-light);
     }
 
         .about--me--card h3{
-            font-family: "Kalnia", serif;
-            font-weight: 500;
+            font-family: "Roboto Flex", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
             font-size: var(--h3);
             color: var(--title);
             padding-top: 1.2rem;
@@ -332,7 +335,9 @@ background-color: var(--component-light);
         }
         
         .about--me--card p{
-            font-family: "Open Sans", sans-serif;
+            font-family: "Roboto Flex", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
             font-weight: 400;
             font-size: var(--p);
             padding-top: 1.2rem;
@@ -347,8 +352,9 @@ background-color: var(--component-light);
 
 
 .about--card h2{
-font-family: "Kalnia", serif;
-font-weight: 500;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 font-size: var(--h2);
 color: var(--title);
 padding-top: 1.2rem;
@@ -357,8 +363,9 @@ text-align: center;
 }
 
 .about--card h3{
-    font-family: "Kalnia", serif;
-    font-weight: 500;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: var(--h3);
     color: var(--title);
     padding-top: 1.2rem;
@@ -367,8 +374,9 @@ text-align: center;
 }
 
 .about--card p{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: var(--p);
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
@@ -409,8 +417,9 @@ background-color: var(--section--services--light);
 }
 
 .services--card h2{
-    font-family: "Kalnia", serif;
-    font-weight: 500;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: var(--h2);
     color: var(--title);
     padding-top: 1.2rem;
@@ -420,8 +429,9 @@ background-color: var(--section--services--light);
     }
     
     .services--card h3{
-        font-family: "Kalnia", serif;
-        font-weight: 500;
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
         font-size: var(--h3);
         color: var(--title);
         padding-top: 1.2rem;
@@ -475,8 +485,10 @@ background-color: var(--section--projects--light);
 
 
 .projects--card h2{
-    font-family: "Kalnia", serif;
-    font-weight: 500;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
     font-size: var(--h2);
     color: var(--title);
     padding-top: 1.2rem;
@@ -486,8 +498,10 @@ background-color: var(--section--projects--light);
     }
     
     .projects--card h3{
-        font-family: "Kalnia", serif;
-        font-weight: 500;
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 800;
         font-size: var(--h3);
         color: var(--title);
         padding-top: 1.2rem;
@@ -496,7 +510,9 @@ background-color: var(--section--projects--light);
     }
     
     .projects--card p{
-        font-family: "Open Sans", sans-serif;
+        font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
         font-weight: 400;
         font-size: var(--p);
         padding-top: 1.2rem;
@@ -513,7 +529,7 @@ background-color: var(--section--projects--light);
         margin-bottom: .333rem;
         align-items: center;
         justify-content: center;
-        border-radius: 1.2rem;
+        border-radius: var(--rounded);
     }
     .projects--card picture img{
         display: flex;
@@ -551,7 +567,9 @@ justify-content: center;
     background-color: var(--component-light);
 }   
     .art--card h3{
-        font-family: "Kalnia", serif;
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
         font-weight: 500;
         font-size: var(--h3);
         color: var(--title);
@@ -563,8 +581,9 @@ justify-content: center;
     .art--card p{
         width: 90%;
         height: auto;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
         font-size: var(--p);
         padding-top: 2.4rem;
         padding-bottom: 2.4rem;
@@ -696,8 +715,9 @@ justify-content: center;
 }
 
 .videoart--card h3{
-    font-family: "Kalnia", serif;
-    font-weight: 500;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: var(--h3);
     color: var(--title);
     padding-top: 1.2rem;
@@ -708,8 +728,9 @@ justify-content: center;
 .videoart--card p{
     width: 90%;
     height: auto;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: var(--p);
     padding-top: .333rem;
     padding-bottom: .333rem;

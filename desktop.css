@@ -68,7 +68,7 @@
             .projects--card{
                 display:flex;
                 flex-direction: column;
-                width: 80%;
+                width: 44%;
                 height: auto;
                 margin: 1.2rem auto;
                 text-align: left;
@@ -96,7 +96,7 @@
             .art--card{
                 display: flex;
                 flex-direction: column;
-                width: 70%;
+                width: 50%;
                 height: auto;
                 align-items: center;
                 justify-content: center;

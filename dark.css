@@ -22,7 +22,7 @@ body.dark section{
 }
 
 body.dark header{
-    background-color: transparent;
+    background-color: var(--background--dark);
     color:var(--primary-text);
 }
 

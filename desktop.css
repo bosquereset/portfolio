@@ -1,14 +1,15 @@
   @media (min-width: 1024px){
 
     .header--section img{
-        width: 27%;
+        width: 30%;
         height:auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         border-radius: 1.2rem;
-        padding: 2rem;
+        margin: .333rem;
+        padding: .111rem;
     }
 
     .links--card{

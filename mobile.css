@@ -3,7 +3,7 @@
 
 :root{
     --background--light:#fdf4ff;
-    --background--dark:#1c1917ee;
+    --background--dark:#1c1917;
     --component: #1c1917ee;
     --component-light: #fae8ff;
 
@@ -219,7 +219,7 @@ margin-top:4rem;
     width: 100%;
     height:auto;
     display: flex;
-    max-width: 666px;
+    max-width: 999px;
     flex-direction: column;
     align-items: center;
     justify-content: center;

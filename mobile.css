@@ -13,7 +13,7 @@
 
       /* text-color */
     --title:#c026d3;
-    --title-reset:#dd2c18;
+    --title-reset:#f4caff;
     --subtitle: #d946ef;
     --title-light:#c026d3;
     --subtitle-light:#3b0764;
@@ -258,7 +258,7 @@ position: relative;
     font-style: normal;
     font-weight: 600;
     font-size: 3.2rem;
-    color: var(--title);
+    color: var(--title-reset);
     background-color: rgba(10,0,10,.999);
     margin: .333rem;
 }
@@ -557,9 +557,8 @@ background-color: var(--section--projects--light);
     .projects--card a{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 50%;
         height: auto;
-        margin:.999rem;
         align-items: center;
         justify-content: center;
         overflow: hidden;

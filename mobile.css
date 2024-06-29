@@ -13,6 +13,7 @@
 
       /* text-color */
     --title:#c026d3;
+    --title-reset:#dd2c18;
     --subtitle: #d946ef;
     --title-light:#c026d3;
     --subtitle-light:#3b0764;
@@ -228,7 +229,6 @@ position: relative;
     justify-content: center;
     border-radius: .666rem;
     padding:2.4rem;
-    background-color: rgba(10,0,10,.666);
 }
 
 .header--section img{
@@ -248,6 +248,7 @@ position: relative;
     font-weight: 600;
     font-size: 3.2rem;
     color: var(--title);
+    background-color: rgba(10,0,10,.999);
 }
 
 .header--section p{

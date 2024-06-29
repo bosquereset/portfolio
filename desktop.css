@@ -1,32 +1,63 @@
   @media (min-width: 1024px){
+    .header--section{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      border: 1 solid var(--component);
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top:4rem;
+      position: relative;
+      }
+
 
     .header--section img{
         width: 100%;
         height: auto;
-        max-height:540px;
+        max-height:560px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         border-radius: .999rem;
     }
-
-    .header--section h1{
+  .header--card{
+      width: 100%;
+      max-width: 540px;
+      height: auto;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: .666rem;
+      padding:1.2rem;
+      background-color: rgba(50,0,50,.999);
+  }
+    .header--section .header--card h1{
       font-family: "Roboto Flex", sans-serif;
       font-optical-sizing: auto;
       font-style: normal;
       font-weight: 600;
       font-size: 4.8rem;
       color: var(--title);
+      background-color: rgba(20,0,20,.888);
+      padding: .333rem;
+      margin: .333rem;
   }
   
-  .header--section p{
+  .header--section .header--card p{
       font-size: var(--p);
       font-family: "Roboto Flex", sans-serif;
       font-optical-sizing: auto;
       font-style: normal;
       color: var(--primary-text);
       padding: .999rem;
+      background-color: rgba(40,0,40,.777);
+      padding: .333rem;
+      margin: .333rem;
   }
 
     .links--card{

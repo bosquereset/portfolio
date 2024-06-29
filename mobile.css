@@ -510,6 +510,7 @@ background-color: var(--section--projects--light);
     background-color: var(--component-light);
     overflow: hidden;
     border-radius: var(--rounded);
+    margin: 2.4rem auto;
 }
 .projects--card img{
     width: 100%; /* La imagen ocupa todo el ancho de la card */

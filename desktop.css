@@ -126,17 +126,29 @@
             .projects--card{
                 display:flex;
                 flex-direction: column;
-                width: 44%;
+                width: 100%;
                 height: auto;
                 margin: 1.2rem auto;
                 text-align: left;
                 padding: 1.2m;
-                border-radius: 1.2rem;
                 align-items: center;
                 justify-content: center;
                 background-color: var(--component-light);
             }
 
+            .projects--card img{
+              border-radius: 0;
+            }
+            .projects--card a{
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              height: auto;
+              margin:1rem;
+              align-items: center;
+              justify-content: center;
+              overflow: hidden;
+          }
             .section--art{
                 display: flex;
                 flex-direction: column;

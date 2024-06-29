@@ -52,7 +52,7 @@
     --h2:2.3561rem;
     --h3:1.4562rem;
     --p:.9rem;
-    --rounded: 2.4rem;
+    --rounded: 1.2rem;
     }
 
 *{
@@ -62,7 +62,7 @@
 }
 
 html,body{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto Flex", sans-serif;
     width: 100%;
     height: auto;
     margin: 0;
@@ -75,6 +75,11 @@ html,body{
 ul{
     list-style: none;
 }
+
+p{
+    font-family: "Roboto Flex", sans-serif;
+}
+
 
 img{
     display: flex;
@@ -464,7 +469,7 @@ background-color: var(--section--services--light);
     }
     
     .services--card p{
-        font-family: "Open Sans", sans-serif;
+        font-family: "Roboto Flex", sans-serif;
         font-weight: 400;
         font-size: var(--p);
         padding-top: 1.2rem;
@@ -496,25 +501,20 @@ background-color: var(--section--projects--light);
 .projects--card{
     display:flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
+    max-width: 480px; /* Ajusta según tus necesidades */
     height: auto;
-    margin: 2.4rem auto;
     text-align: left;
-    border-radius: var(--rounded);
     align-items: center;
     justify-content: center;
     background-color: var(--component-light);
-    padding: 2.4rem;
+    overflow: hidden;
+    border-radius: var(--rounded);
 }
 .projects--card img{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: 2rem;
-    align-items: center;
-    justify-content: center;
+    width: 100%; /* La imagen ocupa todo el ancho de la card */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina espacio extra debajo de la imagen */
 }
 
 
@@ -544,14 +544,13 @@ background-color: var(--section--projects--light);
     }
     
     .projects--card p{
-        font-family: "Roboto Flex", sans-serif;
+    font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-        font-weight: 400;
-        font-size: var(--p);
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
-        text-align: left;
+    font-weight: 400;
+    font-size: var(--p);
+    padding: 1.2rem 1.2rem;
+    text-align: left;
     }
 
     .projects--card a{
@@ -559,11 +558,10 @@ background-color: var(--section--projects--light);
         flex-direction: column;
         width: 100%;
         height: auto;
-        margin-top: .333rem;
-        margin-bottom: .333rem;
+        margin:.999rem;
         align-items: center;
         justify-content: center;
-        border-radius: var(--rounded);
+        overflow: hidden;
     }
     .projects--card picture img{
         display: flex;
@@ -572,7 +570,6 @@ background-color: var(--section--projects--light);
         height: auto;
         align-items: center;
         justify-content: center;
-        border-radius: var(--rounded);
     }
 
 
@@ -677,7 +674,7 @@ justify-content: center;
         }
 
         .livecoding--card h3{
-            font-family: "Kalnia", serif;
+            font-family: "Roboto Flex", sans-serif;
             font-weight: 500;
             font-size: var(--h3);
             color: var(--title);
@@ -688,7 +685,7 @@ justify-content: center;
         .livecoding--card p{
             width: 90%;
             height: auto;
-            font-family: "Open Sans", sans-serif;
+            font-family: "Roboto Flex", sans-serif;
             font-weight: 400;
             font-size: var(--p);
             padding-top: .999rem;
@@ -820,6 +817,7 @@ border-radius: var(--rounded);
 }
 
 .contact--card p{
+    font-family: "Roboto Flex", sans-serif;
     font-size: var(--p);
     width: 100%;
     height: auto;
@@ -860,6 +858,7 @@ border-radius: var(--rounded);
 }
 
 .footer--card p{
+    font-family: "Roboto Flex", sans-serif;
     display: flex;
     flex-direction: row;
     font-size: 1.2rem;

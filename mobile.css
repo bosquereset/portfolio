@@ -218,7 +218,7 @@ margin-top:4rem;
 position: relative;
 }
 
-.header--section .header--card{
+ .header--card{
     width: 100%;
     max-width: 540px;
     height: auto;
@@ -229,10 +229,11 @@ position: relative;
     justify-content: center;
     border-radius: .666rem;
     padding:2.4rem;
+
 }
 
 .header--section img{
-    width: 100%;
+    width: 33%;
     min-width: 320px;
     max-width: 1920px;
     height:auto;
@@ -241,7 +242,7 @@ position: relative;
 }
 
 
-.header--section h1{
+.header--section  .header--card h1{
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -249,15 +250,18 @@ position: relative;
     font-size: 3.2rem;
     color: var(--title);
     background-color: rgba(10,0,10,.999);
+    margin: .333rem;
 }
 
-.header--section p{
+.header--section  .header--card p{
     font-size: var(--p);
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     color: var(--primary-text);
     padding: .999rem;
+    background-color: rgba(10,0,10,.999);
+    margin: .333rem;
 }
 
 

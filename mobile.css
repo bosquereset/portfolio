@@ -232,12 +232,20 @@ position: relative;
 
 }
 
-.header--section img{
-    width: 33%;
+.header--section .header--logo{
+    width: 10%;
     min-width: 320px;
     max-width: 1920px;
     height:auto;
     box-shadow: .6rem;
+    border-radius: 0;
+}
+
+.header--section .bg-img{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1280px;
+    height:auto;
     border-radius: 0;
 }
 

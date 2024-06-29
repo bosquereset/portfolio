@@ -20,7 +20,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border-radius: .999rem;
+        border-radius: 0;
     }
 
     .header--section .bg-img{
@@ -31,7 +31,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border-radius: .999rem;
+      border-radius: 0;
+
   }
 
   .header--card{

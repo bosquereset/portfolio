@@ -14,17 +14,13 @@
       }
 
 
-    .header--section img{
-        width: 30%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0;
-        background-color: transparent;
-    }
-
+    .header--section .header--logo{
+      width: 2%;
+      min-width: 320px;
+      max-width: 240px;
+      height:auto;
+      border-radius: 0;
+  }
     .header--section .bg-img{
       width: 100%;
       height: auto;
@@ -47,7 +43,6 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border-radius: .666rem;
       padding:1.2rem;
   }
     .header--section .header--card h1{

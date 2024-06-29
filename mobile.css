@@ -227,18 +227,14 @@ position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: .666rem;
-    padding:2.4rem;
 
 }
 
 .header--section .header--logo{
-    width: 10%;
-    min-width: 320px;
-    max-width: 1920px;
+    width: 55%;
     height:auto;
-    box-shadow: .6rem;
     border-radius: 0;
+    padding: 1.2rem;
 }
 
 .header--section .bg-img{
@@ -246,6 +242,7 @@ position: relative;
     min-width: 320px;
     max-width: 1280px;
     height:auto;
+    min-width: 1080px;
     border-radius: 0;
 }
 

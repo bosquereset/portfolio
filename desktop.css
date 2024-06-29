@@ -10,6 +10,7 @@
       text-align: center;
       margin-top:4rem;
       position: relative;
+      background-color: transparent;
       }
 
 
@@ -21,6 +22,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 0;
+        background-color: transparent;
     }
 
     .header--section .bg-img{
@@ -32,6 +34,7 @@
       align-items: center;
       justify-content: center;
       border-radius: 0;
+      background-color: transparent;
 
   }
 
@@ -46,7 +49,6 @@
       justify-content: center;
       border-radius: .666rem;
       padding:1.2rem;
-      background-color: rgba(50,0,50,.999);
   }
     .header--section .header--card h1{
       font-family: "Roboto Flex", sans-serif;

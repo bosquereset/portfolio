@@ -142,13 +142,21 @@
             .projects--card a{
               display: flex;
               flex-direction: column;
-              width: 77%;
+              width: 66%;
               height: auto;
               margin:1rem;
               align-items: center;
               justify-content: center;
               overflow: hidden;
+              padding: .999rem;
+              border-radius: var(--rounded);
           }
+          .projects--card h2{
+            padding: 2.4rem;
+        }
+        .projects--card p{
+          padding: 1.2rem;
+      }
             .section--art{
                 display: flex;
                 flex-direction: column;

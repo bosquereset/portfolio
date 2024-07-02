@@ -69,7 +69,7 @@ html,body{
     scroll-behavior: smooth;
     overflow-x: hidden;
     transition: background 0.1s linear;
-    background-color: #e879f9;
+    background-color: var(--header-section);
 }
 
 ul{

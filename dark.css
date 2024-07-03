@@ -53,7 +53,7 @@ body.dark .nav--navbar{
 body.dark .header--section{
 background-color: var(--component);
 color: var(--light-text);
-border: 1 solid var(--component);
+;
 }
 
 body.dark .links--section{
@@ -65,6 +65,10 @@ body.dark .about--section{
 background-color: var(--section--about);
 color: var(--light-text);
 }
+
+body.dark .about--section .about--card{
+    border: .111rem solid var(--section--projects);
+    }
 
 body.dark .services--section{
 color:var(--light-text);

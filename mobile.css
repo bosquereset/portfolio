@@ -112,21 +112,6 @@ a button {
     color: var(--background--dark);
 }
 
-button a:hover{
-    width: 33%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    font-size: var(--p);
-    font-weight: 600;
-    margin: .333rem;
-    padding: .333rem;
-    border: .01rem solid var(--component);
-    background-color: transparent;
-    color: var(--background--dark);
-}
-
-
 
 a{
     font-family: "Open Sans", sans-serif;
@@ -153,7 +138,7 @@ a:hover{
     font-weight: 800;
     display: flex;
     flex-direction: column;
-    width: 36%;
+    width: 33%;
     height: 48px;
     text-decoration: none;
     padding: 1.2rem;
@@ -236,7 +221,7 @@ position: relative;
 }
 
 .header--section .header--logo{
-    width: 55%;
+    width: 100%;
     height:auto;
     border-radius: 0;
     padding: 1.2rem;

@@ -223,7 +223,7 @@ position: relative;
 .header--section .header--logo{
     width: 100%;
     height:auto;
-    border-radius: 0;
+    border-radius: 1.2rem;
     padding: 1.2rem;
 }
 

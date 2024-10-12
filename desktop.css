@@ -16,17 +16,15 @@ iframe{
       height: auto;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-top:4rem;
+      margin: 0 auto;
       position: relative;
       background-color: transparent;
+
       }
 
 
     .header--section .header--logo{
-      width: 2%;
+      width: 100%;
       min-width: 320px;
       max-width: 240px;
       height:auto;
@@ -35,22 +33,20 @@ iframe{
     .header--section .bg-img{
       width: 100%;
       height: auto;
-      max-height: 1920px;
+      max-height: 720px;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
       border-radius: var(--rounded);
       background-color: transparent;
       margin:0 auto;
       background-size: contain;
       background-repeat: no-repeat;
+      opacity: .1;
 
   }
 
   .header--section .header--card{
       width: 100%;
-      max-width: 640px;
       height: auto;
       position: absolute;
       display: flex;
@@ -64,11 +60,9 @@ iframe{
       font-optical-sizing: auto;
       font-style: normal;
       font-weight: 600;
-      font-size: 6.4rem;
+      font-size: 5.6rem;
       color: var(--title-reset);
       background-color: rgba(20,0,20,.888);
-      padding: .333rem;
-      margin: .333rem;
   }
   
   .header--section .header--card p{
@@ -77,10 +71,7 @@ iframe{
       font-optical-sizing: auto;
       font-style: normal;
       color: var(--primary-text);
-      padding: .999rem;
       background-color: rgba(40,0,40,.777);
-      padding: .333rem;
-      margin: .333rem;
   }
 
     .links--card{
@@ -88,9 +79,7 @@ iframe{
         flex-direction: column;
         width: 33%;
         height: auto;
-        margin:3rem auto;
-        padding-top: 2rem;
-        padding-bottom: 4.8rem;
+        margin:0rem auto;
         align-items: center;
         justify-content: center;
         background-color: var(--component-light);

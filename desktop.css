@@ -29,16 +29,19 @@ iframe{
       max-width: 240px;
       height:auto;
       border-radius: 0;
+      padding: 1rem;
+      margin: 4.2rem auto;
+      border-radius: 2.4rem;
   }
     .header--section .bg-img{
       width: 100%;
       height: auto;
-      max-height: 720px;
+      max-height: 640px;
       display: flex;
       flex-direction: column;
       border-radius: var(--rounded);
       background-color: transparent;
-      margin:0 auto;
+      margin: 0 auto;
       background-size: contain;
       background-repeat: no-repeat;
       opacity: .1;
@@ -85,12 +88,21 @@ iframe{
         background-color: var(--component-light);
     }
 
+
+.about--section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+}
+
     .about--card{
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 50%;
         height: auto;
-        margin: 3.6rem auto;
+        margin: 1rem auto;
         padding-top: 5.6rem;
         padding-bottom: 4.8rem;
         padding-left: 1.2rem;
@@ -100,31 +112,17 @@ iframe{
         justify-content: center;
         align-items: center;
         background-color: var(--component-light);
-        border: 1.2rem solid var(--component-light);
+        border: .01rem solid rgba(20,0,20,.1);
 }
 
-        .about--me--card{
-            display: flex;
-            flex-direction: column;
-            width: 50%;
-            height: auto;
-            margin: 1.2rem auto;
-            padding-top: 4.8rem;
-            padding-bottom: 4.8rem;
-            padding-left: 1.2rem;
-            padding-right: 1.2rem;
-            border-radius: 1.2rem;
-            text-align: left;
-            justify-content: center;
-            align-items: center;
-            background-color: var(--component-light);
-}
-
-            .about--me--card p{
+            .about--card p{
                 display: flex;
                 flex-direction: column;
                 width: 90%;
                 height: auto;
+                font-size: 1.4rem;
+                text-align: justify;
+                padding: 1.2rem;
             }
 
             .projects--card{
@@ -132,7 +130,7 @@ iframe{
                 flex-direction: column;
                 width: 100%;
                 height: auto;
-                margin: 2.4rem auto;
+                margin: 2 rem auto;
                 text-align: left;
                 padding: 2.4m;
                 align-items: center;

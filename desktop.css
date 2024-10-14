@@ -5,6 +5,8 @@
 
 
 
+
+
 iframe{
   border:none;
   padding: 1.2rem;
@@ -163,7 +165,8 @@ iframe{
             .projects--section{
               display: flex;
               flex-direction: column;
-              padding: 1rem;
+              padding: 2.4rem;
+              margin: 2.5rem auto;
             }
 
             .projects--card{
@@ -172,7 +175,7 @@ iframe{
                 width: 100%;
                 max-width: 390px;
                 max-height: 900px;
-                margin: 9.2 auto;
+                margin: 1.2rem auto;
                 text-align: left;
                 background-color: var(--component-light);
             }

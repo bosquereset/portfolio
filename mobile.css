@@ -121,7 +121,7 @@ a button {
     padding: .111rem;
     justify-content: center;
     align-items: center;
-    margin: .111rem;
+    margin: .111rem auto;
     background-color: transparent;
     color: var(--background--dark);
 }
@@ -137,25 +137,6 @@ a{
     height: 48px;
     text-decoration: none;
     padding: .999rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: .111rem;
-    transition: .5s;
-    margin: 1.2rem;
-    border: .111rem solid var(--border);
-    background-color: var(--button--light);
-    color: var(--button--dark);
-}
-a:hover{
-    font-family: "Open Sans", sans-serif;
-    font-size: var(--p);
-    font-weight: 800;
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    height: 48px;
-    text-decoration: none;
-    padding: 1.2rem;
     align-items: center;
     justify-content: center;
     border-radius: .111rem;
@@ -250,8 +231,6 @@ position: relative;
     border-radius: 0;
     opacity: .222;
 }
-
-
 
 .header--section  .header--card h1{
     font-family: "Roboto Flex", sans-serif;

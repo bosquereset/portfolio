@@ -2,11 +2,7 @@
     body{
       background-color: var(--header-section);
     }
-
-
-
-
-
+    
 iframe{
   border:none;
   padding: 1.2rem;

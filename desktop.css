@@ -3,6 +3,29 @@
       background-color: var(--header-section);
     }
     
+    
+
+/* navbar */
+
+nav button{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: transparent;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-height: 54px;
+  padding: .333rem;
+  justify-content:center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  border-bottom: .111rem solid var(--title);
+}
+
 iframe{
   border:none;
   padding: 1.2rem;
@@ -21,7 +44,6 @@ iframe{
       background-color: transparent;
 
       }
-
 
     .header--section .header--logo{
       width: 100%;
@@ -46,7 +68,6 @@ iframe{
       background-repeat: no-repeat;
       opacity: .1;
   }
-
 
   .header--section .header--card{
       width: 100%;
@@ -78,7 +99,6 @@ iframe{
     background-color: rgba(10,0,10,.888);
 }
 
-  
   .header--section .header--card p{
       font-size: var(--p-desktop);
       font-family: "Roboto Flex", sans-serif;
@@ -88,13 +108,11 @@ iframe{
       background-color: rgba(40,0,40,.777);
   }
 
-
   .header--section .header--card a{
     width: 100%;
     height: auto;
     color:var(--button--light);
   }
-
 
   .header--section .download--cv{
     color:var(--background--light);
@@ -157,20 +175,22 @@ iframe{
               font-size: var(--h3-desktop);
             }
 
-
             .projects--section{
               display: flex;
-              flex-direction: column;
+              flex-direction: row;
               padding: 2.4rem;
-              margin: 2.5rem auto;
+              margin: 0 auto;
+              justify-content: space-around;
+              align-items: center;
+              gap: .333rem;
             }
 
             .projects--card{
                 display:flex;
                 flex-direction: column;
-                width: 100%;
-                max-width: 390px;
-                max-height: 900px;
+                width: 66%;
+                max-width: 320px;
+                max-height: 1280px;
                 margin: 1.2rem auto;
                 text-align: left;
                 background-color: var(--component-light);
@@ -187,7 +207,7 @@ iframe{
             .projects--card a{
               display: flex;
               flex-direction: column;
-              width: 90%;
+              width: 95%;
               height: auto;
               align-items: center;
               justify-content: center;
@@ -196,16 +216,17 @@ iframe{
               border-radius: var(--rounded);
           }
           .projects--card h2{
-            padding: .333rem;
-            margin: 4.8rem auto;
+            padding: .999rem;
+            margin: .666rem auto;
             font-size: var(--h2-desktop);
         }
         .projects--card p{
           padding-top: .111rem;
+          padding-left: 1.8em;
+          padding-right: 1.8rem;
+          padding-bottom: .999rem;
           font-size: var(--p-desktop);
       }
-
-
             .section--art{
                 display: flex;
                 flex-direction: column;
@@ -528,7 +549,6 @@ border-radius: 2.4rem;
     background-color: transparent;
   }
 
-
   .footer--card .cv--button{
     display: flex;
     flex-direction: column;
@@ -538,7 +558,6 @@ border-radius: 2.4rem;
     justify-items: center;
     border-radius: 1.2rem;
   }
-
 
 
   }

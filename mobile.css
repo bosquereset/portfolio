@@ -100,8 +100,6 @@ img{
     flex-direction: column;
     width: 100%;
     height: auto;
-    align-items: center;
-    justify-content: center;
     border-radius: var(--rounded);
 }
 
@@ -133,17 +131,17 @@ a{
     font-weight: 800;
     display: flex;
     flex-direction: column;
-    width: 33%;
-    height: 48px;
+    width: 100%;
+    height: 32px;
     text-decoration: none;
-    padding: .999rem;
+    padding: .333rem;
     align-items: center;
     justify-content: center;
     border-radius: .111rem;
     transition: .5s;
-    margin: 1.2rem;
+    margin: 1.5rem auto;
     border: .111rem solid var(--border);
-    background-color: var(--button--light);
+    background-color: transparent;
     color: var(--button--dark);
 }
 
@@ -488,7 +486,7 @@ background-color: var(--section--projects--light);
 .projects--card{
     display:flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     max-width: 480px; /* Ajusta según tus necesidades */
     height: auto;
     text-align: left;

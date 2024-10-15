@@ -125,9 +125,9 @@ iframe{
     .links--card{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 33%;
         height: auto;
-        margin:0rem auto;
+        margin:2rem auto;
         align-items: center;
         justify-content: center;
         background-color: var(--component-light);
@@ -147,8 +147,8 @@ iframe{
         flex-direction: column;
         width: 50%;
         height: auto;
-        margin: 1rem auto;
-        padding-top: 6.4rem;
+        margin: 2rem auto;
+        padding-top: 9.2rem;
         padding-bottom: 4.8rem;
         padding-left: 1.2rem;
         padding-right: 1.2rem;
@@ -157,7 +157,7 @@ iframe{
         justify-content: center;
         align-items: center;
         background-color: var(--component-light);
-        border: .01rem solid rgba(20,0,20,.1);
+        border: .1rem solid rgba(20,0,20,.1);
 }
 
             .about--card p{
@@ -167,7 +167,7 @@ iframe{
                 height: auto;
                 font-size: 1.8rem;
                 text-align: justify;
-                padding: 1.2rem;
+                padding: 1.8rem;
             }
 
 
@@ -178,22 +178,23 @@ iframe{
             .projects--section{
               display: flex;
               flex-direction: row;
-              padding: 2.4rem;
               margin: 0 auto;
               justify-content: space-around;
-              align-items: center;
-              gap: .333rem;
+              align-items: top;
+              gap: 1.2rem;
             }
 
             .projects--card{
                 display:flex;
                 flex-direction: column;
-                width: 66%;
-                max-width: 320px;
-                max-height: 1280px;
-                margin: 1.2rem auto;
+                width: 100%;
+                height: auto;
+                max-height: 1600px;
+                max-width: 380px;
                 text-align: left;
                 background-color: var(--component-light);
+                align-items: flex-start;
+                justify-content: flex-start;
             }
 
             .projects--card img{
@@ -202,29 +203,28 @@ iframe{
               height: auto;
               padding: 0;
               margin: 0 auto;
+              align-items: flex-start;
             }
             
             .projects--card a{
               display: flex;
               flex-direction: column;
-              width: 95%;
+              width: 100%;
               height: auto;
               align-items: center;
               justify-content: center;
               overflow: hidden;
-              padding: .999rem;
+              padding: 1.2rem;
+              margin: 0 auto;
               border-radius: var(--rounded);
           }
           .projects--card h2{
-            padding: .999rem;
-            margin: .666rem auto;
+            padding: .333rem;
+            margin: .333rem auto;
             font-size: var(--h2-desktop);
         }
         .projects--card p{
-          padding-top: .111rem;
-          padding-left: 1.8em;
-          padding-right: 1.8rem;
-          padding-bottom: .999rem;
+          padding: .555rem 1.2rem;
           font-size: var(--p-desktop);
       }
             .section--art{
@@ -558,6 +558,5 @@ border-radius: 2.4rem;
     justify-items: center;
     border-radius: 1.2rem;
   }
-
 
   }

@@ -51,7 +51,7 @@
     --h1:3.8122rem;
     --h2:2.3561rem;
     --h3:1.4562rem;
-    --p:1rem;
+    --p:.999rem;
     --h1-desktop:4.8122rem;
     --h2-desktop:3.3561rem;
     --h3-desktop:2.4562rem;
@@ -110,13 +110,13 @@ button{
 }
 
 a button {
-    width: 33%;
+    width: 66%;
     height: auto;
     display: flex;
     flex-direction: column;
     font-size: var(--p);
     font-weight: 600;
-    padding: .111rem;
+    padding: .555rem;
     justify-content: center;
     align-items: center;
     margin: .111rem auto;
@@ -132,15 +132,14 @@ a{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 32px;
+    height: auto;
     text-decoration: none;
-    padding: .333rem;
+    padding: .666rem;
     align-items: center;
     justify-content: center;
     border-radius: .111rem;
     transition: .5s;
     margin: 1.5rem auto;
-    border: .111rem solid var(--border);
     background-color: transparent;
     color: var(--button--dark);
 }
@@ -191,6 +190,7 @@ background-color: var(--nav--navbar--light);
 .header--section{
 width: 100%;
 height: auto;
+height: 640px;
 display: flex;
 flex-direction: column;
 border: 1 solid var(--component);
@@ -203,7 +203,7 @@ position: relative;
 
  .header--card{
     width: 100%;
-    max-width: 540px;
+    max-width: 320px;
     height: auto;
     position: absolute;
     display: flex;
@@ -218,6 +218,7 @@ position: relative;
     height:auto;
     border-radius: 1.2rem;
     padding: 1.2rem;
+
 }
 
 .header--section .bg-img{
@@ -226,7 +227,7 @@ position: relative;
     height:auto;
     min-width: 1080px;
     border-radius: 0;
-    opacity: .333;
+    opacity: .111;
 }
 
 .header--section  .header--card h1{
@@ -542,8 +543,9 @@ background-color: var(--section--projects--light);
     .projects--card a{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 95%;
         height: auto;
+        max-height: 64px;
         align-items: center;
         justify-content: center;
         overflow: hidden;
@@ -553,8 +555,8 @@ background-color: var(--section--projects--light);
         flex-direction: column;
         width: 100%;
         height: auto;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
 

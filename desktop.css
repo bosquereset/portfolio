@@ -118,7 +118,7 @@ iframe{
     color:var(--background--light);
     background-color: var(--button--light);
     border-radius: 1rem;
-    width: 50%;
+    width: 25%;
     height: auto;
 }
 
@@ -160,15 +160,23 @@ iframe{
         border: .1rem solid rgba(20,0,20,.1);
 }
 
-            .about--card p{
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                height: auto;
-                font-size: 1.8rem;
-                text-align: justify;
-                padding: 1.8rem;
-            }
+
+.about--card a{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+}
+  
+.about--card p{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: auto;
+font-size: 1.8rem;
+text-align: justify;
+padding: 1.8rem;
+}
 
 
             h3{
@@ -405,6 +413,23 @@ border-radius: 2.4rem;
     border-radius:1.2rem;
     background-color: var(--component-light);
     }
+
+
+.section--livecoding{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.livecoding--card{
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
     .livecoding--slider {
         width: 100%;

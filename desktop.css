@@ -226,6 +226,23 @@ padding: 1.8rem;
               margin: 0 auto;
               border-radius: var(--rounded);
           }
+          .projects--card a:hover{
+            display: flex;
+            flex-direction: column;
+            width: 99%;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding: 1.2rem;
+            margin: 0 auto;
+            border-radius: var(--rounded);
+            opacity: .85;
+        }
+
+
+
+
           .projects--card h2{
             padding: .333rem;
             margin: .333rem auto;

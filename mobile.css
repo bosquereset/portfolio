@@ -669,6 +669,18 @@ justify-content: center;
         }
 
 
+
+
+        .livecoding--card .logo--clic{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            height: auto;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+
 .livecoding--card img{
     display: flex;
     flex-direction: column;

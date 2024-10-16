@@ -60,7 +60,7 @@ a{
       height: auto;
       display: flex;
       flex-direction: column;
-      margin: 0 auto;
+      margin: 2.4rem auto;
       position: relative;
       background-color: transparent;
 
@@ -308,12 +308,13 @@ padding: 1.8rem;
                 justify-content: center;
                 background-color: var(--component-light);
             }
-            .livecoding--card img{
+            .livecoding--card .logo--clic{
                 display: flex;
                 flex-direction: column;
                 width: 50%;
                 height: auto;
                 margin: 0 auto;
+                padding: 0;
             }
 
             .livecoding--card a{

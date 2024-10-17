@@ -120,7 +120,6 @@ a button {
     justify-content: center;
     align-items: center;
     margin: .111rem auto;
-    background-color: transparent;
     color: var(--background--dark);
 }
 
@@ -140,7 +139,7 @@ a{
     border-radius: .111rem;
     transition: .5s;
     margin: 1.5rem auto;
-    background-color: transparent;
+
     color: var(--button--dark);
 }
 
@@ -260,6 +259,7 @@ position: relative;
     border-radius: .999rem;
     margin: .333rem auto;
     padding: 1.2rem;
+    background-color: var(--button--light);
   }
 
 .header--section .download--cv{
@@ -384,6 +384,7 @@ text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 1.2rem;
+    background-color: var(--button--light);
 }
 
 
